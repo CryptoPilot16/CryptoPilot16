@@ -47,6 +47,7 @@
 <td align="center"><b>Backend</b></td>
 <td>
 <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
 </td>
 </tr>
 <tr>
@@ -87,5 +88,5 @@
 | **skybuddy** | 3D social flight tracker | `JavaScript` `Cesium.js` | ~11K |
 | **TradingOdds** | Prediction market execution layer | `TypeScript` | ~28K |
 | **smartmoney-radar** | On-chain wallet profiling and flow monitoring | `TypeScript` | ~25K |
-| **clawnux** | Multi-model coding agent | `TypeScript` | — |
+| **clawnux** | Multi-model coding agent | `TypeScript` `Next.js` `Node.js` `PostgreSQL` | ~27K |
 | **codex-control** | Server provisioning and deployment toolkit | `Shell` | ~380 |
