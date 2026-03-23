@@ -1,4 +1,4 @@
-name: Generate Contribution Graph
+name: Update Profile
 
 on:
   schedule:
@@ -6,10 +6,10 @@ on:
   workflow_dispatch:  # manual trigger
   push:
     branches: [main]
-    paths: [scripts/generate_contributions.py]
+    paths: [scripts/**]
 
 jobs:
-  generate:
+  update:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -20,18 +20,24 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Generate SVG
+      - name: Generate contribution graph
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: CryptoPilot16
           CONTRIB_YEAR: "2026"
         run: python scripts/generate_contributions.py
+
+      - name: Update projects in README
+        env:
+          GH_TOKEN: ${{ secrets.PAT_TOKEN || secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: CryptoPilot16
+        run: python scripts/update_readme.py
 
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add contributions.svg
+          git add contributions.svg README.md
           git diff --cached --quiet && exit 0
-          git commit -m "Update contribution graph"
+          git commit -m "Auto-update profile"
           git push
