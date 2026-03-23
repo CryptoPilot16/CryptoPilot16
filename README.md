@@ -81,11 +81,11 @@
 
 | Project | Description | Stack | Lines |
 |---|---|---|---|
-| **pm-relay** | Real-time spread tracking and automated execution across multiple betting venues and prediction markets | `Python` `React` `Node.js` `Polygon` | ~60K |
-| **Tailwinds** | Live flight data aggregation, tracking, and alerting platform with multi-source ingestion | `TypeScript` `Next.js` `Node.js` | ~21K |
-| **f1_analytics** | Race telemetry processing, driver performance analysis, fantasy optimization, and strategy visualization for Formula 1 | `JavaScript` `React` | ~9K |
-| **skybuddy** | Interactive 3D globe with real-time aircraft tracking using ADS-B transponder data | `JavaScript` `Cesium.js` | ~5K |
-| **TradingOdds** | Execution and portfolio management layer for decentralized prediction markets | `TypeScript` | ~4K |
-| **smartmoney-radar** | Wallet profiling and on-chain transaction flow monitoring with pattern detection | `TypeScript` | — |
-| **clawnux** | Autonomous coding agent with multi-model orchestration and project scaffolding | `TypeScript` | — |
-| **codex-control** | Server provisioning, process management, and deployment automation toolkit | `Shell` | ~200 |
+| **pm-relay** | Multi-venue spread tracking and execution | `Python` `React` `Node.js` `Polygon` | — |
+| **Tailwinds** | Flight data aggregation and alerting | `TypeScript` `Next.js` `Node.js` | — |
+| **f1_analytics** | F1 telemetry analysis and fantasy optimization | `JavaScript` `React` | — |
+| **skybuddy** | 3D social flight tracker | `JavaScript` `Cesium.js` | — |
+| **TradingOdds** | Prediction market execution layer | `TypeScript` | — |
+| **smartmoney-radar** | On-chain wallet profiling and flow monitoring | `TypeScript` | — |
+| **clawnux** | Multi-model coding agent | `TypeScript` | — |
+| **codex-control** | Server provisioning and deployment toolkit | `Shell` | — |
