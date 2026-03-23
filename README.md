@@ -81,11 +81,11 @@
 
 | Project | Description | Stack | Lines |
 |---|---|---|---|
-| **pm-relay** | Multi-venue spread tracking and execution | `Python` `React` `Node.js` `Polygon` | — |
-| **Tailwinds** | Flight data aggregation and alerting | `TypeScript` `Next.js` `Node.js` | — |
-| **f1_analytics** | F1 telemetry analysis and fantasy optimization | `JavaScript` `React` | — |
-| **skybuddy** | 3D social flight tracker | `JavaScript` `Cesium.js` | — |
-| **TradingOdds** | Prediction market execution layer | `TypeScript` | — |
-| **smartmoney-radar** | On-chain wallet profiling and flow monitoring | `TypeScript` | — |
+| **pm-relay** | Multi-venue spread tracking and execution | `Python` `React` `Node.js` `Polygon` | ~68K |
+| **Tailwinds** | Flight data aggregation and alerting | `TypeScript` `Next.js` `Node.js` | ~31K |
+| **f1_analytics** | F1 telemetry analysis and fantasy optimization | `JavaScript` `React` | ~42K |
+| **skybuddy** | 3D social flight tracker | `JavaScript` `Cesium.js` | ~11K |
+| **TradingOdds** | Prediction market execution layer | `TypeScript` | ~28K |
+| **smartmoney-radar** | On-chain wallet profiling and flow monitoring | `TypeScript` | ~25K |
 | **clawnux** | Multi-model coding agent | `TypeScript` | — |
-| **codex-control** | Server provisioning and deployment toolkit | `Shell` | — |
+| **codex-control** | Server provisioning and deployment toolkit | `Shell` | ~380 |
