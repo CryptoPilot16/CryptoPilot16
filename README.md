@@ -88,5 +88,5 @@
 | **skybuddy** | 3D social flight tracker | `JavaScript` `Cesium.js` | ~11K |
 | **TradingOdds** | Prediction market execution layer | `TypeScript` | ~28K |
 | **smartmoney-radar** | On-chain wallet profiling and flow monitoring | `TypeScript` | ~25K |
-| **clawnux** | Multi-model coding agent | `TypeScript` `Next.js` `Node.js` `PostgreSQL` | ~27K |
+| **clawnux** | Multi-model coding agent | `TypeScript` | — |
 | **codex-control** | Server provisioning and deployment toolkit | `Shell` | ~380 |
