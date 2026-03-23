@@ -82,7 +82,7 @@
 
 | Project | Description | Stack | Lines |
 |---|---|---|---|
-| **pm-relay** | Multi-venue spread tracking and execution | `Python` `React` `Node.js` `Polygon` | ~68K |
+| **pm-relay** | Multi-venue spread tracking and execution | `Python` `React` `Node.js` `Polygon` | ~69K |
 | **Tailwinds** | Flight data aggregation and alerting | `TypeScript` `Next.js` `Node.js` | ~31K |
 | **f1_analytics** | F1 telemetry analysis and fantasy optimization | `JavaScript` `React` | ~42K |
 | **skybuddy** | 3D social flight tracker | `JavaScript` `Cesium.js` | ~11K |
