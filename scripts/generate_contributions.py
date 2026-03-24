@@ -97,7 +97,7 @@ def generate_svg(calendar):
     for month_num, wi in month_positions.items():
         x = margin_left + wi * size
         lines.append(f'<text x="{x}" y="{margin_top - 16}" fill="#8b949e" '
-                      f'font-family="monospace" font-size="28">{months[month_num - 1]}</text>')
+                      f'font-family="monospace" font-size="38">{months[month_num - 1]}</text>')
 
     # Day labels
     day_labels = ["", "Mon", "", "Wed", "", "Fri", ""]
@@ -136,11 +136,11 @@ def generate_svg(calendar):
 
     # Total + daily average label
     lines.append(f'<text x="{margin_left}" y="{height - 14}" fill="#40c463" '
-                  f'font-family="monospace" font-size="28" font-weight="bold">'
+                  f'font-family="monospace" font-size="38" font-weight="bold">'
                   f'{total} contributions in {YEAR}'
                   f'</text>')
     lines.append(f'<text x="{width - 10}" y="{height - 14}" fill="#40c463" '
-                  f'font-family="monospace" font-size="28" font-weight="bold" text-anchor="end">'
+                  f'font-family="monospace" font-size="38" font-weight="bold" text-anchor="end">'
                   f'{daily_avg:.1f} / day avg'
                   f'</text>')
 

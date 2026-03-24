@@ -380,6 +380,6 @@
 <rect x="1781" y="121" width="28" height="28" rx="2" fill="#161b22"><title>2026-12-29: 0 contributions</title></rect>
 <rect x="1781" y="154" width="28" height="28" rx="2" fill="#161b22"><title>2026-12-30: 0 contributions</title></rect>
 <rect x="1781" y="187" width="28" height="28" rx="2" fill="#161b22"><title>2026-12-31: 0 contributions</title></rect>
-<text x="65" y="352" fill="#40c463" font-family="monospace" font-size="28" font-weight="bold">1089 contributions in 2026</text>
-<text x="1814" y="352" fill="#40c463" font-family="monospace" font-size="28" font-weight="bold" text-anchor="end">13.1 / day avg</text>
+<text x="65" y="360" fill="#40c463" font-family="monospace" font-size="38" font-weight="bold">1089 contributions in 2026</text>
+<text x="1814" y="360" fill="#40c463" font-family="monospace" font-size="38" font-weight="bold" text-anchor="end">13.1 / day avg</text>
 </svg>
