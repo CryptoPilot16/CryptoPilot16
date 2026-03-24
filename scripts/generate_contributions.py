@@ -75,7 +75,7 @@ def generate_svg(calendar):
     size = cell + gap
     margin_left = 65
     margin_top = 55
-    margin_bottom = 80
+    margin_bottom = 110
 
     width = margin_left + len(weeks) * size + 10
     height = margin_top + 7 * size + margin_bottom
@@ -124,24 +124,53 @@ def generate_svg(calendar):
                           f'<title>{day["date"]}: {count} contribution{"s" if count != 1 else ""}</title>'
                           f'</rect>')
 
-    # Count days with data (up to today)
+    # Count days with data (up to today) and compute averages
     today = date.today()
     days_elapsed = 0
+    weeks_elapsed = 0
+    months_seen = set()
+    current_month_total = 0
     for week in weeks:
+        week_has_past_day = False
         for day in week["contributionDays"]:
             d = date.fromisoformat(day["date"])
             if d <= today:
                 days_elapsed += 1
+                months_seen.add((d.year, d.month))
+                week_has_past_day = True
+                if d.year == today.year and d.month == today.month:
+                    current_month_total += day["contributionCount"]
+        if week_has_past_day:
+            weeks_elapsed += 1
+    months_elapsed = len(months_seen)
     daily_avg = total / max(days_elapsed, 1)
+    weekly_avg = total / max(weeks_elapsed, 1)
+    monthly_avg = total / max(months_elapsed, 1)
+    current_month_name = today.strftime("%b")
 
-    # Total + daily average label
-    lines.append(f'<text x="{margin_left}" y="{height - 14}" fill="#40c463" '
+    # Stats row 1: total contributions (left) + current month total (right)
+    lines.append(f'<text x="{margin_left}" y="{height - 40}" fill="#40c463" '
                   f'font-family="monospace" font-size="28" font-weight="bold">'
                   f'{total} contributions in {YEAR}'
                   f'</text>')
-    lines.append(f'<text x="{width - 10}" y="{height - 14}" fill="#40c463" '
+    lines.append(f'<text x="{width - 10}" y="{height - 40}" fill="#40c463" '
                   f'font-family="monospace" font-size="28" font-weight="bold" text-anchor="end">'
-                  f'{daily_avg:.1f} / day avg'
+                  f'{current_month_name}: {current_month_total}'
+                  f'</text>')
+
+    # Stats row 2: daily avg (left), weekly avg (center), monthly avg (right)
+    stats_y = height - 10
+    lines.append(f'<text x="{margin_left}" y="{stats_y}" fill="#8b949e" '
+                  f'font-family="monospace" font-size="24">'
+                  f'{daily_avg:.1f}/day'
+                  f'</text>')
+    lines.append(f'<text x="{width // 2}" y="{stats_y}" fill="#8b949e" '
+                  f'font-family="monospace" font-size="24" text-anchor="middle">'
+                  f'{weekly_avg:.1f}/week'
+                  f'</text>')
+    lines.append(f'<text x="{width - 10}" y="{stats_y}" fill="#8b949e" '
+                  f'font-family="monospace" font-size="24" text-anchor="end">'
+                  f'{monthly_avg:.0f}/month'
                   f'</text>')
 
     lines.append('</svg>')
@@ -158,8 +187,9 @@ def main():
     with open(out, "w") as f:
         f.write(svg)
 
-    # Mobile version (48px stats for readability on small screens)
+    # Mobile version (scaled up stats for readability on small screens)
     svg_mobile = svg.replace('font-size="28"', 'font-size="48"')
+    svg_mobile = svg_mobile.replace('font-size="24"', 'font-size="40"')
     out_mobile = os.path.join(base_dir, "contributions-mobile.svg")
     with open(out_mobile, "w") as f:
         f.write(svg_mobile)
