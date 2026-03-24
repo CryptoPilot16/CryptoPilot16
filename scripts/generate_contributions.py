@@ -150,12 +150,21 @@ def generate_svg(calendar):
 
 def main():
     calendar = fetch_contributions()
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+    # Desktop version (28px stats)
     svg = generate_svg(calendar)
-    out = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-                       "contributions.svg")
+    out = os.path.join(base_dir, "contributions.svg")
     with open(out, "w") as f:
         f.write(svg)
-    print(f"Generated {out} — {calendar['totalContributions']} contributions in {YEAR}")
+
+    # Mobile version (48px stats for readability on small screens)
+    svg_mobile = svg.replace('font-size="28"', 'font-size="48"')
+    out_mobile = os.path.join(base_dir, "contributions-mobile.svg")
+    with open(out_mobile, "w") as f:
+        f.write(svg_mobile)
+
+    print(f"Generated {out} + mobile — {calendar['totalContributions']} contributions in {YEAR}")
 
 
 if __name__ == "__main__":
