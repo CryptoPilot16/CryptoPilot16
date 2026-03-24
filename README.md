@@ -73,12 +73,13 @@
 
 | Project | Description | Stack | Lines |
 |---|---|---|---|
-| **pm-relay** | Multi-venue spread tracking and execution | `Python` `React` `Node.js` `Polygon` | ~69K |
-| **Tailwinds** | Flight data aggregation and alerting | `TypeScript` `Next.js` `Node.js` | ~31K |
-| **f1_analytics** | F1 telemetry analysis and fantasy optimization | `JavaScript` `React` | ~42K |
-| **skybuddy** | 3D social flight tracker | `JavaScript` `Cesium.js` | ~12K |
-| **TradingOdds** | Prediction market execution layer | `TypeScript` | ~28K |
-| **smartmoney-radar** | On-chain wallet profiling and flow monitoring | `TypeScript` | ~25K |
-| **clawnux-v3** | Multi-model coding agent | `TypeScript` | ~59K |
-| **codex-control** | Server provisioning and deployment toolkit | `Shell` | ~380 |
-| | | **Total** | **~265K** |
+| 📊 **pm-relay** | Multi-venue spread tracking and execution | `Python` `React` `Node.js` `Polygon` | ~69K |
+| ✈️ **Tailwinds** | Flight data aggregation and alerting | `TypeScript` `Next.js` `Node.js` | ~31K |
+| 🏎️ **f1_analytics** | F1 telemetry analysis and fantasy optimization | `JavaScript` `React` | ~42K |
+| 🌍 **skybuddy** | 3D social flight tracker | `JavaScript` `Cesium.js` | ~12K |
+| 🎯 **TradingOdds** | Prediction market execution layer | `TypeScript` | ~28K |
+| 🔍 **smartmoney-radar** | On-chain wallet profiling and flow monitoring | `TypeScript` | ~25K |
+| 🤖 **clawnux-v3** | Multi-model coding agent | `TypeScript` | ~59K |
+| 🏛️ **govdeals-platform** | Gov surplus property scraper with Zillow valuations | `TypeScript` `Python` `Next.js` | ~9K |
+| 🖥️ **codex-control** | Server provisioning and deployment toolkit | `Shell` | ~380 |
+| | | **Total** | **~274K** |
