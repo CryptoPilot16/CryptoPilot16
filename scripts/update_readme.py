@@ -11,18 +11,29 @@ import urllib.request
 TOKEN = os.environ.get("GH_TOKEN", "")
 USERNAME = os.environ.get("GITHUB_USERNAME", "CryptoPilot16")
 
-# Project registry — description and stack are manually curated, lines auto-counted
-# Keep descriptions short and discrete
+# Project registry — emoji, description, and stack are manually curated; lines auto-counted.
+# New repos not listed here are auto-discovered and appended with defaults.
 PROJECTS = [
-    {"repo": "pm-relay",         "desc": "Multi-venue spread tracking and execution",         "stack": ["Python", "React", "Node.js", "Polygon"]},
-    {"repo": "Tailwinds",        "desc": "Flight data aggregation and alerting",              "stack": ["TypeScript", "Next.js", "Node.js"]},
-    {"repo": "f1_analytics",     "desc": "F1 telemetry analysis and fantasy optimization",    "stack": ["JavaScript", "React"]},
-    {"repo": "skybuddy",         "desc": "3D social flight tracker",                          "stack": ["JavaScript", "Cesium.js"]},
-    {"repo": "TradingOdds",      "desc": "Prediction market execution layer",                 "stack": ["TypeScript"]},
-    {"repo": "smartmoney-radar", "desc": "On-chain wallet profiling and flow monitoring",     "stack": ["TypeScript"]},
-    {"repo": "clawnux-v3",       "desc": "Multi-model coding agent",                          "stack": ["TypeScript"]},
-    {"repo": "codex-control",    "desc": "Server provisioning and deployment toolkit",        "stack": ["Shell"]},
+    {"repo": "pm-relay",          "emoji": "📊", "desc": "Multi-venue spread tracking and execution",         "stack": ["Python", "React", "Node.js", "Polygon"]},
+    {"repo": "Tailwinds",         "emoji": "✈️",  "desc": "Flight data aggregation and alerting",              "stack": ["TypeScript", "Next.js", "Node.js"]},
+    {"repo": "f1_analytics",      "emoji": "🏎️",  "desc": "F1 telemetry analysis and fantasy optimization",    "stack": ["JavaScript", "React"]},
+    {"repo": "skybuddy",          "emoji": "🌍", "desc": "3D social flight tracker",                          "stack": ["JavaScript", "Cesium.js"]},
+    {"repo": "TradingOdds",       "emoji": "🎯", "desc": "Prediction market execution layer",                 "stack": ["TypeScript"]},
+    {"repo": "smartmoney-radar",  "emoji": "🔍", "desc": "On-chain wallet profiling and flow monitoring",     "stack": ["TypeScript"]},
+    {"repo": "clawnux-v3",        "emoji": "🤖", "desc": "Multi-model coding agent",                          "stack": ["TypeScript"]},
+    {"repo": "govdeals-platform", "emoji": "🏛️",  "desc": "Gov surplus property scraper with Zillow valuations", "stack": ["TypeScript", "Python", "Next.js"]},
+    {"repo": "codex-control",     "emoji": "🖥️",  "desc": "Server provisioning and deployment toolkit",        "stack": ["Shell"]},
 ]
+
+# Repos to never include (profile repo, forks, etc.)
+IGNORE_REPOS = {USERNAME, USERNAME.lower(), ".github", "dotfiles"}
+
+# Language → stack label mapping for auto-discovered repos
+LANG_MAP = {
+    "Python": "Python", "JavaScript": "JavaScript", "TypeScript": "TypeScript",
+    "Shell": "Shell", "Go": "Go", "Rust": "Rust", "Java": "Java",
+    "HTML": "HTML", "CSS": "CSS", "Vue": "Vue", "Svelte": "Svelte",
+}
 
 # File extensions to count
 CODE_EXTENSIONS = {
@@ -100,12 +111,47 @@ def format_lines(n):
         return f"~{k}K"
 
 
+def discover_repos():
+    """Fetch all non-fork repos and merge with curated PROJECTS list."""
+    known = {p["repo"].lower(): p for p in PROJECTS}
+    merged = list(PROJECTS)  # start with curated order
+
+    # Fetch all public repos from GitHub
+    page = 1
+    while True:
+        data = gh_api(f"users/{USERNAME}/repos?per_page=100&page={page}&type=owner")
+        if not data:
+            break
+        for r in data:
+            name = r["name"]
+            if r.get("fork") or name in IGNORE_REPOS or name.lower() in IGNORE_REPOS:
+                continue
+            if name.lower() not in known:
+                # Auto-discover: derive stack from GitHub language
+                lang = r.get("language") or ""
+                stack = [LANG_MAP[lang]] if lang in LANG_MAP else [lang] if lang else ["—"]
+                desc = (r.get("description") or "").strip() or name
+                merged.append({
+                    "repo": name,
+                    "emoji": "📦",
+                    "desc": desc[:60],
+                    "stack": stack,
+                })
+                print(f"  [auto-discovered] {name} ({lang})")
+        if len(data) < 100:
+            break
+        page += 1
+
+    return merged
+
+
 def build_projects_table(projects_data):
-    """Build markdown table."""
+    """Build markdown table with emojis."""
     lines = ["| Project | Description | Stack | Lines |", "|---|---|---|---|"]
     for p in projects_data:
         stack_str = " ".join(f"`{s}`" for s in p["stack"])
-        lines.append(f'| **{p["repo"]}** | {p["desc"]} | {stack_str} | {p["lines_fmt"]} |')
+        emoji = p.get("emoji", "📦")
+        lines.append(f'| {emoji} **{p["repo"]}** | {p["desc"]} | {stack_str} | {p["lines_fmt"]} |')
     total = sum(p.get("lines_raw", 0) for p in projects_data)
     total_fmt = format_lines(total)
     lines.append(f'| | | **Total** | **{total_fmt}** |')
@@ -130,15 +176,17 @@ def update_readme(projects_data):
 
 def main():
     print(f"Updating projects for {USERNAME}...")
+    all_projects = discover_repos()
     projects_data = []
 
-    for p in PROJECTS:
+    for p in all_projects:
         print(f"  {p['repo']}...", end=" ", flush=True)
         lines = count_lines(p["repo"])
         fmt = format_lines(lines)
         print(f"{fmt} lines")
         projects_data.append({
             "repo": p["repo"],
+            "emoji": p.get("emoji", "📦"),
             "desc": p["desc"],
             "stack": p["stack"],
             "lines_fmt": fmt,
