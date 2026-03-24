@@ -7,8 +7,8 @@
 [![Telegram](https://img.shields.io/badge/cryptostarship-000000?style=flat-square&logo=telegram&logoColor=26A5E4)](https://t.me/cryptostarship)
 
 <picture>
-  <source media="(max-width: 768px)" srcset="contributions-mobile.svg" />
-  <img src="contributions.svg" alt="2026 Contributions" width="100%" />
+  <source media="(max-width: 768px)" srcset="contributions-mobile.svg?v=2" />
+  <img src="contributions.svg?v=2" alt="2026 Contributions" width="100%" />
 </picture>
 
 </div>
