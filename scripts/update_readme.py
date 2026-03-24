@@ -20,7 +20,7 @@ PROJECTS = [
     {"repo": "skybuddy",         "desc": "3D social flight tracker",                          "stack": ["JavaScript", "Cesium.js"]},
     {"repo": "TradingOdds",      "desc": "Prediction market execution layer",                 "stack": ["TypeScript"]},
     {"repo": "smartmoney-radar", "desc": "On-chain wallet profiling and flow monitoring",     "stack": ["TypeScript"]},
-    {"repo": "clawnux",          "desc": "Multi-model coding agent",                          "stack": ["TypeScript"]},
+    {"repo": "clawnux-v3",       "desc": "Multi-model coding agent",                          "stack": ["TypeScript"]},
     {"repo": "codex-control",    "desc": "Server provisioning and deployment toolkit",        "stack": ["Shell"]},
 ]
 
