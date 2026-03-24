@@ -1,19 +1,7 @@
-```
-╔══════════════════════════════════════════════════════════════════╗
-║                                                                  ║
-║   ██████╗ ██╗██╗      ██████╗ ████████╗                          ║
-║   ██╔══██╗██║██║     ██╔═══██╗╚══██╔══╝                          ║
-║   ██████╔╝██║██║     ██║   ██║   ██║                             ║
-║   ██╔═══╝ ██║██║     ██║   ██║   ██║                             ║
-║   ██║     ██║███████╗╚██████╔╝   ██║                             ║
-║   ╚═╝     ╚═╝╚══════╝ ╚═════╝    ╚═╝                            ║
-║                                                                  ║
-║   quantitative vibing                                            ║
-║                                                                  ║
-╚══════════════════════════════════════════════════════════════════╝
-```
-
 <div align="center">
+
+<img src="header.svg" alt="PILOT" width="100%" />
+
 
 [![X](https://img.shields.io/badge/@cryptopilot16-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/cryptopilot16)
 [![Telegram](https://img.shields.io/badge/cryptostarship-000000?style=flat-square&logo=telegram&logoColor=26A5E4)](https://t.me/cryptostarship)
