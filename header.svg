@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 280" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 220" width="100%">
   <defs>
     <style>
       @media (prefers-color-scheme: light) {
@@ -13,12 +13,12 @@
       }
     </style>
   </defs>
-  <rect class="bg" x="1" y="1" width="818" height="278" rx="8" stroke-width="2" stroke-dasharray="8,4"/>
-  <text class="txt" x="50" y="72" font-family="monospace" font-size="26" xml:space="preserve">██████╗ ██╗██╗      ██████╗ ████████╗</text>
-  <text class="txt" x="50" y="100" font-family="monospace" font-size="26" xml:space="preserve">██╔══██╗██║██║     ██╔═══██╗╚══██╔══╝</text>
-  <text class="txt" x="50" y="128" font-family="monospace" font-size="26" xml:space="preserve">██████╔╝██║██║     ██║   ██║   ██║   </text>
-  <text class="txt" x="50" y="156" font-family="monospace" font-size="26" xml:space="preserve">██╔═══╝ ██║██║     ██║   ██║   ██║   </text>
-  <text class="txt" x="50" y="184" font-family="monospace" font-size="26" xml:space="preserve">██║     ██║███████╗╚██████╔╝   ██║   </text>
-  <text class="txt" x="50" y="212" font-family="monospace" font-size="26" xml:space="preserve">╚═╝     ╚═╝╚══════╝ ╚═════╝    ╚═╝   </text>
-  <text class="sub" x="50" y="252" font-family="monospace" font-size="20">quantitative vibing</text>
+  <rect class="bg" x="1" y="1" width="618" height="218" rx="8" stroke-width="2" stroke-dasharray="8,4"/>
+  <text class="txt" x="40" y="58" font-family="monospace" font-size="19" xml:space="preserve">██████╗ ██╗██╗      ██████╗ ████████╗</text>
+  <text class="txt" x="40" y="80" font-family="monospace" font-size="19" xml:space="preserve">██╔══██╗██║██║     ██╔═══██╗╚══██╔══╝</text>
+  <text class="txt" x="40" y="102" font-family="monospace" font-size="19" xml:space="preserve">██████╔╝██║██║     ██║   ██║   ██║   </text>
+  <text class="txt" x="40" y="124" font-family="monospace" font-size="19" xml:space="preserve">██╔═══╝ ██║██║     ██║   ██║   ██║   </text>
+  <text class="txt" x="40" y="146" font-family="monospace" font-size="19" xml:space="preserve">██║     ██║███████╗╚██████╔╝   ██║   </text>
+  <text class="txt" x="40" y="168" font-family="monospace" font-size="19" xml:space="preserve">╚═╝     ╚═╝╚══════╝ ╚═════╝    ╚═╝   </text>
+  <text class="sub" x="40" y="200" font-family="monospace" font-size="16">quantitative vibing</text>
 </svg>

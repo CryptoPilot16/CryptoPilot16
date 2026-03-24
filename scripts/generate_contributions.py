@@ -136,11 +136,11 @@ def generate_svg(calendar):
 
     # Total + daily average label
     lines.append(f'<text x="{margin_left}" y="{height - 14}" fill="#40c463" '
-                  f'font-family="monospace" font-size="26" font-weight="bold">'
+                  f'font-family="monospace" font-size="18" font-weight="bold">'
                   f'{total} contributions in {YEAR}'
                   f'</text>')
     lines.append(f'<text x="{width - 10}" y="{height - 14}" fill="#40c463" '
-                  f'font-family="monospace" font-size="26" font-weight="bold" text-anchor="end">'
+                  f'font-family="monospace" font-size="18" font-weight="bold" text-anchor="end">'
                   f'{daily_avg:.1f} / day avg'
                   f'</text>')
 
