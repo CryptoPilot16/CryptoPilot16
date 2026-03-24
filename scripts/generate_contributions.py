@@ -75,7 +75,7 @@ def generate_svg(calendar):
     size = cell + gap
     margin_left = 65
     margin_top = 55
-    margin_bottom = 110
+    margin_bottom = 80
 
     width = margin_left + len(weeks) * size + 10
     height = margin_top + 7 * size + margin_bottom
@@ -148,29 +148,16 @@ def generate_svg(calendar):
     monthly_avg = total / max(months_elapsed, 1)
     current_month_name = today.strftime("%b")
 
-    # Stats row 1: total contributions (left) + current month total (right)
-    lines.append(f'<text x="{margin_left}" y="{height - 40}" fill="#40c463" '
+    # Single stats line: total | daily | weekly | monthly | current month
+    stats_y = height - 14
+    label = (f'{total} in {YEAR}'
+             f'  \u00b7  {daily_avg:.1f}/day'
+             f'  \u00b7  {weekly_avg:.1f}/week'
+             f'  \u00b7  {monthly_avg:.0f}/month'
+             f'  \u00b7  {current_month_name}: {current_month_total}')
+    lines.append(f'<text x="{margin_left}" y="{stats_y}" fill="#40c463" '
                   f'font-family="monospace" font-size="28" font-weight="bold">'
-                  f'{total} contributions in {YEAR}'
-                  f'</text>')
-    lines.append(f'<text x="{width - 10}" y="{height - 40}" fill="#40c463" '
-                  f'font-family="monospace" font-size="28" font-weight="bold" text-anchor="end">'
-                  f'{current_month_name}: {current_month_total}'
-                  f'</text>')
-
-    # Stats row 2: daily avg (left), weekly avg (center), monthly avg (right)
-    stats_y = height - 10
-    lines.append(f'<text x="{margin_left}" y="{stats_y}" fill="#8b949e" '
-                  f'font-family="monospace" font-size="24">'
-                  f'{daily_avg:.1f}/day'
-                  f'</text>')
-    lines.append(f'<text x="{width // 2}" y="{stats_y}" fill="#8b949e" '
-                  f'font-family="monospace" font-size="24" text-anchor="middle">'
-                  f'{weekly_avg:.1f}/week'
-                  f'</text>')
-    lines.append(f'<text x="{width - 10}" y="{stats_y}" fill="#8b949e" '
-                  f'font-family="monospace" font-size="24" text-anchor="end">'
-                  f'{monthly_avg:.0f}/month'
+                  f'{label}'
                   f'</text>')
 
     lines.append('</svg>')
@@ -189,7 +176,6 @@ def main():
 
     # Mobile version (scaled up stats for readability on small screens)
     svg_mobile = svg.replace('font-size="28"', 'font-size="48"')
-    svg_mobile = svg_mobile.replace('font-size="24"', 'font-size="40"')
     out_mobile = os.path.join(base_dir, "contributions-mobile.svg")
     with open(out_mobile, "w") as f:
         f.write(svg_mobile)
