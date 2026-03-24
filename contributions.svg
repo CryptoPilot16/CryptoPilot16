@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1824 366" width="100%">
 <rect width="1824" height="366" fill="#0d1117" rx="6"/>
-<text x="65" y="39" fill="#8b949e" font-family="monospace" font-size="28">Jan</text>
-<text x="230" y="39" fill="#8b949e" font-family="monospace" font-size="28">Feb</text>
-<text x="362" y="39" fill="#8b949e" font-family="monospace" font-size="28">Mar</text>
-<text x="494" y="39" fill="#8b949e" font-family="monospace" font-size="28">Apr</text>
-<text x="626" y="39" fill="#8b949e" font-family="monospace" font-size="28">May</text>
-<text x="791" y="39" fill="#8b949e" font-family="monospace" font-size="28">Jun</text>
-<text x="923" y="39" fill="#8b949e" font-family="monospace" font-size="28">Jul</text>
-<text x="1055" y="39" fill="#8b949e" font-family="monospace" font-size="28">Aug</text>
-<text x="1220" y="39" fill="#8b949e" font-family="monospace" font-size="28">Sep</text>
-<text x="1352" y="39" fill="#8b949e" font-family="monospace" font-size="28">Oct</text>
-<text x="1517" y="39" fill="#8b949e" font-family="monospace" font-size="28">Nov</text>
-<text x="1649" y="39" fill="#8b949e" font-family="monospace" font-size="28">Dec</text>
+<text x="65" y="39" fill="#8b949e" font-family="monospace" font-size="38">Jan</text>
+<text x="230" y="39" fill="#8b949e" font-family="monospace" font-size="38">Feb</text>
+<text x="362" y="39" fill="#8b949e" font-family="monospace" font-size="38">Mar</text>
+<text x="494" y="39" fill="#8b949e" font-family="monospace" font-size="38">Apr</text>
+<text x="626" y="39" fill="#8b949e" font-family="monospace" font-size="38">May</text>
+<text x="791" y="39" fill="#8b949e" font-family="monospace" font-size="38">Jun</text>
+<text x="923" y="39" fill="#8b949e" font-family="monospace" font-size="38">Jul</text>
+<text x="1055" y="39" fill="#8b949e" font-family="monospace" font-size="38">Aug</text>
+<text x="1220" y="39" fill="#8b949e" font-family="monospace" font-size="38">Sep</text>
+<text x="1352" y="39" fill="#8b949e" font-family="monospace" font-size="38">Oct</text>
+<text x="1517" y="39" fill="#8b949e" font-family="monospace" font-size="38">Nov</text>
+<text x="1649" y="39" fill="#8b949e" font-family="monospace" font-size="38">Dec</text>
 <text x="2" y="114" fill="#8b949e" font-family="monospace" font-size="16">Mon</text>
 <text x="2" y="180" fill="#8b949e" font-family="monospace" font-size="16">Wed</text>
 <text x="2" y="246" fill="#8b949e" font-family="monospace" font-size="16">Fri</text>
@@ -97,7 +97,7 @@
 <rect x="428" y="253" width="28" height="28" rx="2" fill="#0e4429"><title>2026-03-21: 2 contributions</title></rect>
 <rect x="461" y="55" width="28" height="28" rx="2" fill="#39d353"><title>2026-03-22: 42 contributions</title></rect>
 <rect x="461" y="88" width="28" height="28" rx="2" fill="#39d353"><title>2026-03-23: 70 contributions</title></rect>
-<rect x="461" y="121" width="28" height="28" rx="2" fill="#006d32"><title>2026-03-24: 5 contributions</title></rect>
+<rect x="461" y="121" width="28" height="28" rx="2" fill="#006d32"><title>2026-03-24: 6 contributions</title></rect>
 <rect x="461" y="154" width="28" height="28" rx="2" fill="#161b22"><title>2026-03-25: 0 contributions</title></rect>
 <rect x="461" y="187" width="28" height="28" rx="2" fill="#161b22"><title>2026-03-26: 0 contributions</title></rect>
 <rect x="461" y="220" width="28" height="28" rx="2" fill="#161b22"><title>2026-03-27: 0 contributions</title></rect>
@@ -380,6 +380,6 @@
 <rect x="1781" y="121" width="28" height="28" rx="2" fill="#161b22"><title>2026-12-29: 0 contributions</title></rect>
 <rect x="1781" y="154" width="28" height="28" rx="2" fill="#161b22"><title>2026-12-30: 0 contributions</title></rect>
 <rect x="1781" y="187" width="28" height="28" rx="2" fill="#161b22"><title>2026-12-31: 0 contributions</title></rect>
-<text x="65" y="360" fill="#40c463" font-family="monospace" font-size="38" font-weight="bold">1089 contributions in 2026</text>
-<text x="1814" y="360" fill="#40c463" font-family="monospace" font-size="38" font-weight="bold" text-anchor="end">13.1 / day avg</text>
+<text x="65" y="352" fill="#40c463" font-family="monospace" font-size="38" font-weight="bold">1090 contributions in 2026</text>
+<text x="1814" y="352" fill="#40c463" font-family="monospace" font-size="38" font-weight="bold" text-anchor="end">13.1 / day avg</text>
 </svg>
