@@ -106,6 +106,9 @@ def build_projects_table(projects_data):
     for p in projects_data:
         stack_str = " ".join(f"`{s}`" for s in p["stack"])
         lines.append(f'| **{p["repo"]}** | {p["desc"]} | {stack_str} | {p["lines_fmt"]} |')
+    total = sum(p.get("lines_raw", 0) for p in projects_data)
+    total_fmt = format_lines(total)
+    lines.append(f'| | | **Total** | **{total_fmt}** |')
     return "\n".join(lines)
 
 
@@ -139,6 +142,7 @@ def main():
             "desc": p["desc"],
             "stack": p["stack"],
             "lines_fmt": fmt,
+            "lines_raw": lines or 0,
         })
 
     update_readme(projects_data)
