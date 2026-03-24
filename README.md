@@ -80,6 +80,6 @@
 | 🎯 **TradingOdds** | Prediction market execution layer | `TypeScript` | ~28K |
 | 🔍 **smartmoney-radar** | On-chain wallet profiling and flow monitoring | `TypeScript` | ~25K |
 | 🤖 **clawnux-v3** | Multi-model coding agent | `TypeScript` | ~59K |
-| 🏛️ **govdeals-platform** | Gov surplus property scraper with Zillow valuations | `TypeScript` `Python` `Next.js` | ~9K |
+| 🏛️ **govdeals-platform** | Gov surplus property scraper with Zillow valuations | `TypeScript` `Python` `Next.js` | ~12K |
 | 🖥️ **codex-control** | Server provisioning and deployment toolkit | `Shell` | ~380 |
-| | | **Total** | **~274K** |
+| | | **Total** | **~278K** |
