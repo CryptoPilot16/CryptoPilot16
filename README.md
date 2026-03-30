@@ -82,4 +82,5 @@
 | 🤖 **clawnux-v3** | Multi-model coding agent | `TypeScript` | ~59K |
 | 🏛️ **govdeals-platform** | Gov surplus property scraper with Zillow valuations | `TypeScript` `Python` `Next.js` | ~12K |
 | 🖥️ **codex-control** | Server provisioning and deployment toolkit | `Shell` | ~380 |
-| | | **Total** | **~285K** |
+| 👻 **echoes** | Eternal Conversational Hologram Of Embedded Souls | `TypeScript` `Next.js` `Node.js` | ~6K |
+| | | **Total** | **~292K** |
