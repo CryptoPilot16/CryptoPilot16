@@ -23,6 +23,7 @@ PROJECTS = [
     {"repo": "clawnux-v3",        "emoji": "🤖", "desc": "Multi-model coding agent",                          "stack": ["TypeScript"]},
     {"repo": "govdeals-platform", "emoji": "🏛️",  "desc": "Gov surplus property scraper with Zillow valuations", "stack": ["TypeScript", "Python", "Next.js"]},
     {"repo": "codex-control",     "emoji": "🖥️",  "desc": "Server provisioning and deployment toolkit",        "stack": ["Shell"]},
+    {"repo": "echoes",            "emoji": "👻", "desc": "Eternal Conversational Hologram Of Embedded Souls", "stack": ["TypeScript", "Next.js", "Node.js"]},
 ]
 
 # Repos to never include (profile repo, forks, etc.)
@@ -194,6 +195,24 @@ def main():
         })
 
     update_readme(projects_data)
+
+    # Auto-commit and push if there are changes
+    repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    result = subprocess.run(
+        ["git", "-C", repo_root, "diff", "--quiet", "README.md"],
+        capture_output=True,
+    )
+    if result.returncode != 0:
+        subprocess.run(["git", "-C", repo_root, "add", "README.md"], check=True)
+        subprocess.run(
+            ["git", "-C", repo_root, "commit", "-m", "Update projects table (auto-sync)"],
+            check=True,
+        )
+        subprocess.run(["git", "-C", repo_root, "push"], check=True)
+        print("Committed and pushed README update.")
+    else:
+        print("No changes to README.")
+
     print("Done.")
 
 
