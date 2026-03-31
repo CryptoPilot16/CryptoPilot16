@@ -15,16 +15,16 @@ USERNAME = os.environ.get("GITHUB_USERNAME", "CryptoPilot16")
 # Project registry — emoji, description, and stack are manually curated; lines auto-counted.
 # New repos not listed here are auto-discovered and appended with defaults.
 PROJECTS = [
-    {"repo": "pm-relay",          "emoji": "📊", "desc": "Multi-venue spread tracking and execution",         "stack": ["Python", "Node.js", "Express", "React", "Playwright", "Polygon", "Claude API"]},
-    {"repo": "Tailwinds",         "emoji": "✈️",  "desc": "Flight data aggregation and alerting",              "stack": ["TypeScript", "Next.js", "React", "Tailwind CSS", "Node.js", "Express", "PostgreSQL", "Stripe", "Twilio", "SendGrid"]},
-    {"repo": "f1_analytics",      "emoji": "🏎️",  "desc": "F1 telemetry analysis and fantasy optimization",    "stack": ["JavaScript", "React", "Vite", "Node.js", "Express", "Puppeteer", "Claude API"]},
-    {"repo": "skybuddy",          "emoji": "🌍", "desc": "3D social flight tracker",                          "stack": ["JavaScript", "Cesium.js", "Node.js", "Express", "PostgreSQL", "Playwright", "Claude API"]},
-    {"repo": "TradingOdds",       "emoji": "🎯", "desc": "Prediction market execution layer",                 "stack": ["TypeScript", "Next.js", "React", "Tailwind CSS", "Node.js", "ethers.js", "Polygon", "Playwright", "Vitest"]},
-    {"repo": "smartmoney-radar",  "emoji": "🔍", "desc": "On-chain wallet profiling and flow monitoring",     "stack": ["TypeScript", "Next.js", "React", "Tailwind CSS", "Node.js", "PostgreSQL", "ethers.js", "Solana", "Telegram"]},
-    {"repo": "clawnux-v3",        "emoji": "🤖", "desc": "Multi-model coding agent",                          "stack": ["Shell", "Next.js", "PostgreSQL", "Claude Code", "Vercel", "Telegram"]},
-    {"repo": "govdeals-platform", "emoji": "🏛️",  "desc": "Gov surplus property scraper with Zillow valuations", "stack": ["TypeScript", "Python", "Next.js", "React", "Tailwind CSS", "Node.js", "Express", "PostgreSQL", "Playwright", "Leaflet"]},
-    {"repo": "codex-control",     "emoji": "🖥️",  "desc": "Server provisioning and deployment toolkit",        "stack": ["Shell", "Python", "tmux", "Tailscale", "Vercel", "Telegram"]},
-    {"repo": "echoes",            "emoji": "👻", "desc": "Eternal Conversational Hologram Of Embedded Souls", "stack": ["TypeScript", "Python", "Next.js", "Tailwind CSS", "Three.js", "Node.js", "FastAPI", "PostgreSQL", "Ollama", "Whisper", "RunPod"]},
+    {"repo": "pm-relay",          "emoji": "📊", "desc": "Multi-venue spread tracking and execution",         "stack": ["Python", "Node.js", "React", "Polygon", "Playwright"]},
+    {"repo": "Tailwinds",         "emoji": "✈️",  "desc": "Flight data aggregation and alerting",              "stack": ["TypeScript", "Next.js", "Node.js", "PostgreSQL", "Tailwind CSS"]},
+    {"repo": "f1_analytics",      "emoji": "🏎️",  "desc": "F1 telemetry analysis and fantasy optimization",    "stack": ["JavaScript", "React", "Vite", "Node.js"]},
+    {"repo": "skybuddy",          "emoji": "🌍", "desc": "3D social flight tracker",                          "stack": ["JavaScript", "Cesium.js", "Node.js", "PostgreSQL", "Playwright"]},
+    {"repo": "TradingOdds",       "emoji": "🎯", "desc": "Prediction market execution layer",                 "stack": ["TypeScript", "Next.js", "React", "Tailwind CSS", "ethers.js"]},
+    {"repo": "smartmoney-radar",  "emoji": "🔍", "desc": "On-chain wallet profiling and flow monitoring",     "stack": ["TypeScript", "Next.js", "React", "PostgreSQL", "ethers.js", "Solana"]},
+    {"repo": "clawnux-v3",        "emoji": "🤖", "desc": "Multi-model coding agent",                          "stack": ["Shell", "Next.js", "PostgreSQL", "Claude Code"]},
+    {"repo": "govdeals-platform", "emoji": "🏛️",  "desc": "Gov surplus property scraper with Zillow valuations", "stack": ["TypeScript", "Python", "Next.js", "Node.js", "PostgreSQL", "Playwright"]},
+    {"repo": "codex-control",     "emoji": "🖥️",  "desc": "Server provisioning and deployment toolkit",        "stack": ["Shell", "Python", "tmux", "Tailscale"]},
+    {"repo": "echoes",            "emoji": "👻", "desc": "Eternal Conversational Hologram Of Embedded Souls", "stack": ["TypeScript", "Next.js", "Tailwind CSS", "Three.js", "Python", "FastAPI", "PostgreSQL", "RunPod"]},
 ]
 
 # Repos to never include (profile repo, forks, etc.)
