@@ -33,6 +33,8 @@
 <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
 <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
 <img src="https://img.shields.io/badge/Cesium.js-6CADDF?style=flat-square&logo=cesium&logoColor=white" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+<img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" />
 </td>
 </tr>
 <tr>
@@ -40,6 +42,7 @@
 <td>
 <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
 </td>
 </tr>
 <tr>
@@ -49,6 +52,7 @@
 <img src="https://img.shields.io/badge/Caddy-1F88C0?style=flat-square&logo=caddy&logoColor=white" />
 <img src="https://img.shields.io/badge/PM2-2B037A?style=flat-square&logo=pm2&logoColor=white" />
 <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" />
+<img src="https://img.shields.io/badge/RunPod-FF6A00?style=flat-square&logo=kubernetes&logoColor=white" />
 </td>
 </tr>
 <tr>
@@ -64,6 +68,8 @@
 <img src="https://img.shields.io/badge/Claude_API-CC785C?style=flat-square&logo=anthropic&logoColor=white" />
 <img src="https://img.shields.io/badge/Claude_Code-CC785C?style=flat-square&logo=anthropic&logoColor=white" />
 <img src="https://img.shields.io/badge/Codex-000000?style=flat-square&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/Ollama-111111?style=flat-square&logo=ollama&logoColor=white" />
+<img src="https://img.shields.io/badge/Whisper-111111?style=flat-square&logo=openai&logoColor=white" />
 </td>
 </tr>
 </table>
@@ -83,5 +89,5 @@
 | 🤖 **clawnux-v3** | Multi-model coding agent | `TypeScript` | ~59K |
 | 🏛️ **govdeals-platform** | Gov surplus property scraper with Zillow valuations | `TypeScript` `Python` `Next.js` | ~12K |
 | 🖥️ **codex-control** | Server provisioning and deployment toolkit | `Shell` | ~380 |
-| 👻 **echoes** | Eternal Conversational Hologram Of Embedded Souls | `TypeScript` `Next.js` `Node.js` | ~30K |
+| 👻 **echoes** | Eternal Conversational Hologram Of Embedded Souls | `TypeScript` `Python` `Next.js` `Tailwind CSS` `Three.js` `Node.js` `FastAPI` `PostgreSQL` `Ollama` `Whisper` `RunPod` | ~30K |
 | | | **Total** | **~318K** |
