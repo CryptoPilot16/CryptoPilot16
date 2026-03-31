@@ -6,6 +6,7 @@ import os
 import re
 import subprocess
 import tempfile
+import urllib.parse
 import urllib.request
 
 TOKEN = os.environ.get("GH_TOKEN", "")
@@ -36,6 +37,73 @@ LANG_MAP = {
     "HTML": "HTML", "CSS": "CSS", "Vue": "Vue", "Svelte": "Svelte",
 }
 
+TECH_ROW_ORDER = ["Languages", "Frontend", "Backend", "Infra", "Web3", "AI", "Other"]
+
+# Baseline badges we always show, plus dynamic additions from project stacks.
+BASE_TECH_STACK = {
+    "Languages": ["Python", "TypeScript", "JavaScript"],
+    "Frontend": ["React", "Next.js", "Cesium.js"],
+    "Backend": ["Node.js", "PostgreSQL"],
+    "Infra": ["Linux", "Caddy", "PM2", "Playwright"],
+    "Web3": ["Polygon", "ethers.js"],
+    "AI": ["Claude API", "Claude Code", "Codex"],
+}
+
+TECH_BADGES = {
+    "Python": {"category": "Languages", "color": "3776AB", "logo": "python", "logoColor": "white"},
+    "TypeScript": {"category": "Languages", "color": "3178C6", "logo": "typescript", "logoColor": "white"},
+    "JavaScript": {"category": "Languages", "color": "F7DF1E", "logo": "javascript", "logoColor": "black"},
+    "Shell": {"category": "Languages", "color": "4EAA25", "logo": "gnubash", "logoColor": "white"},
+    "Go": {"category": "Languages", "color": "00ADD8", "logo": "go", "logoColor": "white"},
+    "Rust": {"category": "Languages", "color": "000000", "logo": "rust", "logoColor": "white"},
+    "Java": {"category": "Languages", "color": "007396", "logo": "openjdk", "logoColor": "white"},
+    "HTML": {"category": "Languages", "color": "E34F26", "logo": "html5", "logoColor": "white"},
+    "CSS": {"category": "Languages", "color": "1572B6", "logo": "css3", "logoColor": "white"},
+    "React": {"category": "Frontend", "color": "61DAFB", "logo": "react", "logoColor": "black"},
+    "Next.js": {"category": "Frontend", "color": "000000", "logo": "nextdotjs", "logoColor": "white"},
+    "Cesium.js": {"category": "Frontend", "color": "6CADDF", "logo": "cesium", "logoColor": "white"},
+    "Vue": {"category": "Frontend", "color": "4FC08D", "logo": "vuedotjs", "logoColor": "white"},
+    "Svelte": {"category": "Frontend", "color": "FF3E00", "logo": "svelte", "logoColor": "white"},
+    "Node.js": {"category": "Backend", "color": "339933", "logo": "nodedotjs", "logoColor": "white"},
+    "PostgreSQL": {"category": "Backend", "color": "4169E1", "logo": "postgresql", "logoColor": "white"},
+    "Express": {"category": "Backend", "color": "000000", "logo": "express", "logoColor": "white"},
+    "Linux": {"category": "Infra", "color": "FCC624", "logo": "linux", "logoColor": "black"},
+    "Caddy": {"category": "Infra", "color": "1F88C0", "logo": "caddy", "logoColor": "white"},
+    "PM2": {"category": "Infra", "color": "2B037A", "logo": "pm2", "logoColor": "white"},
+    "Playwright": {"category": "Infra", "color": "2EAD33", "logo": "playwright", "logoColor": "white"},
+    "Docker": {"category": "Infra", "color": "2496ED", "logo": "docker", "logoColor": "white"},
+    "GitHub Actions": {"category": "Infra", "color": "2088FF", "logo": "githubactions", "logoColor": "white"},
+    "RunPod": {"category": "Infra", "color": "FF6A00", "logo": "kubernetes", "logoColor": "white"},
+    "Polygon": {"category": "Web3", "color": "8247E5", "logo": "polygon", "logoColor": "white"},
+    "ethers.js": {"category": "Web3", "color": "2535A0", "logo": "ethereum", "logoColor": "white"},
+    "Claude API": {"category": "AI", "color": "CC785C", "logo": "anthropic", "logoColor": "white", "badge": "Claude_API"},
+    "Claude Code": {"category": "AI", "color": "CC785C", "logo": "anthropic", "logoColor": "white", "badge": "Claude_Code"},
+    "Codex": {"category": "AI", "color": "000000", "logo": "openai", "logoColor": "white"},
+    "OpenAI": {"category": "AI", "color": "000000", "logo": "openai", "logoColor": "white"},
+    "Anthropic": {"category": "AI", "color": "CC785C", "logo": "anthropic", "logoColor": "white"},
+    "Ollama": {"category": "AI", "color": "111111", "logo": "ollama", "logoColor": "white"},
+    "Whisper": {"category": "AI", "color": "111111", "logo": "openai", "logoColor": "white"},
+}
+
+TECH_ALIAS_MAP = {
+    "node": "Node.js",
+    "nodejs": "Node.js",
+    "node.js": "Node.js",
+    "next": "Next.js",
+    "nextjs": "Next.js",
+    "javascript": "JavaScript",
+    "typescript": "TypeScript",
+    "vue.js": "Vue",
+    "cesium": "Cesium.js",
+    "ethers": "ethers.js",
+    "anthropic": "Anthropic",
+    "claude": "Claude API",
+    "claude sonnet": "Claude API",
+    "openai api": "OpenAI",
+}
+
+TECH_CANONICAL_BY_LOWER = {name.lower(): name for name in TECH_BADGES}
+
 # File extensions to count
 CODE_EXTENSIONS = {
     ".py", ".js", ".ts", ".tsx", ".jsx", ".sh", ".bash",
@@ -52,14 +120,13 @@ SKIP_DIRS = {"node_modules", ".git", "vendor", "dist", "build", ".next",
 
 def gh_api(path):
     """Call GitHub API."""
-    req = urllib.request.Request(
-        f"https://api.github.com/{path}",
-        headers={
-            "Authorization": f"Bearer {TOKEN}",
-            "Accept": "application/vnd.github+json",
-            "User-Agent": "readme-updater",
-        },
-    )
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "User-Agent": "readme-updater",
+    }
+    if TOKEN:
+        headers["Authorization"] = f"Bearer {TOKEN}"
+    req = urllib.request.Request(f"https://api.github.com/{path}", headers=headers)
     try:
         with urllib.request.urlopen(req) as resp:
             return json.loads(resp.read())
@@ -71,7 +138,10 @@ def gh_api(path):
 def count_lines(repo_name):
     """Clone repo shallow and count lines of code."""
     with tempfile.TemporaryDirectory() as tmpdir:
-        clone_url = f"https://x-access-token:{TOKEN}@github.com/{USERNAME}/{repo_name}.git"
+        if TOKEN:
+            clone_url = f"https://x-access-token:{TOKEN}@github.com/{USERNAME}/{repo_name}.git"
+        else:
+            clone_url = f"https://github.com/{USERNAME}/{repo_name}.git"
         result = subprocess.run(
             ["git", "clone", "--depth", "1", "--quiet", clone_url, tmpdir + "/repo"],
             capture_output=True, text=True, timeout=60,
@@ -159,16 +229,91 @@ def build_projects_table(projects_data):
     return "\n".join(lines)
 
 
+def normalize_tech_name(name):
+    """Normalize stack item labels to canonical tech badge names."""
+    raw = (name or "").strip()
+    if not raw or raw == "—":
+        return ""
+    lowered = raw.lower()
+    if lowered in TECH_ALIAS_MAP:
+        return TECH_ALIAS_MAP[lowered]
+    if lowered in TECH_CANONICAL_BY_LOWER:
+        return TECH_CANONICAL_BY_LOWER[lowered]
+    return raw
+
+
+def build_badge_url(tech_name):
+    """Build shields.io badge URL for a tech label."""
+    meta = TECH_BADGES.get(tech_name)
+    if not meta:
+        label = urllib.parse.quote(tech_name.replace(" ", "_"), safe=".")
+        return f"https://img.shields.io/badge/{label}-4B5563?style=flat-square"
+
+    badge_label = meta.get("badge", tech_name).replace(" ", "_")
+    label = urllib.parse.quote(badge_label, safe=".")
+    url = f"https://img.shields.io/badge/{label}-{meta['color']}?style=flat-square"
+    logo = meta.get("logo")
+    if logo:
+        url += f"&logo={urllib.parse.quote(logo)}"
+    logo_color = meta.get("logoColor")
+    if logo_color:
+        url += f"&logoColor={urllib.parse.quote(logo_color)}"
+    return url
+
+
+def ordered_techs_for_row(row_name, row_values):
+    """Keep baseline ordering stable; append new entries alphabetically."""
+    base = BASE_TECH_STACK.get(row_name, [])
+    ordered = [t for t in base if t in row_values]
+    extras = sorted([t for t in row_values if t not in base], key=str.lower)
+    return ordered + extras
+
+
+def build_tech_stack_table(projects_data):
+    """Build the HTML tech stack table from baseline + project stacks."""
+    rows = {row: set(values) for row, values in BASE_TECH_STACK.items()}
+    rows.setdefault("Other", set())
+
+    for p in projects_data:
+        for stack_item in p.get("stack", []):
+            tech = normalize_tech_name(stack_item)
+            if not tech:
+                continue
+            meta = TECH_BADGES.get(tech)
+            row = meta["category"] if meta else "Other"
+            rows.setdefault(row, set()).add(tech)
+
+    html = ["<table>"]
+    for row in TECH_ROW_ORDER:
+        values = rows.get(row, set())
+        if not values:
+            continue
+        ordered_techs = ordered_techs_for_row(row, values)
+        html.append("<tr>")
+        html.append(f'<td align="center"><b>{row}</b></td>')
+        html.append("<td>")
+        for tech in ordered_techs:
+            html.append(f'<img src="{build_badge_url(tech)}" />')
+        html.append("</td>")
+        html.append("</tr>")
+    html.append("</table>")
+    return "\n".join(html)
+
+
 def update_readme(projects_data):
-    """Replace projects table in README.md."""
+    """Replace tech stack and projects table in README.md."""
     readme_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "README.md")
     with open(readme_path, "r") as f:
         content = f.read()
 
+    new_tech_table = build_tech_stack_table(projects_data)
+    tech_pattern = r"(### Tech Stack\s*\n\s*\n)(<table>.*?</table>)"
+    content = re.sub(tech_pattern, rf"\1{new_tech_table}", content, flags=re.S, count=1)
+
     # Replace the projects table (between "### Projects" and the next --- or end)
     new_table = build_projects_table(projects_data)
-    pattern = r"(\| Project \| Description \|.*?\n(?:\|.*\n)*)"
-    content = re.sub(pattern, new_table + "\n", content)
+    projects_pattern = r"(### Projects\s*\n\s*\n)(\| Project \| Description \|.*?\n(?:\|.*\n)+)"
+    content = re.sub(projects_pattern, rf"\1{new_table}\n", content, flags=re.S, count=1)
 
     with open(readme_path, "w") as f:
         f.write(content)
@@ -206,7 +351,7 @@ def main():
         if result.returncode != 0:
             subprocess.run(["git", "-C", repo_root, "add", "README.md"], check=True)
             subprocess.run(
-                ["git", "-C", repo_root, "commit", "-m", "Update projects table (auto-sync)"],
+                ["git", "-C", repo_root, "commit", "-m", "Update projects + tech stack (auto-sync)"],
                 check=True,
             )
             subprocess.run(["git", "-C", repo_root, "push"], check=True)
