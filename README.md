@@ -91,5 +91,5 @@
 | 🤖 **clawnux-v3** | Multi-model coding agent | `Shell` `Next.js` `PostgreSQL` `Claude Code` | ~59K |
 | 🏛️ **govdeals-platform** | Gov surplus property scraper with Zillow valuations | `TypeScript` `Python` `Next.js` `Node.js` `PostgreSQL` `Playwright` | ~12K |
 | 🖥️ **codex-control** | Server provisioning and deployment toolkit | `Shell` `Python` `tmux` `Tailscale` | ~380 |
-| 👻 **echoes** | Eternal Conversational Hologram Of Embedded Souls | `TypeScript` `Next.js` `Tailwind CSS` `Three.js` `Python` `FastAPI` `PostgreSQL` `RunPod` | ~32K |
+| 👻 **echoes** | Eternal Conversational Hologram Of Embedded Souls | `TypeScript` `Next.js` `Tailwind CSS` `Three.js` `Python` `FastAPI` `PostgreSQL` `RunPod` | ~33K |
 | | | **Total** | **~320K** |
