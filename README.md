@@ -24,6 +24,7 @@
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" />
 <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
 </td>
 </tr>
@@ -92,5 +93,5 @@
 | 🏛️ **govdeals-platform** | Gov surplus property scraper with Zillow valuations | `TypeScript` `Python` `Next.js` `Node.js` `PostgreSQL` `Playwright` | ~12K |
 | 🖥️ **codex-control** | Server provisioning and deployment toolkit | `Shell` `Python` `tmux` `Tailscale` | ~380 |
 | 👻 **echoes** | Eternal Conversational Hologram Of Embedded Souls | `TypeScript` `Next.js` `Tailwind CSS` `Three.js` `Python` `FastAPI` `PostgreSQL` `RunPod` | ~31K |
-| 📦 **tokens** | tokens | `JavaScript` | ~3K |
-| | | **Total** | **~321K** |
+| 🪙 **tokens** | Claude API usage dashboard and cost tracker | `JavaScript` `Node.js` `HTML` | ~3K |
+| | | **Total** | **~322K** |
