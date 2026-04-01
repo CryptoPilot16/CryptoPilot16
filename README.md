@@ -24,6 +24,9 @@
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white" />
+<img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
 <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
 </td>
 </tr>
@@ -43,7 +46,11 @@
 <td>
 <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" />
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/SendGrid-51A9E3?style=flat-square&logo=sendgrid&logoColor=white" />
+<img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" />
+<img src="https://img.shields.io/badge/Twilio-F22F46?style=flat-square&logo=twilio&logoColor=white" />
 </td>
 </tr>
 <tr>
@@ -53,9 +60,12 @@
 <img src="https://img.shields.io/badge/Caddy-1F88C0?style=flat-square&logo=caddy&logoColor=white" />
 <img src="https://img.shields.io/badge/PM2-2B037A?style=flat-square&logo=pm2&logoColor=white" />
 <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
 <img src="https://img.shields.io/badge/RunPod-FF6A00?style=flat-square&logo=kubernetes&logoColor=white" />
 <img src="https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white" />
 <img src="https://img.shields.io/badge/tmux-1BB91F?style=flat-square" />
+<img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" />
 </td>
 </tr>
 <tr>
@@ -82,14 +92,40 @@
 
 | Project | Description | Stack | Lines |
 |---|---|---|---|
-| 📊 **pm-relay** | Multi-venue spread tracking and execution | `Python` `Node.js` `React` `Polygon` `Playwright` | ~70K |
-| ✈️ **Tailwinds** | Flight data aggregation and alerting | `TypeScript` `Next.js` `Node.js` `PostgreSQL` `Tailwind CSS` | ~31K |
-| 🏎️ **f1_analytics** | F1 telemetry analysis and fantasy optimization | `JavaScript` `React` `Vite` `Node.js` | ~42K |
-| 🌍 **skybuddy** | 3D social flight tracker | `JavaScript` `Cesium.js` `Node.js` `PostgreSQL` `Playwright` | ~21K |
-| 🎯 **TradingOdds** | Prediction market execution layer | `TypeScript` `Next.js` `React` `Tailwind CSS` `ethers.js` | ~28K |
-| 🔍 **smartmoney-radar** | On-chain wallet profiling and flow monitoring | `TypeScript` `Next.js` `React` `PostgreSQL` `ethers.js` `Solana` | ~25K |
-| 🤖 **clawnux-v3** | Multi-model coding agent | `Shell` `Next.js` `PostgreSQL` `Claude Code` | ~59K |
-| 🏛️ **govdeals-platform** | Gov surplus property scraper with Zillow valuations | `TypeScript` `Python` `Next.js` `Node.js` `PostgreSQL` `Playwright` | ~12K |
+| 📊 **pm-relay** | Multi-venue spread tracking and execution | `Python` `Node.js` `React` `Polygon` `Playwright` `Claude Code` `ethers.js` `Express` `HTML` `JavaScript` | ~70K |
+| ✈️ **Tailwinds** | Flight data aggregation and alerting | `TypeScript` `Next.js` `Node.js` `PostgreSQL` `Tailwind CSS` `CSS` `Express` `JavaScript` `SendGrid` `Shell` `Stripe` `Twilio` | ~31K |
+| 🏎️ **f1_analytics** | F1 telemetry analysis and fantasy optimization | `JavaScript` `React` `Vite` `Node.js` `HTML` | ~42K |
+| 🌍 **skybuddy** | 3D social flight tracker | `JavaScript` `Cesium.js` `Node.js` `PostgreSQL` `Playwright` `Claude Code` `CSS` `Express` `GitHub Actions` `HTML` `Shell` | ~21K |
+| 🎯 **TradingOdds** | Prediction market execution layer | `TypeScript` `Next.js` `React` `Tailwind CSS` `ethers.js` `Claude Code` `CSS` `Docker` `JavaScript` `Node.js` `Vitest` | ~28K |
+| 🔍 **smartmoney-radar** | On-chain wallet profiling and flow monitoring | `TypeScript` `Next.js` `React` `PostgreSQL` `ethers.js` `Solana` `CSS` `HTML` `JavaScript` `Node.js` `Shell` `Tailwind CSS` | ~25K |
+| 🤖 **clawnux-v3** | Multi-model coding agent | `Shell` `Next.js` `PostgreSQL` `Claude Code` `CSS` `JavaScript` `Python` `TypeScript` | ~59K |
+| 🏛️ **govdeals-platform** | Gov surplus property scraper with Zillow valuations | `TypeScript` `Python` `Next.js` `Node.js` `PostgreSQL` `Playwright` `CSS` `GitHub Actions` `JavaScript` `Shell` | ~12K |
 | 🖥️ **codex-control** | Server provisioning and deployment toolkit | `Shell` `Python` `tmux` `Tailscale` | ~380 |
-| 👻 **echoes** | Eternal Conversational Hologram Of Embedded Souls | `TypeScript` `Next.js` `Tailwind CSS` `Three.js` `Python` `FastAPI` `PostgreSQL` `RunPod` | ~31K |
-| | | **Total** | **~318K** |
+| 👻 **echoes** | Eternal Conversational Hologram Of Embedded Souls | `TypeScript` `Next.js` `Tailwind CSS` `Three.js` `Python` `FastAPI` `PostgreSQL` `RunPod` `CSS` `Express` `JavaScript` `Node.js` `Shell` | ~31K |
+| 📦 **tokens** | tokens | `HTML` `JavaScript` | ~3K |
+| 📦 **hello-world-22rmc** | Built by CLAWNUX v3 | `—` | ~0 |
+| 📦 **crypto-whale-tracker-56ec5** | Built by CLAWNUX v3 | `—` | ~0 |
+| 📦 **waitlist-landing-42313** | Built by CLAWNUX v3 | `—` | ~0 |
+| 📦 **snapmolt-c76h0** | Built by CLAWNUX v3 | `—` | ~0 |
+| 📦 **starship-research-ayoyh** | Built by CLAWNUX v3 | `—` | ~0 |
+| 📦 **crypto-starship-7zit0** | Built by CLAWNUX v3 | `—` | ~0 |
+| 📦 **stark-command-center-32o69** | Built by CLAWNUX v3 | `—` | ~0 |
+| 📦 **good-morning-greeting-32vl2** | Built by CLAWNUX v3 | `—` | ~0 |
+| 📦 **hello-image-site-10ohm** | Built by CLAWNUX v3 | `—` | ~0 |
+| 📦 **hello-boss-peroliver-0f0i8** | Built by CLAWNUX v3 | `—` | ~0 |
+| 📦 **peroliver-hello-world-yio3z** | Built by CLAWNUX v3 | `—` | ~0 |
+| 📦 **solidity-gas-optimizer-v2** | Built by CLAWNUX v3 | `—` | ~0 |
+| 📦 **solidity-gas-optimizer** | Built by CLAWNUX v3 | `—` | ~0 |
+| 📦 **tap-airlines-info** | Built by CLAWNUX v3 | `—` | ~0 |
+| 📦 **groupstarship-crypto-3q3my** | Built by CLAWNUX v3 | `—` | ~0 |
+| 📦 **counter-strike-fan-site-z8twd** | Built by CLAWNUX v3 | `—` | ~0 |
+| 📦 **bitcoin-price-tracker-ho9yw** | Built by CLAWNUX v3 | `—` | ~0 |
+| 📦 **scan** | scan | `JavaScript` `Next.js` `Node.js` `React` | ~3K |
+| 📦 **starship** | starship | `Express` `HTML` `JavaScript` `Node.js` | ~2K |
+| 📦 **MPTopdownKit** | MPTopdownKit | `—` | ~1K |
+| 📦 **ActionRPG-UE5** | ActionRPG-UE5 | `—` | ~9K |
+| 📦 **vibe-coding-starter-pack-3d-multiplayer-swap** | vibe-coding-starter-pack-3d-multiplayer-swap | `CSS` `HTML` `JavaScript` `Rust` `Shell` `TypeScript` | ~22K |
+| 📦 **mini-jupiter-dex** | mini-jupiter-dex | `JavaScript` `Next.js` `Node.js` `React` `Solana` `Tailwind CSS` `TypeScript` | ~20K |
+| 📦 **dex** | Dex | `—` | ~0 |
+| 📦 **3d** | 3d | `CSS` `HTML` `JavaScript` `Rust` `Shell` `TypeScript` | ~8K |
+| | | **Total** | **~385K** |
