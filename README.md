@@ -26,7 +26,6 @@
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
 <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white" />
 <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" />
-<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
 <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
 </td>
 </tr>
@@ -103,11 +102,4 @@
 | 🖥️ **codex-control** | Server provisioning and deployment toolkit | `Shell` `Python` `tmux` `Tailscale` | ~380 |
 | 👻 **echoes** | Eternal Conversational Hologram Of Embedded Souls | `TypeScript` `Next.js` `Tailwind CSS` `Three.js` `Python` `FastAPI` `PostgreSQL` `RunPod` `CSS` `Express` `JavaScript` `Node.js` `Shell` | ~31K |
 | 📦 **tokens** | tokens | `HTML` `JavaScript` | ~3K |
-| 📦 **scan** | scan | `JavaScript` `Next.js` `Node.js` `React` | ~3K |
-| 📦 **starship** | starship | `Express` `HTML` `JavaScript` `Node.js` | ~2K |
-| 📦 **MPTopdownKit** | MPTopdownKit | `—` | ~1K |
-| 📦 **ActionRPG-UE5** | ActionRPG-UE5 | `—` | ~9K |
-| 📦 **vibe-coding-starter-pack-3d-multiplayer-swap** | vibe-coding-starter-pack-3d-multiplayer-swap | `CSS` `HTML` `JavaScript` `Rust` `Shell` `TypeScript` | ~22K |
-| 📦 **mini-jupiter-dex** | mini-jupiter-dex | `JavaScript` `Next.js` `Node.js` `React` `Solana` `Tailwind CSS` `TypeScript` | ~20K |
-| 📦 **3d** | 3d | `CSS` `HTML` `JavaScript` `Rust` `Shell` `TypeScript` | ~8K |
-| | | **Total** | **~385K** |
+| | | **Total** | **~321K** |
