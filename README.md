@@ -103,29 +103,11 @@
 | 🖥️ **codex-control** | Server provisioning and deployment toolkit | `Shell` `Python` `tmux` `Tailscale` | ~380 |
 | 👻 **echoes** | Eternal Conversational Hologram Of Embedded Souls | `TypeScript` `Next.js` `Tailwind CSS` `Three.js` `Python` `FastAPI` `PostgreSQL` `RunPod` `CSS` `Express` `JavaScript` `Node.js` `Shell` | ~31K |
 | 📦 **tokens** | tokens | `HTML` `JavaScript` | ~3K |
-| 📦 **hello-world-22rmc** | Built by CLAWNUX v3 | `—` | ~0 |
-| 📦 **crypto-whale-tracker-56ec5** | Built by CLAWNUX v3 | `—` | ~0 |
-| 📦 **waitlist-landing-42313** | Built by CLAWNUX v3 | `—` | ~0 |
-| 📦 **snapmolt-c76h0** | Built by CLAWNUX v3 | `—` | ~0 |
-| 📦 **starship-research-ayoyh** | Built by CLAWNUX v3 | `—` | ~0 |
-| 📦 **crypto-starship-7zit0** | Built by CLAWNUX v3 | `—` | ~0 |
-| 📦 **stark-command-center-32o69** | Built by CLAWNUX v3 | `—` | ~0 |
-| 📦 **good-morning-greeting-32vl2** | Built by CLAWNUX v3 | `—` | ~0 |
-| 📦 **hello-image-site-10ohm** | Built by CLAWNUX v3 | `—` | ~0 |
-| 📦 **hello-boss-peroliver-0f0i8** | Built by CLAWNUX v3 | `—` | ~0 |
-| 📦 **peroliver-hello-world-yio3z** | Built by CLAWNUX v3 | `—` | ~0 |
-| 📦 **solidity-gas-optimizer-v2** | Built by CLAWNUX v3 | `—` | ~0 |
-| 📦 **solidity-gas-optimizer** | Built by CLAWNUX v3 | `—` | ~0 |
-| 📦 **tap-airlines-info** | Built by CLAWNUX v3 | `—` | ~0 |
-| 📦 **groupstarship-crypto-3q3my** | Built by CLAWNUX v3 | `—` | ~0 |
-| 📦 **counter-strike-fan-site-z8twd** | Built by CLAWNUX v3 | `—` | ~0 |
-| 📦 **bitcoin-price-tracker-ho9yw** | Built by CLAWNUX v3 | `—` | ~0 |
 | 📦 **scan** | scan | `JavaScript` `Next.js` `Node.js` `React` | ~3K |
 | 📦 **starship** | starship | `Express` `HTML` `JavaScript` `Node.js` | ~2K |
 | 📦 **MPTopdownKit** | MPTopdownKit | `—` | ~1K |
 | 📦 **ActionRPG-UE5** | ActionRPG-UE5 | `—` | ~9K |
 | 📦 **vibe-coding-starter-pack-3d-multiplayer-swap** | vibe-coding-starter-pack-3d-multiplayer-swap | `CSS` `HTML` `JavaScript` `Rust` `Shell` `TypeScript` | ~22K |
 | 📦 **mini-jupiter-dex** | mini-jupiter-dex | `JavaScript` `Next.js` `Node.js` `React` `Solana` `Tailwind CSS` `TypeScript` | ~20K |
-| 📦 **dex** | Dex | `—` | ~0 |
 | 📦 **3d** | 3d | `CSS` `HTML` `JavaScript` `Rust` `Shell` `TypeScript` | ~8K |
 | | | **Total** | **~385K** |
