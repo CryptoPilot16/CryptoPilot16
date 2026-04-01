@@ -86,7 +86,7 @@
 | 📊 **pm-relay** | Multi-venue spread tracking and execution | `Python` `Node.js` `React` `Polygon` `Playwright` | ~70K |
 | 🤖 **clawnux-v3** | Multi-model coding agent | `Shell` `Next.js` `PostgreSQL` `Claude Code` | ~59K |
 | 🏎️ **f1_analytics** | F1 telemetry analysis and fantasy optimization | `JavaScript` `React` `Vite` `Node.js` | ~42K |
-| 👻 **echoes** | Eternal Conversational Hologram Of Embedded Souls | `TypeScript` `Next.js` `Tailwind CSS` `Three.js` `Python` `FastAPI` `PostgreSQL` `RunPod` | ~32K |
+| 👻 **echoes** | Eternal Conversational Hologram Of Embedded Souls | `TypeScript` `Next.js` `Tailwind CSS` `Three.js` `Python` `FastAPI` `PostgreSQL` `RunPod` | ~33K |
 | ✈️ **Tailwinds** | Flight data aggregation and alerting | `TypeScript` `Next.js` `Node.js` `PostgreSQL` `Tailwind CSS` | ~31K |
 | 🎯 **TradingOdds** | Prediction market execution layer | `TypeScript` `Next.js` `React` `Tailwind CSS` `ethers.js` | ~28K |
 | 🔍 **smartmoney-radar** | On-chain wallet profiling and flow monitoring | `TypeScript` `Next.js` `React` `PostgreSQL` `ethers.js` `Solana` | ~25K |
