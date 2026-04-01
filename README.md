@@ -93,5 +93,5 @@
 | 🏛️ **govdeals-platform** | Gov surplus property scraper with Zillow valuations | `TypeScript` `Python` `Next.js` `Node.js` `PostgreSQL` `Playwright` | ~12K |
 | 🖥️ **codex-control** | Server provisioning and deployment toolkit | `Shell` `Python` `tmux` `Tailscale` | ~380 |
 | 👻 **echoes** | Eternal Conversational Hologram Of Embedded Souls | `TypeScript` `Next.js` `Tailwind CSS` `Three.js` `Python` `FastAPI` `PostgreSQL` `RunPod` | ~31K |
-| 🪙 **tokens** | Claude API usage dashboard and cost tracker | `JavaScript` `Node.js` `HTML` | ~3K |
+| 🪙 **tokens** | Multi-model API usage dashboard and cost tracker | `JavaScript` `Node.js` `HTML` | ~3K |
 | | | **Total** | **~322K** |
