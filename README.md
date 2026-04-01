@@ -84,14 +84,14 @@
 | Project | Description | Stack | Lines |
 |---|---|---|---|
 | 📊 **pm-relay** | Multi-venue spread tracking and execution | `Python` `Node.js` `React` `Polygon` `Playwright` | ~70K |
-| ✈️ **Tailwinds** | Flight data aggregation and alerting | `TypeScript` `Next.js` `Node.js` `PostgreSQL` `Tailwind CSS` | ~31K |
+| 🤖 **clawnux-v3** | Multi-model coding agent | `Shell` `Next.js` `PostgreSQL` `Claude Code` | ~59K |
 | 🏎️ **f1_analytics** | F1 telemetry analysis and fantasy optimization | `JavaScript` `React` `Vite` `Node.js` | ~42K |
-| 🌍 **skybuddy** | 3D social flight tracker | `JavaScript` `Cesium.js` `Node.js` `PostgreSQL` `Playwright` | ~21K |
+| 👻 **echoes** | Eternal Conversational Hologram Of Embedded Souls | `TypeScript` `Next.js` `Tailwind CSS` `Three.js` `Python` `FastAPI` `PostgreSQL` `RunPod` | ~31K |
+| ✈️ **Tailwinds** | Flight data aggregation and alerting | `TypeScript` `Next.js` `Node.js` `PostgreSQL` `Tailwind CSS` | ~31K |
 | 🎯 **TradingOdds** | Prediction market execution layer | `TypeScript` `Next.js` `React` `Tailwind CSS` `ethers.js` | ~28K |
 | 🔍 **smartmoney-radar** | On-chain wallet profiling and flow monitoring | `TypeScript` `Next.js` `React` `PostgreSQL` `ethers.js` `Solana` | ~25K |
-| 🤖 **clawnux-v3** | Multi-model coding agent | `Shell` `Next.js` `PostgreSQL` `Claude Code` | ~59K |
+| 🌍 **skybuddy** | 3D social flight tracker | `JavaScript` `Cesium.js` `Node.js` `PostgreSQL` `Playwright` | ~21K |
 | 🏛️ **govdeals-platform** | Gov surplus property scraper with Zillow valuations | `TypeScript` `Python` `Next.js` `Node.js` `PostgreSQL` `Playwright` | ~12K |
-| 🖥️ **codex-control** | Server provisioning and deployment toolkit | `Shell` `Python` `tmux` `Tailscale` | ~380 |
-| 👻 **echoes** | Eternal Conversational Hologram Of Embedded Souls | `TypeScript` `Next.js` `Tailwind CSS` `Three.js` `Python` `FastAPI` `PostgreSQL` `RunPod` | ~31K |
 | 🪙 **tokens** | Multi-model API usage dashboard and cost tracker | `JavaScript` `Node.js` `HTML` | ~3K |
-| | | **Total** | **~322K** |
+| 🖥️ **codex-control** | Server provisioning and deployment toolkit | `Shell` `Python` `tmux` `Tailscale` | ~380 |
+| | | **11 projects** | **~322K** |
