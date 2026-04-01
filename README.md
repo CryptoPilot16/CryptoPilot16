@@ -24,6 +24,7 @@
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" />
 <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
 </td>
 </tr>
@@ -83,13 +84,14 @@
 | Project | Description | Stack | Lines |
 |---|---|---|---|
 | 📊 **pm-relay** | Multi-venue spread tracking and execution | `Python` `Node.js` `React` `Polygon` `Playwright` | ~70K |
-| ✈️ **Tailwinds** | Flight data aggregation and alerting | `TypeScript` `Next.js` `Node.js` `PostgreSQL` `Tailwind CSS` | ~31K |
+| 🤖 **clawnux-v3** | Multi-model coding agent | `Shell` `Next.js` `PostgreSQL` `Claude Code` | ~59K |
 | 🏎️ **f1_analytics** | F1 telemetry analysis and fantasy optimization | `JavaScript` `React` `Vite` `Node.js` | ~42K |
-| 🌍 **skybuddy** | 3D social flight tracker | `JavaScript` `Cesium.js` `Node.js` `PostgreSQL` `Playwright` | ~21K |
+| 👻 **echoes** | Eternal Conversational Hologram Of Embedded Souls | `TypeScript` `Next.js` `Tailwind CSS` `Three.js` `Python` `FastAPI` `PostgreSQL` `RunPod` | ~31K |
+| ✈️ **Tailwinds** | Flight data aggregation and alerting | `TypeScript` `Next.js` `Node.js` `PostgreSQL` `Tailwind CSS` | ~31K |
 | 🎯 **TradingOdds** | Prediction market execution layer | `TypeScript` `Next.js` `React` `Tailwind CSS` `ethers.js` | ~28K |
 | 🔍 **smartmoney-radar** | On-chain wallet profiling and flow monitoring | `TypeScript` `Next.js` `React` `PostgreSQL` `ethers.js` `Solana` | ~25K |
-| 🤖 **clawnux-v3** | Multi-model coding agent | `Shell` `Next.js` `PostgreSQL` `Claude Code` | ~59K |
+| 🌍 **skybuddy** | 3D social flight tracker | `JavaScript` `Cesium.js` `Node.js` `PostgreSQL` `Playwright` | ~21K |
 | 🏛️ **govdeals-platform** | Gov surplus property scraper with Zillow valuations | `TypeScript` `Python` `Next.js` `Node.js` `PostgreSQL` `Playwright` | ~12K |
+| 🪙 **tokens** | Multi-model API usage dashboard and cost tracker | `JavaScript` `Node.js` `HTML` | ~3K |
 | 🖥️ **codex-control** | Server provisioning and deployment toolkit | `Shell` `Python` `tmux` `Tailscale` | ~380 |
-| 👻 **echoes** | Eternal Conversational Hologram Of Embedded Souls | `TypeScript` `Next.js` `Tailwind CSS` `Three.js` `Python` `FastAPI` `PostgreSQL` `RunPod` | ~31K |
-| | | **Total** | **~319K** |
+| | | **11 projects** | **~322K** |
