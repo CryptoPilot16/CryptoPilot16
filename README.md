@@ -94,4 +94,4 @@
 | 🏛️ **govdeals-platform** | Gov surplus property scraper with Zillow valuations | `TypeScript` `Python` `Next.js` `Node.js` `PostgreSQL` `Playwright` | ~12K |
 | 🪙 **tokens** | Multi-model API usage dashboard and cost tracker | `JavaScript` `Node.js` `HTML` | ~4K |
 | 🖥️ **codex-control** | Server provisioning and deployment toolkit | `Shell` `Python` `tmux` `Tailscale` | ~380 |
-| | | **11 projects** | **~328K** |
+| | | **11 projects** | **~329K** |
