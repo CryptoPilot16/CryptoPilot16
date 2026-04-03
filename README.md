@@ -144,16 +144,16 @@
   <td align="right">~21K</td>
 </tr>
 <tr>
+  <td><nobr>📡&nbsp;<b>nysm</b></nobr></td>
+  <td>NYSM — WiFi-based body detection + multi-camera home surveil</td>
+  <td><code>Express</code> <code>JavaScript</code> <code>Node.js</code></td>
+  <td align="right">~13K</td>
+</tr>
+<tr>
   <td><nobr>🏛️&nbsp;<b>govdeals</b></nobr></td>
   <td>Gov surplus property scraper with Zillow valuations</td>
   <td><code>TypeScript</code> <code>Python</code> <code>Next.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Playwright</code></td>
   <td align="right">~12K</td>
-</tr>
-<tr>
-  <td><nobr>📡&nbsp;<b>nysm</b></nobr></td>
-  <td>NYSM — WiFi-based body detection + multi-camera home surveil</td>
-  <td><code>Express</code> <code>JavaScript</code> <code>Node.js</code></td>
-  <td align="right">~9K</td>
 </tr>
 <tr>
   <td><nobr>🪙&nbsp;<b>tokens</b></nobr></td>
@@ -171,6 +171,6 @@
   <td></td>
   <td></td>
   <td><b>12 projects</b></td>
-  <td align="right"><b>~337K</b></td>
+  <td align="right"><b>~341K</b></td>
 </tr>
 </table>
