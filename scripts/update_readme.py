@@ -28,6 +28,13 @@ PROJECTS = [
     {"repo": "tokens",            "emoji": "🪙", "desc": "Multi-model API usage dashboard and cost tracker",  "stack": ["JavaScript", "Node.js", "HTML"]},
 ]
 
+# Keep project names compact in the README table for cleaner spacing.
+MAX_PROJECT_NAME_LEN = 16
+DISPLAY_NAME_OVERRIDES = {
+    "smartmoney-radar": "smartmoney",
+    "govdeals-platform": "govdeals",
+}
+
 # Repos to never include (profile repo, forks, etc.)
 IGNORE_REPOS = {USERNAME, USERNAME.lower(), ".github", "dotfiles"}
 
@@ -345,6 +352,33 @@ def infer_project_emoji(repo_name, desc="", stack=None):
     return "📦"
 
 
+def compact_project_name(repo_name, max_len=MAX_PROJECT_NAME_LEN):
+    """Return a short display name for README while preserving repo identity separately."""
+    name = DISPLAY_NAME_OVERRIDES.get(repo_name, repo_name)
+    if len(name) <= max_len:
+        return name
+
+    # Prefer whole '-' segments when possible.
+    if "-" in name:
+        parts = name.split("-")
+        chosen = []
+        for part in parts:
+            candidate = "-".join(chosen + [part])
+            if len(candidate) <= max_len:
+                chosen.append(part)
+            else:
+                break
+        if chosen:
+            candidate = "-".join(chosen)
+            if len(candidate) <= max_len:
+                return candidate
+
+    # Hard truncate as fallback.
+    if max_len <= 3:
+        return name[:max_len]
+    return name[: max_len - 3] + "..."
+
+
 def discover_repos():
     """Fetch all repos (including private) and merge with curated PROJECTS list."""
     known = {p["repo"].lower(): p for p in PROJECTS}
@@ -391,7 +425,8 @@ def build_projects_table(projects_data):
     for p in projects_data:
         stack_str = " ".join(f"`{s}`" for s in p["stack"])
         emoji = p.get("emoji", "📦")
-        lines.append(f'| {emoji} **{p["repo"]}** | {p["desc"]} | {stack_str} | {p["lines_fmt"]} |')
+        display_repo = p.get("display_repo", p["repo"])
+        lines.append(f'| {emoji} **{display_repo}** | {p["desc"]} | {stack_str} | {p["lines_fmt"]} |')
     total = sum(p.get("lines_raw", 0) for p in projects_data)
     total_fmt = format_lines(total)
     count = len(projects_data)
@@ -543,6 +578,7 @@ def main():
             continue
         projects_data.append({
             "repo": p["repo"],
+            "display_repo": compact_project_name(p["repo"]),
             "emoji": emoji,
             "desc": p["desc"],
             "stack": stack,

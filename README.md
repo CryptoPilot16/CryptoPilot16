@@ -90,9 +90,9 @@
 | 👻 **echoes** | Eternal Conversational Hologram Of Embedded Souls | `TypeScript` `Next.js` `Tailwind CSS` `Three.js` `Python` `FastAPI` `PostgreSQL` `RunPod` | ~37K |
 | ✈️ **Tailwinds** | Flight data aggregation and alerting | `TypeScript` `Next.js` `Node.js` `PostgreSQL` `Tailwind CSS` | ~31K |
 | 🎯 **TradingOdds** | Prediction market execution layer | `TypeScript` `Next.js` `React` `Tailwind CSS` `ethers.js` | ~28K |
-| 🔍 **smartmoney-radar** | On-chain wallet profiling and flow monitoring | `TypeScript` `Next.js` `React` `PostgreSQL` `ethers.js` `Solana` | ~25K |
+| 🔍 **smartmoney** | On-chain wallet profiling and flow monitoring | `TypeScript` `Next.js` `React` `PostgreSQL` `ethers.js` `Solana` | ~25K |
 | 🌍 **skybuddy** | 3D social flight tracker | `JavaScript` `Cesium.js` `Node.js` `PostgreSQL` `Playwright` | ~21K |
-| 🏛️ **govdeals-platform** | Gov surplus property scraper with Zillow valuations | `TypeScript` `Python` `Next.js` `Node.js` `PostgreSQL` `Playwright` | ~12K |
+| 🏛️ **govdeals** | Gov surplus property scraper with Zillow valuations | `TypeScript` `Python` `Next.js` `Node.js` `PostgreSQL` `Playwright` | ~12K |
 | 📡 **nysm** | NYSM — WiFi-based body detection + multi-camera home surveil | `Express` `JavaScript` `Node.js` | ~9K |
 | 🪙 **tokens** | Multi-model API usage dashboard and cost tracker | `JavaScript` `Node.js` `HTML` | ~4K |
 | 🖥️ **codex-control** | Server provisioning and deployment toolkit | `Shell` `Python` `tmux` `Tailscale` | ~380 |
