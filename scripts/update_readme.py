@@ -323,6 +323,28 @@ def format_lines(n):
         return f"~{k}K"
 
 
+def infer_project_emoji(repo_name, desc="", stack=None):
+    """Pick a more specific emoji from repo name/description/stack hints."""
+    stack = stack or []
+    text = f"{repo_name} {desc} {' '.join(stack)}".lower()
+
+    if any(k in text for k in ("nysm", "surveil", "security", "csi", "camera", "wifi", "radar")):
+        return "📡"
+    if any(k in text for k in ("f1", "formula", "race", "racing")):
+        return "🏎️"
+    if any(k in text for k in ("flight", "aviation", "airline", "airport", "sky")):
+        return "✈️"
+    if any(k in text for k in ("trade", "trading", "market", "odds", "dex", "token", "wallet", "crypto", "defi", "solidity")):
+        return "📈"
+    if any(k in text for k in ("agent", "ai", "llm", "claude", "openai", "codex", "whisper", "chatbot")):
+        return "🤖"
+    if any(k in text for k in ("deploy", "infra", "server", "ops", "watch", "monitor", "toolkit", "control")):
+        return "🛠️"
+    if any(k in text for k in ("3d", "simulator", "visual", "vision", "render", "image", "video")):
+        return "🧭"
+    return "📦"
+
+
 def discover_repos():
     """Fetch all repos (including private) and merge with curated PROJECTS list."""
     known = {p["repo"].lower(): p for p in PROJECTS}
@@ -345,10 +367,12 @@ def discover_repos():
                 created = r.get("created_at", "")
                 if created < AUTO_DISCOVER_SINCE:
                     continue
+                lang = (r.get("language") or "").strip()
+                lang_stack = [LANG_MAP[lang]] if lang in LANG_MAP else [lang] if lang else []
                 desc = (r.get("description") or "").strip() or name
                 merged.append({
                     "repo": name,
-                    "emoji": "📦",
+                    "emoji": infer_project_emoji(name, desc, lang_stack),
                     "desc": desc[:60],
                     "stack": [],
                     "_auto": True,
@@ -509,6 +533,9 @@ def main():
         lines, detected_stack = analyze_repo(p["repo"])
         fmt = format_lines(lines)
         stack = merge_stack(p.get("stack", []), detected_stack, is_auto=p.get("_auto", False))
+        emoji = p.get("emoji")
+        if not emoji or emoji == "📦":
+            emoji = infer_project_emoji(p["repo"], p["desc"], stack)
         print(f"{fmt} lines, stack: {', '.join(stack)}")
         # Skip auto-discovered repos with no meaningful code
         if p.get("_auto") and (lines or 0) < 50:
@@ -516,7 +543,7 @@ def main():
             continue
         projects_data.append({
             "repo": p["repo"],
-            "emoji": p.get("emoji", "📦"),
+            "emoji": emoji,
             "desc": p["desc"],
             "stack": stack,
             "lines_fmt": fmt,
