@@ -8,6 +8,7 @@ import subprocess
 import tempfile
 import urllib.parse
 import urllib.request
+import html
 
 TOKEN = os.environ.get("GH_TOKEN", "")
 USERNAME = os.environ.get("GITHUB_USERNAME", "CryptoPilot16")
@@ -420,17 +421,46 @@ def discover_repos():
 
 
 def build_projects_table(projects_data):
-    """Build markdown table with emojis."""
-    lines = ["| Project | Description | Stack | Lines |", "|---|---|---|---|"]
+    """Build HTML table with wider project column and non-wrapping project labels."""
+    lines = [
+        "<table>",
+        "<colgroup>",
+        '  <col width="32%" />',
+        '  <col width="40%" />',
+        '  <col width="20%" />',
+        '  <col width="8%" />',
+        "</colgroup>",
+        "<tr>",
+        "  <th align=\"left\">Project</th>",
+        "  <th align=\"left\">Description</th>",
+        "  <th align=\"left\">Stack</th>",
+        "  <th align=\"right\">Lines</th>",
+        "</tr>",
+    ]
     for p in projects_data:
-        stack_str = " ".join(f"`{s}`" for s in p["stack"])
+        stack_str = " ".join(f"<code>{html.escape(s)}</code>" for s in p["stack"])
         emoji = p.get("emoji", "📦")
         display_repo = p.get("display_repo", p["repo"])
-        lines.append(f'| {emoji} **{display_repo}** | {p["desc"]} | {stack_str} | {p["lines_fmt"]} |')
+        lines.extend([
+            "<tr>",
+            f"  <td><nobr>{emoji}&nbsp;<b>{html.escape(display_repo)}</b></nobr></td>",
+            f"  <td>{html.escape(p['desc'])}</td>",
+            f"  <td>{stack_str}</td>",
+            f"  <td align=\"right\">{html.escape(p['lines_fmt'])}</td>",
+            "</tr>",
+        ])
     total = sum(p.get("lines_raw", 0) for p in projects_data)
     total_fmt = format_lines(total)
     count = len(projects_data)
-    lines.append(f'| | | **{count} projects** | **{total_fmt}** |')
+    lines.extend([
+        "<tr>",
+        "  <td></td>",
+        "  <td></td>",
+        f"  <td><b>{count} projects</b></td>",
+        f"  <td align=\"right\"><b>{html.escape(total_fmt)}</b></td>",
+        "</tr>",
+        "</table>",
+    ])
     return "\n".join(lines)
 
 
@@ -515,9 +545,12 @@ def update_readme(projects_data):
     tech_pattern = r"(### Tech Stack\s*\n\s*\n)(<table>.*?</table>)"
     content = re.sub(tech_pattern, rf"\1{new_tech_table}", content, flags=re.S, count=1)
 
-    # Replace the projects table (between "### Projects" and the next --- or end)
+    # Replace the projects table (supports both legacy markdown table and HTML table)
     new_table = build_projects_table(projects_data)
-    projects_pattern = r"(### Projects\s*\n\s*\n)(\| Project \| Description \|.*?\n(?:\|.*\n)+)"
+    projects_pattern = (
+        r"(### Projects\s*\n\s*\n)"
+        r"(?:\| Project \| Description \|.*?\n(?:\|.*\n)+|<table>.*?</table>\s*)"
+    )
     content = re.sub(projects_pattern, rf"\1{new_table}\n", content, flags=re.S, count=1)
 
     with open(readme_path, "w") as f:

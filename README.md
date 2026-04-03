@@ -82,18 +82,95 @@
 
 ### Projects
 
-| Project | Description | Stack | Lines |
-|---|---|---|---|
-| 📊 **pm-relay** | Multi-venue spread tracking and execution | `Python` `Node.js` `React` `Polygon` `Playwright` | ~70K |
-| 🤖 **clawnux-v3** | Multi-model coding agent | `Shell` `Next.js` `PostgreSQL` `Claude Code` | ~59K |
-| 🏎️ **f1_analytics** | F1 telemetry analysis and fantasy optimization | `JavaScript` `React` `Vite` `Node.js` | ~42K |
-| 👻 **echoes** | Eternal Conversational Hologram Of Embedded Souls | `TypeScript` `Next.js` `Tailwind CSS` `Three.js` `Python` `FastAPI` `PostgreSQL` `RunPod` | ~37K |
-| ✈️ **Tailwinds** | Flight data aggregation and alerting | `TypeScript` `Next.js` `Node.js` `PostgreSQL` `Tailwind CSS` | ~31K |
-| 🎯 **TradingOdds** | Prediction market execution layer | `TypeScript` `Next.js` `React` `Tailwind CSS` `ethers.js` | ~28K |
-| 🔍 **smartmoney** | On-chain wallet profiling and flow monitoring | `TypeScript` `Next.js` `React` `PostgreSQL` `ethers.js` `Solana` | ~25K |
-| 🌍 **skybuddy** | 3D social flight tracker | `JavaScript` `Cesium.js` `Node.js` `PostgreSQL` `Playwright` | ~21K |
-| 🏛️ **govdeals** | Gov surplus property scraper with Zillow valuations | `TypeScript` `Python` `Next.js` `Node.js` `PostgreSQL` `Playwright` | ~12K |
-| 📡 **nysm** | NYSM — WiFi-based body detection + multi-camera home surveil | `Express` `JavaScript` `Node.js` | ~9K |
-| 🪙 **tokens** | Multi-model API usage dashboard and cost tracker | `JavaScript` `Node.js` `HTML` | ~4K |
-| 🖥️ **codex-control** | Server provisioning and deployment toolkit | `Shell` `Python` `tmux` `Tailscale` | ~380 |
-| | | **12 projects** | **~337K** |
+<table>
+<colgroup>
+  <col width="32%" />
+  <col width="40%" />
+  <col width="20%" />
+  <col width="8%" />
+</colgroup>
+<tr>
+  <th align="left">Project</th>
+  <th align="left">Description</th>
+  <th align="left">Stack</th>
+  <th align="right">Lines</th>
+</tr>
+<tr>
+  <td><nobr>📊&nbsp;<b>pm-relay</b></nobr></td>
+  <td>Multi-venue spread tracking and execution</td>
+  <td><code>Python</code> <code>Node.js</code> <code>React</code> <code>Polygon</code> <code>Playwright</code></td>
+  <td align="right">~70K</td>
+</tr>
+<tr>
+  <td><nobr>🤖&nbsp;<b>clawnux-v3</b></nobr></td>
+  <td>Multi-model coding agent</td>
+  <td><code>Shell</code> <code>Next.js</code> <code>PostgreSQL</code> <code>Claude Code</code></td>
+  <td align="right">~59K</td>
+</tr>
+<tr>
+  <td><nobr>🏎️&nbsp;<b>f1_analytics</b></nobr></td>
+  <td>F1 telemetry analysis and fantasy optimization</td>
+  <td><code>JavaScript</code> <code>React</code> <code>Vite</code> <code>Node.js</code></td>
+  <td align="right">~42K</td>
+</tr>
+<tr>
+  <td><nobr>👻&nbsp;<b>echoes</b></nobr></td>
+  <td>Eternal Conversational Hologram Of Embedded Souls</td>
+  <td><code>TypeScript</code> <code>Next.js</code> <code>Tailwind CSS</code> <code>Three.js</code> <code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>RunPod</code></td>
+  <td align="right">~37K</td>
+</tr>
+<tr>
+  <td><nobr>✈️&nbsp;<b>Tailwinds</b></nobr></td>
+  <td>Flight data aggregation and alerting</td>
+  <td><code>TypeScript</code> <code>Next.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Tailwind CSS</code></td>
+  <td align="right">~31K</td>
+</tr>
+<tr>
+  <td><nobr>🎯&nbsp;<b>TradingOdds</b></nobr></td>
+  <td>Prediction market execution layer</td>
+  <td><code>TypeScript</code> <code>Next.js</code> <code>React</code> <code>Tailwind CSS</code> <code>ethers.js</code></td>
+  <td align="right">~28K</td>
+</tr>
+<tr>
+  <td><nobr>🔍&nbsp;<b>smartmoney</b></nobr></td>
+  <td>On-chain wallet profiling and flow monitoring</td>
+  <td><code>TypeScript</code> <code>Next.js</code> <code>React</code> <code>PostgreSQL</code> <code>ethers.js</code> <code>Solana</code></td>
+  <td align="right">~25K</td>
+</tr>
+<tr>
+  <td><nobr>🌍&nbsp;<b>skybuddy</b></nobr></td>
+  <td>3D social flight tracker</td>
+  <td><code>JavaScript</code> <code>Cesium.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Playwright</code></td>
+  <td align="right">~21K</td>
+</tr>
+<tr>
+  <td><nobr>🏛️&nbsp;<b>govdeals</b></nobr></td>
+  <td>Gov surplus property scraper with Zillow valuations</td>
+  <td><code>TypeScript</code> <code>Python</code> <code>Next.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Playwright</code></td>
+  <td align="right">~12K</td>
+</tr>
+<tr>
+  <td><nobr>📡&nbsp;<b>nysm</b></nobr></td>
+  <td>NYSM — WiFi-based body detection + multi-camera home surveil</td>
+  <td><code>Express</code> <code>JavaScript</code> <code>Node.js</code></td>
+  <td align="right">~9K</td>
+</tr>
+<tr>
+  <td><nobr>🪙&nbsp;<b>tokens</b></nobr></td>
+  <td>Multi-model API usage dashboard and cost tracker</td>
+  <td><code>JavaScript</code> <code>Node.js</code> <code>HTML</code></td>
+  <td align="right">~4K</td>
+</tr>
+<tr>
+  <td><nobr>🖥️&nbsp;<b>codex-control</b></nobr></td>
+  <td>Server provisioning and deployment toolkit</td>
+  <td><code>Shell</code> <code>Python</code> <code>tmux</code> <code>Tailscale</code></td>
+  <td align="right">~380</td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+  <td><b>12 projects</b></td>
+  <td align="right"><b>~337K</b></td>
+</tr>
+</table>
