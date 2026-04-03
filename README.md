@@ -44,6 +44,7 @@
 <td>
 <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" />
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
 </td>
 </tr>
@@ -92,6 +93,7 @@
 | 🔍 **smartmoney-radar** | On-chain wallet profiling and flow monitoring | `TypeScript` `Next.js` `React` `PostgreSQL` `ethers.js` `Solana` | ~25K |
 | 🌍 **skybuddy** | 3D social flight tracker | `JavaScript` `Cesium.js` `Node.js` `PostgreSQL` `Playwright` | ~21K |
 | 🏛️ **govdeals-platform** | Gov surplus property scraper with Zillow valuations | `TypeScript` `Python` `Next.js` `Node.js` `PostgreSQL` `Playwright` | ~12K |
+| 📦 **nysm** | NYSM — WiFi-based body detection + multi-camera home surveil | `Express` `JavaScript` `Node.js` | ~8K |
 | 🪙 **tokens** | Multi-model API usage dashboard and cost tracker | `JavaScript` `Node.js` `HTML` | ~4K |
 | 🖥️ **codex-control** | Server provisioning and deployment toolkit | `Shell` `Python` `tmux` `Tailscale` | ~380 |
-| | | **11 projects** | **~328K** |
+| | | **12 projects** | **~337K** |
