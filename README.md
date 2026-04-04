@@ -96,8 +96,8 @@
   <th align="right">Lines</th>
 </tr>
 <tr>
-  <td><nobr>📦&nbsp;<b>mythex</b></nobr></td>
-  <td>mythex</td>
+  <td><nobr>🧭&nbsp;<b>mythex</b></nobr></td>
+  <td>⚔️ A browser-based 3D MMORPG engine — combat, multiplayer, a</td>
   <td><code>JavaScript</code> <code>Node.js</code> <code>Python</code> <code>React</code> <code>TypeScript</code></td>
   <td align="right">~116K</td>
 </tr>
