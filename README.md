@@ -171,6 +171,6 @@
   <td></td>
   <td></td>
   <td><b>12 projects</b></td>
-  <td align="right"><b>~347K</b></td>
+  <td align="right"><b>~348K</b></td>
 </tr>
 </table>
