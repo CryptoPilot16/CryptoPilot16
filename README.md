@@ -96,6 +96,12 @@
   <th align="right">Lines</th>
 </tr>
 <tr>
+  <td><nobr>📦&nbsp;<b>mythex</b></nobr></td>
+  <td>mythex</td>
+  <td><code>JavaScript</code> <code>Node.js</code> <code>Python</code> <code>React</code> <code>TypeScript</code></td>
+  <td align="right">~116K</td>
+</tr>
+<tr>
   <td><nobr>📊&nbsp;<b>pm-relay</b></nobr></td>
   <td>Multi-venue spread tracking and execution</td>
   <td><code>Python</code> <code>Node.js</code> <code>React</code> <code>Polygon</code> <code>Playwright</code></td>
@@ -170,7 +176,7 @@
 <tr>
   <td></td>
   <td></td>
-  <td><b>12 projects</b></td>
-  <td align="right"><b>~348K</b></td>
+  <td><b>13 projects</b></td>
+  <td align="right"><b>~464K</b></td>
 </tr>
 </table>
