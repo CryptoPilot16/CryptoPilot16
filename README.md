@@ -108,16 +108,16 @@
   <td align="right">~59K</td>
 </tr>
 <tr>
+  <td><nobr>👻&nbsp;<b>echoes</b></nobr></td>
+  <td>Eternal Conversational Hologram Of Embedded Souls</td>
+  <td><code>TypeScript</code> <code>Next.js</code> <code>Tailwind CSS</code> <code>Three.js</code> <code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>RunPod</code></td>
+  <td align="right">~42K</td>
+</tr>
+<tr>
   <td><nobr>🏎️&nbsp;<b>f1_analytics</b></nobr></td>
   <td>F1 telemetry analysis and fantasy optimization</td>
   <td><code>JavaScript</code> <code>React</code> <code>Vite</code> <code>Node.js</code></td>
   <td align="right">~42K</td>
-</tr>
-<tr>
-  <td><nobr>👻&nbsp;<b>echoes</b></nobr></td>
-  <td>Eternal Conversational Hologram Of Embedded Souls</td>
-  <td><code>TypeScript</code> <code>Next.js</code> <code>Tailwind CSS</code> <code>Three.js</code> <code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>RunPod</code></td>
-  <td align="right">~41K</td>
 </tr>
 <tr>
   <td><nobr>✈️&nbsp;<b>Tailwinds</b></nobr></td>
@@ -171,6 +171,6 @@
   <td></td>
   <td></td>
   <td><b>12 projects</b></td>
-  <td align="right"><b>~346K</b></td>
+  <td align="right"><b>~347K</b></td>
 </tr>
 </table>
