@@ -117,7 +117,7 @@
   <td><nobr>👻&nbsp;<b>echoes</b></nobr></td>
   <td>Eternal Conversational Hologram Of Embedded Souls</td>
   <td><code>TypeScript</code> <code>Next.js</code> <code>Tailwind CSS</code> <code>Three.js</code> <code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>RunPod</code></td>
-  <td align="right">~37K</td>
+  <td align="right">~38K</td>
 </tr>
 <tr>
   <td><nobr>✈️&nbsp;<b>Tailwinds</b></nobr></td>
@@ -171,6 +171,6 @@
   <td></td>
   <td></td>
   <td><b>12 projects</b></td>
-  <td align="right"><b>~342K</b></td>
+  <td align="right"><b>~343K</b></td>
 </tr>
 </table>
