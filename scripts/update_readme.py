@@ -16,7 +16,7 @@ USERNAME = os.environ.get("GITHUB_USERNAME", "CryptoPilot16")
 # Project registry — emoji, description, and stack are manually curated; lines auto-counted.
 # New repos not listed here are auto-discovered and appended with defaults.
 PROJECTS = [
-    {"repo": "mythex",            "emoji": "⚔️",  "desc": "Browser-based 3D MMORPG — combat, multiplayer, and an open world", "stack": ["JavaScript", "TypeScript", "React", "Vite", "Solana"]},
+    {"repo": "mythex",            "emoji": "⚔️",  "desc": "A browser-based 3D MMORPG engine", "stack": ["JavaScript", "TypeScript", "React", "Vite", "Solana"]},
     {"repo": "pm-relay",          "emoji": "📊", "desc": "Multi-venue spread tracking and execution",         "stack": ["Python", "Node.js", "React", "Polygon", "Playwright"]},
     {"repo": "Tailwinds",         "emoji": "✈️",  "desc": "Flight data aggregation and alerting",              "stack": ["TypeScript", "Next.js", "Node.js", "PostgreSQL", "Tailwind CSS"]},
     {"repo": "f1_analytics",      "emoji": "🏎️",  "desc": "F1 telemetry analysis and fantasy optimization",    "stack": ["JavaScript", "React", "Vite", "Node.js"]},
