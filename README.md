@@ -105,7 +105,7 @@
   <td><nobr>📊&nbsp;<b>pm-relay</b></nobr></td>
   <td>Multi-venue spread tracking and execution</td>
   <td><code>Python</code> <code>Node.js</code> <code>React</code> <code>Polygon</code> <code>Playwright</code></td>
-  <td align="right">~71K</td>
+  <td align="right">~67K</td>
 </tr>
 <tr>
   <td><nobr>🤖&nbsp;<b>clawnux-v3</b></nobr></td>
@@ -177,6 +177,6 @@
   <td></td>
   <td></td>
   <td><b>13 projects</b></td>
-  <td align="right"><b>~431K</b></td>
+  <td align="right"><b>~427K</b></td>
 </tr>
 </table>
