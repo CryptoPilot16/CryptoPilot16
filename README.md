@@ -99,7 +99,7 @@
   <td><nobr>⚔️&nbsp;<b>mythex</b></nobr></td>
   <td>A browser-based 3D MMORPG engine</td>
   <td><code>JavaScript</code> <code>TypeScript</code> <code>React</code> <code>Vite</code> <code>Solana</code></td>
-  <td align="right">~83K</td>
+  <td align="right">~85K</td>
 </tr>
 <tr>
   <td><nobr>📊&nbsp;<b>pm-relay</b></nobr></td>
@@ -177,6 +177,6 @@
   <td></td>
   <td></td>
   <td><b>13 projects</b></td>
-  <td align="right"><b>~428K</b></td>
+  <td align="right"><b>~430K</b></td>
 </tr>
 </table>
