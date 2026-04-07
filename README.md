@@ -46,6 +46,7 @@
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
 <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" />
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/Twilio-F22F46?style=flat-square&logo=twilio&logoColor=white" />
 </td>
 </tr>
 <tr>
@@ -168,6 +169,12 @@
   <td align="right">~4K</td>
 </tr>
 <tr>
+  <td><nobr>🤖&nbsp;<b>snapmolt</b></nobr></td>
+  <td>AI-powered outbound voice-call bridge with TTS synthesis and</td>
+  <td><code>Express</code> <code>JavaScript</code> <code>Node.js</code> <code>Twilio</code></td>
+  <td align="right">~2K</td>
+</tr>
+<tr>
   <td><nobr>🖥️&nbsp;<b>codex-control</b></nobr></td>
   <td>Server provisioning and deployment toolkit</td>
   <td><code>Shell</code> <code>Python</code> <code>tmux</code> <code>Tailscale</code></td>
@@ -176,7 +183,7 @@
 <tr>
   <td></td>
   <td></td>
-  <td><b>13 projects</b></td>
-  <td align="right"><b>~433K</b></td>
+  <td><b>14 projects</b></td>
+  <td align="right"><b>~434K</b></td>
 </tr>
 </table>
