@@ -175,6 +175,12 @@
   <td align="right">~4K</td>
 </tr>
 <tr>
+  <td><nobr>🛠️&nbsp;<b>watcher</b></nobr></td>
+  <td>🛰️ Private monitoring dashboard for watch.clawnux.com</td>
+  <td><code>JavaScript</code> <code>Next.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>React</code></td>
+  <td align="right">~3K</td>
+</tr>
+<tr>
   <td><nobr>🖥️&nbsp;<b>codex-control</b></nobr></td>
   <td>Server provisioning and deployment toolkit</td>
   <td><code>Shell</code> <code>Python</code> <code>tmux</code> <code>Tailscale</code></td>
@@ -183,7 +189,7 @@
 <tr>
   <td></td>
   <td></td>
-  <td><b>14 projects</b></td>
-  <td align="right"><b>~437K</b></td>
+  <td><b>15 projects</b></td>
+  <td align="right"><b>~440K</b></td>
 </tr>
 </table>
