@@ -28,6 +28,7 @@ PROJECTS = [
     {"repo": "codex-control",     "emoji": "🖥️",  "desc": "Server provisioning and deployment toolkit",        "stack": ["Shell", "Python", "tmux", "Tailscale"]},
     {"repo": "echoes",            "emoji": "👻", "desc": "Eternal Conversational Hologram Of Embedded Souls", "stack": ["TypeScript", "Next.js", "Tailwind CSS", "Three.js", "Python", "FastAPI", "PostgreSQL", "RunPod"]},
     {"repo": "tokens",            "emoji": "🪙", "desc": "Multi-model API usage dashboard and cost tracker",  "stack": ["JavaScript", "Node.js", "HTML"]},
+    {"repo": "snapmolt",          "emoji": "📞", "desc": "Outbound voice-call bridge with AI & TTS",           "stack": ["JavaScript", "Node.js", "Twilio", "Express"]},
 ]
 
 # Keep project names compact in the README table for cleaner spacing.
@@ -280,8 +281,34 @@ def detect_stack_from_repo(repo_path):
     return stack
 
 
+def extract_readme_desc(repo_path):
+    """Extract a one-line description from a project's README.md."""
+    for fname in ("README.md", "readme.md", "Readme.md"):
+        fpath = os.path.join(repo_path, fname)
+        if not os.path.isfile(fpath):
+            continue
+        try:
+            with open(fpath, "r", errors="ignore") as f:
+                for line in f:
+                    line = line.strip()
+                    if not line:
+                        continue
+                    if line.startswith(("#", "![", "[![", "<", "|", "---", "===")):
+                        continue
+                    if line.count("](") > 2:
+                        continue
+                    # Strip markdown formatting
+                    clean = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', line)
+                    clean = re.sub(r'[*_`>]', '', clean).strip()
+                    if len(clean) > 15:
+                        return clean[:80].rstrip(".,;:")
+        except OSError:
+            pass
+    return ""
+
+
 def analyze_repo(repo_name):
-    """Clone repo shallow, count lines, and detect stack. Returns (lines, detected_stack)."""
+    """Clone repo shallow, count lines, and detect stack. Returns (lines, detected_stack, readme_desc)."""
     with tempfile.TemporaryDirectory() as tmpdir:
         if TOKEN:
             clone_url = f"https://x-access-token:{TOKEN}@github.com/{USERNAME}/{repo_name}.git"
@@ -293,30 +320,31 @@ def analyze_repo(repo_name):
         )
         if result.returncode != 0:
             print(f"  Clone failed for {repo_name}: {result.stderr.strip()}")
-            return None, set()
+            return None, set(), ""
 
         repo_path = tmpdir + "/repo"
 
         # Count lines
         total = 0
-        for root, dirs, files in os.walk(repo_path):
+        for dirpath, dirs, files in os.walk(repo_path):
             dirs[:] = [d for d in dirs if d not in SKIP_DIRS]
-            rel = os.path.relpath(root, repo_path)
+            rel = os.path.relpath(dirpath, repo_path)
             if any(s in rel for s in SKIP_DIRS):
                 continue
             for f in files:
                 ext = os.path.splitext(f)[1].lower()
                 if ext in CODE_EXTENSIONS:
                     try:
-                        with open(os.path.join(root, f), "r", errors="ignore") as fh:
+                        with open(os.path.join(dirpath, f), "r", errors="ignore") as fh:
                             total += sum(1 for _ in fh)
                     except (OSError, UnicodeDecodeError):
                         pass
 
-        # Detect stack
+        # Detect stack and extract description from README
         detected_stack = detect_stack_from_repo(repo_path)
+        readme_desc = extract_readme_desc(repo_path)
 
-        return total, detected_stack
+        return total, detected_stack, readme_desc
 
 
 def format_lines(n):
@@ -599,12 +627,15 @@ def main():
 
     for p in all_projects:
         print(f"  {p['repo']}...", end=" ", flush=True)
-        lines, detected_stack = analyze_repo(p["repo"])
+        lines, detected_stack, readme_desc = analyze_repo(p["repo"])
         fmt = format_lines(lines)
         stack = merge_stack(p.get("stack", []), detected_stack, is_auto=p.get("_auto", False))
         emoji = p.get("emoji")
         if not emoji or emoji == "📦":
             emoji = infer_project_emoji(p["repo"], p["desc"], stack)
+        # For auto-discovered repos, prefer README description over truncated GitHub description
+        if p.get("_auto") and readme_desc:
+            p["desc"] = readme_desc
         print(f"{fmt} lines, stack: {', '.join(stack)}")
         # Skip auto-discovered repos with no meaningful code
         if p.get("_auto") and (lines or 0) < 50:

@@ -169,8 +169,8 @@
   <td align="right">~4K</td>
 </tr>
 <tr>
-  <td><nobr>🤖&nbsp;<b>snapmolt</b></nobr></td>
-  <td>AI-powered outbound voice-call bridge with TTS synthesis and</td>
+  <td><nobr>📞&nbsp;<b>snapmolt</b></nobr></td>
+  <td>Outbound voice-call bridge with AI &amp; TTS</td>
   <td><code>Express</code> <code>JavaScript</code> <code>Node.js</code> <code>Twilio</code></td>
   <td align="right">~2K</td>
 </tr>
