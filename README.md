@@ -152,7 +152,7 @@
 </tr>
 <tr>
   <td><nobr>📡&nbsp;<b>nysm</b></nobr></td>
-  <td>NYSM — WiFi-based body detection + multi-camera home surveil</td>
+  <td>WiFi-based body detection + multi-camera home surveillance system with 3D spatia</td>
   <td><code>Express</code> <code>JavaScript</code> <code>Node.js</code></td>
   <td align="right">~13K</td>
 </tr>
@@ -171,8 +171,8 @@
 <tr>
   <td><nobr>📞&nbsp;<b>snapmolt</b></nobr></td>
   <td>Outbound voice-call bridge with AI &amp; TTS</td>
-  <td><code>Express</code> <code>JavaScript</code> <code>Node.js</code> <code>Twilio</code></td>
-  <td align="right">~2K</td>
+  <td><code>JavaScript</code> <code>Node.js</code> <code>Twilio</code> <code>Express</code></td>
+  <td align="right">~3K</td>
 </tr>
 <tr>
   <td><nobr>🖥️&nbsp;<b>codex-control</b></nobr></td>
@@ -184,6 +184,6 @@
   <td></td>
   <td></td>
   <td><b>14 projects</b></td>
-  <td align="right"><b>~434K</b></td>
+  <td align="right"><b>~436K</b></td>
 </tr>
 </table>
