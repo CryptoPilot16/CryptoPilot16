@@ -163,16 +163,16 @@
   <td align="right">~12K</td>
 </tr>
 <tr>
+  <td><nobr>📞&nbsp;<b>snapmolt</b></nobr></td>
+  <td>Outbound voice-call bridge with AI &amp; TTS</td>
+  <td><code>JavaScript</code> <code>Node.js</code> <code>Twilio</code> <code>Express</code></td>
+  <td align="right">~4K</td>
+</tr>
+<tr>
   <td><nobr>🪙&nbsp;<b>tokens</b></nobr></td>
   <td>Multi-model API usage dashboard and cost tracker</td>
   <td><code>JavaScript</code> <code>Node.js</code> <code>HTML</code></td>
   <td align="right">~4K</td>
-</tr>
-<tr>
-  <td><nobr>📞&nbsp;<b>snapmolt</b></nobr></td>
-  <td>Outbound voice-call bridge with AI &amp; TTS</td>
-  <td><code>JavaScript</code> <code>Node.js</code> <code>Twilio</code> <code>Express</code></td>
-  <td align="right">~3K</td>
 </tr>
 <tr>
   <td><nobr>🖥️&nbsp;<b>codex-control</b></nobr></td>
@@ -184,6 +184,6 @@
   <td></td>
   <td></td>
   <td><b>14 projects</b></td>
-  <td align="right"><b>~436K</b></td>
+  <td align="right"><b>~437K</b></td>
 </tr>
 </table>
