@@ -12,9 +12,9 @@
 </div>
 
 <div style="padding:14px 20px">
-<a href="https://cryptopilot.dev"><img src="https://img.shields.io/badge/cryptopilot.dev-000000?style=flat-square&logo=data%3Aimage%2Fpng%3Bbase64%2C%2F9j%2F2wCEAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDIBCQkJDAsMGA0NGDIhHCEyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMv%2FAABEIACAAIAMBIgACEQEDEQH%2FxAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29%2Fj5%2BgEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4%2BTl5ufo6ery8%2FT19vf4%2Bfr%2F2gAMAwEAAhEDEQA%2FAOaigaR1RVJZiAB6k10FzZ%2BF%2FDUYXxNqwF443La22XKjsTtB69e341FoEYXxBpzN0Fwh%2BvNeY%2BKpNRh1q8sdRRlmjuXdvMUFyT33dSMAY5x6V9NmWKqUmoQdrm1aTTsjuppND1LdNol1K8CHEnmRtlM9CeOlZE8extp2ngHKsCCCMjkVW8JXdtF4e1eDcPtM8QSOMdWORjH41an8rzG8lGSPsrHJHr%2BuavLMTVqtxnqkjODbdmd3pem%2BbJDcO2yJJFOQMk4POK2%2FGVhpGs2wkltLG8mX5UaUZcDrgbSG%2FM49qo2F3GkUduSAQvT36n%2BdUtVaNwQwBHoa5MQnXndvY4KuMfO%2Bxw8VvZ6VqZCWlvEyHB2S7uf1pJlQAmPOzPG7ritedYYlJCqPoKxLm7R5Ci4xj%2FP8xWuEk8PLR6MVLFS51ZaH%2F9k%3D&logoColor=white" height="28" /></a>&nbsp;&nbsp;
-<a href="https://x.com/cryptopilot16"><img src="https://img.shields.io/badge/@cryptopilot16-000000?style=flat-square&logo=x&logoColor=white" height="28" /></a>&nbsp;&nbsp;
-<a href="https://t.me/cryptostarship"><img src="https://img.shields.io/badge/cryptostarship-000000?style=flat-square&logo=telegram&logoColor=white" height="28" /></a>
+<a href="https://cryptopilot.dev"><img src="https://img.shields.io/badge/cryptopilot.dev-000000?style=flat-square&logo=data%3Aimage%2Fpng%3Bbase64%2C%2F9j%2F2wCEAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDIBCQkJDAsMGA0NGDIhHCEyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMv%2FAABEIACAAIAMBIgACEQEDEQH%2FxAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29%2Fj5%2BgEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4%2BTl5ufo6ery8%2FT19vf4%2Bfr%2F2gAMAwEAAhEDEQA%2FAOaigaR1RVJZiAB6k10FzZ%2BF%2FDUYXxNqwF443La22XKjsTtB69e341FoEYXxBpzN0Fwh%2BvNeY%2BKpNRh1q8sdRRlmjuXdvMUFyT33dSMAY5x6V9NmWKqUmoQdrm1aTTsjuppND1LdNol1K8CHEnmRtlM9CeOlZE8extp2ngHKsCCCMjkVW8JXdtF4e1eDcPtM8QSOMdWORjH41an8rzG8lGSPsrHJHr%2BuavLMTVqtxnqkjODbdmd3pem%2BbJDcO2yJJFOQMk4POK2%2FGVhpGs2wkltLG8mX5UaUZcDrgbSG%2FM49qo2F3GkUduSAQvT36n%2BdUtVaNwQwBHoa5MQnXndvY4KuMfO%2Bxw8VvZ6VqZCWlvEyHB2S7uf1pJlQAmPOzPG7ritedYYlJCqPoKxLm7R5Ci4xj%2FP8xWuEk8PLR6MVLFS51ZaH%2F9k%3D&logoColor=white" height="30" /></a>&nbsp;&nbsp;
+<a href="https://x.com/cryptopilot16"><img src="https://img.shields.io/badge/@cryptopilot16-000000?style=flat-square&logo=x&logoColor=white" height="30" /></a>&nbsp;&nbsp;
+<a href="https://t.me/cryptostarship"><img src="https://img.shields.io/badge/cryptostarship-000000?style=flat-square&logo=telegram&logoColor=white" height="30" /></a>
 </div>
 
 </div>
@@ -113,7 +113,7 @@
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden">
 
 <div style="padding:12px 20px 10px;border-bottom:1px solid #1e1e1e">
-<h3><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 15 repos · ~359K lines</span></h3>
+<h3><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 16 repos · ~441K lines</span></h3>
 </div>
 
 <div style="padding:4px 0">
@@ -141,6 +141,12 @@
   <td>Multi-venue spread tracking and execution</td>
   <td><code>Python</code> <code>Node.js</code> <code>React</code> <code>Polygon</code> <code>Playwright</code></td>
   <td align="right">~67K</td>
+</tr>
+<tr>
+  <td><nobr>🤖&nbsp;<b>clawnux-v3</b></nobr></td>
+  <td>Multi-model coding agent</td>
+  <td><code>Shell</code> <code>Next.js</code> <code>PostgreSQL</code> <code>Claude Code</code></td>
+  <td align="right">~59K</td>
 </tr>
 <tr>
   <td><nobr>👻&nbsp;<b>echoes</b></nobr></td>
@@ -179,20 +185,26 @@
   <td align="right">~21K</td>
 </tr>
 <tr>
+  <td><nobr>📡&nbsp;<b>nysm</b></nobr></td>
+  <td>WiFi-based body detection + multi-camera home surveillance system with 3D spatial mapping</td>
+  <td><code>Express</code> <code>JavaScript</code> <code>Node.js</code> <code>Telegram</code></td>
+  <td align="right">~13K</td>
+</tr>
+<tr>
   <td><nobr>🏛️&nbsp;<b>govdeals</b></nobr></td>
   <td>Gov surplus property scraper with Zillow valuations</td>
   <td><code>TypeScript</code> <code>Python</code> <code>Next.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Playwright</code></td>
   <td align="right">~12K</td>
 </tr>
 <tr>
-  <td><nobr>🤖&nbsp;<b>clawnux-v3</b></nobr></td>
-  <td>Multi-model coding agent</td>
-  <td><code>Shell</code> <code>Next.js</code> <code>PostgreSQL</code> <code>Claude Code</code></td>
-  <td align="right">~8K</td>
+  <td><nobr>🛠️&nbsp;<b>watcher</b></nobr></td>
+  <td>Private mission-control dashboard for the OpenClaw agent stack</td>
+  <td><code>JavaScript</code> <code>Next.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>React</code></td>
+  <td align="right">~5K</td>
 </tr>
 <tr>
   <td><nobr>📞&nbsp;<b>snapmolt</b></nobr></td>
-  <td>Outbound voice-call bridge with AI &amp; TTS</td>
+  <td>Outbound voice-call bridge with AI & TTS</td>
   <td><code>JavaScript</code> <code>Node.js</code> <code>Twilio</code> <code>Express</code></td>
   <td align="right">~4K</td>
 </tr>
@@ -203,16 +215,10 @@
   <td align="right">~4K</td>
 </tr>
 <tr>
-  <td><nobr>🔁&nbsp;<b>smartcommit</b></nobr></td>
-  <td>Autopilot commits across all your repos</td>
-  <td><code>Shell</code> <code>Ollama</code> <code>GitHub API</code> <code>Telegram</code></td>
-  <td align="right">~900</td>
-</tr>
-<tr>
-  <td><nobr>📤&nbsp;<b>uploader</b></nobr></td>
+  <td><nobr>📤&nbsp;<b><a href="https://cryptopilot.dev/uploader">uploader</a></b></nobr></td>
   <td>Telegram bot that saves files to your VPS and replies with the path</td>
   <td><code>JavaScript</code> <code>Node.js</code> <code>Telegram</code></td>
-  <td align="right">~385</td>
+  <td align="right">~1K</td>
 </tr>
 <tr>
   <td><nobr>🖥️&nbsp;<b>codex-control</b></nobr></td>
@@ -223,8 +229,8 @@
 <tr>
   <td></td>
   <td></td>
-  <td><b>15 projects</b></td>
-  <td align="right"><b>~359K</b></td>
+  <td><b>16 projects</b></td>
+  <td align="right"><b>~441K</b></td>
 </tr>
 </table>
 </div>
