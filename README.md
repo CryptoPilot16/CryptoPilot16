@@ -176,7 +176,7 @@
 </tr>
 <tr>
   <td><nobr>🛠️&nbsp;<b>watcher</b></nobr></td>
-  <td>🛰️ Private monitoring dashboard for watch.clawnux.com</td>
+  <td>Private internal ops dashboard</td>
   <td><code>JavaScript</code> <code>Next.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>React</code></td>
   <td align="right">~3K</td>
 </tr>
