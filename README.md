@@ -113,7 +113,7 @@
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden">
 
 <div style="padding:12px 3% 10px;border-bottom:1px solid #1e1e1e">
-<h3 style="margin:0;white-space:nowrap"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 15 repos · ~359K lines</span></h3>
+<h3 style="margin:0;white-space:nowrap"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 17 repos · ~376K lines</span></h3>
 </div>
 
 <div style="padding:4px 0">
@@ -179,6 +179,12 @@
   <td align="right">~21K</td>
 </tr>
 <tr>
+  <td><nobr>📡&nbsp;<b>nysm</b></nobr></td>
+  <td>WiFi-based body detection and multi-camera home surveillance with 3D spatial mapping</td>
+  <td><code>JavaScript</code> <code>Node.js</code> <code>Express</code></td>
+  <td align="right">~13K</td>
+</tr>
+<tr>
   <td><nobr>🏛️&nbsp;<b>govdeals</b></nobr></td>
   <td>Gov surplus property scraper with Zillow valuations</td>
   <td><code>TypeScript</code> <code>Python</code> <code>Next.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Playwright</code></td>
@@ -189,6 +195,12 @@
   <td>Multi-model coding agent</td>
   <td><code>Shell</code> <code>Next.js</code> <code>PostgreSQL</code> <code>Claude Code</code></td>
   <td align="right">~8K</td>
+</tr>
+<tr>
+  <td><nobr>🛠️&nbsp;<b>watcher</b></nobr></td>
+  <td>Private infrastructure monitoring dashboard with alerting and service health</td>
+  <td><code>JavaScript</code> <code>Next.js</code> <code>PostgreSQL</code> <code>React</code></td>
+  <td align="right">~5K</td>
 </tr>
 <tr>
   <td><nobr>📞&nbsp;<b>snapmolt</b></nobr></td>
@@ -203,13 +215,13 @@
   <td align="right">~4K</td>
 </tr>
 <tr>
-  <td><nobr>🔁&nbsp;<b>smartcommit</b></nobr></td>
+  <td><nobr>🔁&nbsp;<b><a href="https://cryptopilot.dev/smartcommits">smartcommit</a></b></nobr></td>
   <td>Autopilot commits across all your repos</td>
   <td><code>Shell</code> <code>Ollama</code> <code>GitHub API</code> <code>Telegram</code></td>
   <td align="right">~900</td>
 </tr>
 <tr>
-  <td><nobr>📤&nbsp;<b>uploader</b></nobr></td>
+  <td><nobr>📤&nbsp;<b><a href="https://cryptopilot.dev/uploader">uploader</a></b></nobr></td>
   <td>Telegram bot that saves files to your VPS and replies with the path</td>
   <td><code>JavaScript</code> <code>Node.js</code> <code>Telegram</code></td>
   <td align="right">~385</td>
@@ -223,8 +235,8 @@
 <tr>
   <td></td>
   <td></td>
-  <td><b>15 projects</b></td>
-  <td align="right"><b>~359K</b></td>
+  <td><b>17 projects</b></td>
+  <td align="right"><b>~376K</b></td>
 </tr>
 </table>
 </div>
