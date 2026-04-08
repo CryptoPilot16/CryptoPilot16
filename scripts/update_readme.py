@@ -29,7 +29,8 @@ PROJECTS = [
     {"repo": "echoes",            "emoji": "👻", "desc": "Eternal Conversational Hologram Of Embedded Souls", "stack": ["TypeScript", "Next.js", "Tailwind CSS", "Three.js", "Python", "FastAPI", "PostgreSQL", "RunPod"]},
     {"repo": "tokens",            "emoji": "🪙", "desc": "Multi-model API usage dashboard and cost tracker",  "stack": ["JavaScript", "Node.js", "HTML"]},
     {"repo": "snapmolt",          "emoji": "📞", "desc": "Outbound voice-call bridge with AI & TTS",           "stack": ["JavaScript", "Node.js", "Twilio", "Express"]},
-    {"repo": "uploader",          "emoji": "📤", "desc": "",                                                                    "stack": ["JavaScript", "Node.js", "Telegram"]},
+    {"repo": "uploader",          "emoji": "📤", "desc": "Telegram bot that saves files to your VPS and replies with the path", "stack": ["JavaScript", "Node.js", "Telegram"]},
+    {"repo": "smartcommit",       "emoji": "🔁", "desc": "Autopilot commits across all your repos",                         "stack": ["Shell", "Ollama", "GitHub API", "Telegram"]},
 ]
 
 # Keep project names compact in the README table for cleaner spacing.
