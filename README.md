@@ -113,7 +113,7 @@
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden">
 
 <div style="padding:12px 3% 10px;border-bottom:1px solid #1e1e1e">
-<h3 style="margin:0;white-space:nowrap"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 17 repos · ~377K lines</span></h3>
+<h3 style="margin:0;white-space:nowrap"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 17 repos · ~442K lines</span></h3>
 </div>
 
 <div style="padding:4px 0">
@@ -135,6 +135,12 @@
   <td>A browser-based 3D MMORPG engine</td>
   <td><code>JavaScript</code> <code>TypeScript</code> <code>React</code> <code>Vite</code> <code>Solana</code></td>
   <td align="right">~85K</td>
+</tr>
+<tr>
+  <td><nobr>🤖&nbsp;<b>clawnux-v3</b></nobr></td>
+  <td>Multi-model coding agent</td>
+  <td><code>Shell</code> <code>Next.js</code> <code>PostgreSQL</code> <code>Claude Code</code></td>
+  <td align="right">~73K</td>
 </tr>
 <tr>
   <td><nobr>📊&nbsp;<b>pm-relay</b></nobr></td>
@@ -191,12 +197,6 @@
   <td align="right">~12K</td>
 </tr>
 <tr>
-  <td><nobr>🤖&nbsp;<b>clawnux-v3</b></nobr></td>
-  <td>AI-powered autonomous software factory</td>
-  <td><code>Shell</code> <code>Next.js</code> <code>PostgreSQL</code> <code>Claude Code</code></td>
-  <td align="right">~8K</td>
-</tr>
-<tr>
   <td><nobr>🛠️&nbsp;<b>watcher</b></nobr></td>
   <td>Private infrastructure monitoring dashboard with alerting and service health</td>
   <td><code>JavaScript</code> <code>Next.js</code> <code>PostgreSQL</code> <code>React</code></td>
@@ -236,7 +236,7 @@
   <td></td>
   <td></td>
   <td><b>17 projects</b></td>
-  <td align="right"><b>~377K</b></td>
+  <td align="right"><b>~442K</b></td>
 </tr>
 </table>
 </div>
