@@ -53,17 +53,17 @@ def fetch_contributions():
 
 
 def color_for_count(count):
-    """cryptopilot.dev brand palette on dark background."""
+    """Monochrome palette on dark background."""
     if count == 0:
-        return "#161616"
+        return "#1a1a1a"
     elif count <= 3:
-        return "#00512f"
+        return "#3a3a3a"
     elif count <= 6:
-        return "#007a47"
+        return "#666666"
     elif count <= 9:
-        return "#00a85f"
+        return "#999999"
     else:
-        return "#00e5a0"
+        return "#d4d4d4"
 
 
 def generate_svg(calendar):
@@ -155,7 +155,7 @@ def generate_svg(calendar):
              f'  \u00b7  {weekly_avg:.1f}/week'
              f'  \u00b7  {monthly_avg:.0f}/month'
              f'  \u00b7  {current_month_name}: {current_month_total}')
-    lines.append(f'<text x="{margin_left}" y="{stats_y}" fill="#00e5a0" '
+    lines.append(f'<text x="{margin_left}" y="{stats_y}" fill="#888888" '
                   f'font-family="monospace" font-size="28" font-weight="bold">'
                   f'{label}'
                   f'</text>')
