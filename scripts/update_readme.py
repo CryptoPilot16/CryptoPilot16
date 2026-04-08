@@ -577,13 +577,34 @@ def update_readme(projects_data):
     tech_pattern = r"(### Tech Stack\s*\n\s*\n)(<table>.*?</table>)"
     content = re.sub(tech_pattern, rf"\1{new_tech_table}", content, flags=re.S, count=1)
 
-    # Replace the projects table (supports both legacy markdown table and HTML table)
+    # Replace the projects table — handles both markdown ### heading and HTML <!-- PROJECTS --> style
     new_table = build_projects_table(projects_data)
-    projects_pattern = (
+
+    # Pattern 1: markdown ### Projects heading
+    projects_pattern_md = (
         r"(### Projects\s*\n\s*\n)"
         r"(?:\| Project \| Description \|.*?\n(?:\|.*\n)+|<table>.*?</table>\s*)"
     )
-    content = re.sub(projects_pattern, rf"\1{new_table}\n", content, flags=re.S, count=1)
+    # Pattern 2: HTML <!-- PROJECTS --> block with padding div wrapping the table
+    projects_pattern_html = (
+        r"(<div style=\"padding:4px 0\">\n)"
+        r"<table>.*?</table>"
+    )
+
+    if re.search(projects_pattern_md, content, flags=re.S):
+        content = re.sub(projects_pattern_md, rf"\1{new_table}\n", content, flags=re.S, count=1)
+    elif re.search(projects_pattern_html, content, flags=re.S):
+        content = re.sub(projects_pattern_html, rf"\1{new_table}", content, flags=re.S, count=1)
+
+    # Update the project count/lines summary line in the section header
+    total_lines = sum(p.get("lines_raw", 0) for p in projects_data)
+    total_fmt = format_lines(total_lines)
+    count = len(projects_data)
+    content = re.sub(
+        r'(// </span>projects &nbsp;)<span[^>]*>·[^<]*</span>',
+        rf'\1<span style="font-size:13px;font-weight:400;color:#444">· {count} repos · {total_fmt} lines</span>',
+        content
+    )
 
     with open(readme_path, "w") as f:
         f.write(content)
