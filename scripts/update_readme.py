@@ -29,8 +29,8 @@ PROJECTS = [
     {"repo": "echoes",            "emoji": "👻", "desc": "Eternal Conversational Hologram Of Embedded Souls", "stack": ["TypeScript", "Next.js", "Tailwind CSS", "Three.js", "Python", "FastAPI", "PostgreSQL", "RunPod"]},
     {"repo": "tokens",            "emoji": "🪙", "desc": "Multi-model API usage dashboard and cost tracker",  "stack": ["JavaScript", "Node.js", "HTML"]},
     {"repo": "snapmolt",          "emoji": "📞", "desc": "Outbound voice-call bridge with AI & TTS",           "stack": ["JavaScript", "Node.js", "Twilio", "Express"]},
-    {"repo": "uploader",          "emoji": "📤", "desc": "Telegram bot that saves files to your VPS and replies with the path", "stack": ["JavaScript", "Node.js", "Telegram"]},
-    {"repo": "smartcommit",       "emoji": "🔁", "desc": "Autopilot commits across all your repos",                         "stack": ["Shell", "Ollama", "GitHub API", "Telegram"]},
+    {"repo": "uploader",          "emoji": "📤", "desc": "Telegram bot that saves files to your VPS and replies with the path", "stack": ["JavaScript", "Node.js", "Telegram"], "live_url": "https://cryptopilot.dev/uploader"},
+    {"repo": "smartcommit",       "emoji": "🔁", "desc": "Autopilot commits across all your repos",                         "stack": ["Shell", "Ollama", "GitHub API", "Telegram"], "live_url": "https://cryptopilot.dev/smartcommits"},
 ]
 
 # Keep project names compact in the README table for cleaner spacing.
@@ -41,7 +41,7 @@ DISPLAY_NAME_OVERRIDES = {
 }
 
 # Repos to never include (profile repo, forks, etc.)
-IGNORE_REPOS = {USERNAME, USERNAME.lower(), ".github", "dotfiles"}
+IGNORE_REPOS = {USERNAME, USERNAME.lower(), ".github", "dotfiles", "cryptopilotdev", "cryptopilot16.github.io"}
 
 # Only show auto-discovered repos created on or after this date
 AUTO_DISCOVER_SINCE = "2026-01-01T00:00:00Z"
@@ -473,9 +473,14 @@ def build_projects_table(projects_data):
         stack_str = " ".join(f"<code>{html.escape(s)}</code>" for s in p["stack"])
         emoji = p.get("emoji", "📦")
         display_repo = p.get("display_repo", p["repo"])
+        live_url = p.get("live_url")
+        if live_url:
+            name_cell = f'<a href="{live_url}">{html.escape(display_repo)}</a>'
+        else:
+            name_cell = html.escape(display_repo)
         lines.extend([
             "<tr>",
-            f"  <td><nobr>{emoji}&nbsp;<b>{html.escape(display_repo)}</b></nobr></td>",
+            f"  <td><nobr>{emoji}&nbsp;<b>{name_cell}</b></nobr></td>",
             f"  <td>{html.escape(p['desc'])}</td>",
             f"  <td>{stack_str}</td>",
             f"  <td align=\"right\">{html.escape(p['lines_fmt'])}</td>",
