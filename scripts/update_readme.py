@@ -29,8 +29,12 @@ PROJECTS = [
     {"repo": "echoes",            "emoji": "👻", "desc": "Eternal Conversational Hologram Of Embedded Souls", "stack": ["TypeScript", "Next.js", "Tailwind CSS", "Three.js", "Python", "FastAPI", "PostgreSQL", "RunPod"]},
     {"repo": "tokens",            "emoji": "🪙", "desc": "Multi-model API usage dashboard and cost tracker",  "stack": ["JavaScript", "Node.js", "HTML"]},
     {"repo": "snapmolt",          "emoji": "📞", "desc": "Outbound voice-call bridge with AI & TTS",           "stack": ["JavaScript", "Node.js", "Twilio", "Express"]},
-    {"repo": "uploader",          "emoji": "📤", "desc": "Telegram bot that saves files to your VPS and replies with the path", "stack": ["JavaScript", "Node.js", "Telegram"], "live_url": "https://cryptopilot.dev/uploader"},
-    {"repo": "smartcommit",       "emoji": "🔁", "desc": "Autopilot commits across all your repos",                         "stack": ["Shell", "Ollama", "GitHub API", "Telegram"], "live_url": "https://cryptopilot.dev/smartcommits"},
+    {"repo": "uploader",          "emoji": "📤", "desc": "Telegram bot that saves files to your VPS and replies with the path", "stack": ["JavaScript", "Node.js", "Telegram"], "live_url": "https://cryptopilot.dev/uploader",
+     "public": True, "featured": True, "href": "/uploader", "preview": "/projects/uploader/assets/preview.png"},
+    {"repo": "smartcommit",       "emoji": "🔁", "desc": "Autopilot commits across all your repos",                         "stack": ["Shell", "Ollama", "GitHub API", "Telegram"], "live_url": "https://cryptopilot.dev/smartcommits",
+     "public": True, "featured": True, "href": "/smartcommits", "preview": "/projects/smartcommits/assets/preview.png"},
+    {"repo": "nysm",              "emoji": "📡", "desc": "WiFi-based body detection and multi-camera home surveillance with 3D spatial mapping", "stack": ["JavaScript", "Node.js", "Express"]},
+    {"repo": "watcher",           "emoji": "🛠️",  "desc": "Private infrastructure monitoring dashboard with alerting and service health",      "stack": ["JavaScript", "Next.js", "PostgreSQL", "React"]},
 ]
 
 # Keep project names compact in the README table for cleaner spacing.
@@ -706,6 +710,7 @@ def main():
             "stack": stack,
             "lines_fmt": fmt,
             "lines_raw": lines or 0,
+            "live_url": p.get("live_url"),
         })
 
     # Sort projects by total lines of code, descending
