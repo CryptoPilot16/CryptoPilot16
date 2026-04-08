@@ -29,6 +29,7 @@ PROJECTS = [
     {"repo": "echoes",            "emoji": "👻", "desc": "Eternal Conversational Hologram Of Embedded Souls", "stack": ["TypeScript", "Next.js", "Tailwind CSS", "Three.js", "Python", "FastAPI", "PostgreSQL", "RunPod"]},
     {"repo": "tokens",            "emoji": "🪙", "desc": "Multi-model API usage dashboard and cost tracker",  "stack": ["JavaScript", "Node.js", "HTML"]},
     {"repo": "snapmolt",          "emoji": "📞", "desc": "Outbound voice-call bridge with AI & TTS",           "stack": ["JavaScript", "Node.js", "Twilio", "Express"]},
+    {"repo": "uploader",          "emoji": "📤", "desc": "",                                                                    "stack": ["JavaScript", "Node.js", "Telegram"]},
 ]
 
 # Keep project names compact in the README table for cleaner spacing.
@@ -200,6 +201,7 @@ def detect_stack_from_repo(repo_path):
                 "@anthropic-ai/sdk": "Claude API", "anthropic": "Claude API",
                 "openai": "OpenAI", "ollama": "Ollama",
                 "twilio": "Twilio", "@sendgrid/mail": "SendGrid",
+                "node-telegram-bot-api": "Telegram", "telegraf": "Telegram", "grammy": "Telegram",
             }
             for dep, tech in dep_map.items():
                 if dep in all_deps:
@@ -633,8 +635,8 @@ def main():
         emoji = p.get("emoji")
         if not emoji or emoji == "📦":
             emoji = infer_project_emoji(p["repo"], p["desc"], stack)
-        # For auto-discovered repos, prefer README description over truncated GitHub description
-        if p.get("_auto") and readme_desc:
+        # Prefer README description when no hardcoded desc is set, or for auto-discovered repos
+        if readme_desc and (p.get("_auto") or not p.get("desc")):
             p["desc"] = readme_desc
         print(f"{fmt} lines, stack: {', '.join(stack)}")
         # Skip auto-discovered repos with no meaningful code
