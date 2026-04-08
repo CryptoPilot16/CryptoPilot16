@@ -23,7 +23,7 @@ PROJECTS = [
     {"repo": "skybuddy",          "emoji": "🌍", "desc": "3D social flight tracker",                          "stack": ["JavaScript", "Cesium.js", "Node.js", "PostgreSQL", "Playwright"]},
     {"repo": "TradingOdds",       "emoji": "🎯", "desc": "Prediction market execution layer",                 "stack": ["TypeScript", "Next.js", "React", "Tailwind CSS", "ethers.js"]},
     {"repo": "smartmoney-radar",  "emoji": "🔍", "desc": "On-chain wallet profiling and flow monitoring",     "stack": ["TypeScript", "Next.js", "React", "PostgreSQL", "ethers.js", "Solana"]},
-    {"repo": "clawnux-v3",        "emoji": "🤖", "desc": "Multi-model coding agent",                          "stack": ["Shell", "Next.js", "PostgreSQL", "Claude Code"]},
+    {"repo": "clawnux-v3",        "emoji": "🤖", "desc": "AI-powered autonomous software factory",                          "stack": ["Shell", "Next.js", "PostgreSQL", "Claude Code"]},
     {"repo": "govdeals-platform", "emoji": "🏛️",  "desc": "Gov surplus property scraper with Zillow valuations", "stack": ["TypeScript", "Python", "Next.js", "Node.js", "PostgreSQL", "Playwright"]},
     {"repo": "codex-control",     "emoji": "🖥️",  "desc": "Server provisioning and deployment toolkit",        "stack": ["Shell", "Python", "tmux", "Tailscale"]},
     {"repo": "echoes",            "emoji": "👻", "desc": "Eternal Conversational Hologram Of Embedded Souls", "stack": ["TypeScript", "Next.js", "Tailwind CSS", "Three.js", "Python", "FastAPI", "PostgreSQL", "RunPod"]},
@@ -43,6 +43,9 @@ DISPLAY_NAME_OVERRIDES = {
     "smartmoney-radar": "smartmoney",
     "govdeals-platform": "govdeals",
 }
+
+# Path to the website directory — write projects.json here after each sync
+WEBSITE_DIR = os.environ.get("WEBSITE_DIR", "/opt/cryptopilotdev")
 
 # Repos to never include (profile repo, forks, etc.)
 IGNORE_REPOS = {USERNAME, USERNAME.lower(), ".github", "dotfiles", "cryptopilotdev", "cryptopilot16.github.io"}
@@ -417,9 +420,13 @@ def compact_project_name(repo_name, max_len=MAX_PROJECT_NAME_LEN):
 
 
 def discover_repos():
-    """Fetch all repos (including private) and merge with curated PROJECTS list."""
+    """Fetch all repos (including private) and merge with curated PROJECTS list.
+
+    Returns (merged_list, github_meta) where github_meta maps repo name -> {"private": bool}.
+    """
     known = {p["repo"].lower(): p for p in PROJECTS}
     merged = list(PROJECTS)  # start with curated order
+    github_meta = {}  # repo_name -> {"private": bool}
 
     # Fetch all repos owned by user (public + private with auth)
     page = 1
@@ -434,6 +441,7 @@ def discover_repos():
             name = r["name"]
             if r.get("fork") or name in IGNORE_REPOS or name.lower() in IGNORE_REPOS:
                 continue
+            github_meta[name] = {"private": bool(r.get("private", True))}
             if name.lower() not in known:
                 created = r.get("created_at", "")
                 if created < AUTO_DISCOVER_SINCE:
@@ -453,7 +461,7 @@ def discover_repos():
             break
         page += 1
 
-    return merged
+    return merged, github_meta
 
 
 def build_projects_table(projects_data):
@@ -681,9 +689,39 @@ def update_header_bio(repo_root="."):
     print(f"  Bio updated in header.svg: {bio!r}")
 
 
+def write_projects_json(projects_data):
+    """Write projects data as JSON to the website directory."""
+    output_path = os.path.join(WEBSITE_DIR, "projects.json")
+    records = []
+    for p in projects_data:
+        rec = {
+            "repo":      p["repo"],
+            "name":      p.get("display_repo", p["repo"]),
+            "emoji":     p["emoji"],
+            "desc":      p["desc"],
+            "stack":     p["stack"],
+            "lines":     p["lines_fmt"],
+            "lines_raw": p["lines_raw"],
+            "public":    p.get("public", False),
+            "featured":  p.get("featured", False),
+        }
+        if p.get("featured"):
+            rec["href"]    = p.get("href", "")
+            rec["preview"] = p.get("preview", "")
+        records.append(rec)
+    # Featured projects first, then rest sorted by lines descending (already sorted)
+    records.sort(key=lambda r: (not r["featured"], -r["lines_raw"]))
+    try:
+        with open(output_path, "w") as f:
+            json.dump(records, f, indent=2, ensure_ascii=False)
+        print(f"Wrote {output_path} ({len(records)} projects)")
+    except OSError as e:
+        print(f"  Could not write {output_path}: {e}")
+
+
 def main():
     print(f"Updating projects for {USERNAME}...")
-    all_projects = discover_repos()
+    all_projects, github_meta = discover_repos()
     projects_data = []
 
     for p in all_projects:
@@ -702,6 +740,11 @@ def main():
         if p.get("_auto") and (lines or 0) < 50:
             print(f"    (skipped — too small)")
             continue
+        # Determine public status: explicit field in PROJECTS takes priority, then GitHub API
+        if "public" in p:
+            is_public = p["public"]
+        else:
+            is_public = not github_meta.get(p["repo"], {}).get("private", True)
         projects_data.append({
             "repo": p["repo"],
             "display_repo": compact_project_name(p["repo"]),
@@ -711,6 +754,10 @@ def main():
             "lines_fmt": fmt,
             "lines_raw": lines or 0,
             "live_url": p.get("live_url"),
+            "public":   is_public,
+            "featured": p.get("featured", False),
+            "href":     p.get("href", ""),
+            "preview":  p.get("preview", ""),
         })
 
     # Sort projects by total lines of code, descending
@@ -718,6 +765,7 @@ def main():
 
     update_readme(projects_data)
     update_header_bio(repo_root=os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    write_projects_json(projects_data)
 
     # Auto-commit and push if running outside CI (the GH Actions workflow has its own commit step)
     if not os.environ.get("GITHUB_ACTIONS"):
