@@ -112,40 +112,28 @@
 <span style="color:#00e5a0">// </span>featured
 </div>
 
-<div style="padding:4px 0">
 <table>
-<colgroup>
-  <col width="22%" />
-  <col width="46%" />
-  <col width="32%" />
-</colgroup>
 <tr>
-  <th align="left">Project</th>
-  <th align="left">Description</th>
-  <th align="left">Stack</th>
-</tr>
-<tr>
-  <td><nobr>⚔️&nbsp;<b>mythex</b></nobr></td>
-  <td>A browser-based 3D MMORPG engine</td>
-  <td><code>JavaScript</code> <code>TypeScript</code> <code>React</code> <code>Vite</code> <code>Solana</code></td>
-</tr>
-<tr>
-  <td><nobr>📊&nbsp;<b>pm-relay</b></nobr></td>
-  <td>Multi-venue spread tracking and execution</td>
-  <td><code>Python</code> <code>Node.js</code> <code>React</code> <code>Polygon</code> <code>Playwright</code></td>
-</tr>
-<tr>
-  <td><nobr>🤖&nbsp;<b>clawnux-v3</b></nobr></td>
-  <td>Multi-model coding agent</td>
-  <td><code>Shell</code> <code>Next.js</code> <code>PostgreSQL</code> <code>Claude Code</code></td>
-</tr>
-<tr>
-  <td><nobr>👻&nbsp;<b>echoes</b></nobr></td>
-  <td>Eternal Conversational Hologram Of Embedded Souls</td>
-  <td><code>TypeScript</code> <code>Next.js</code> <code>Three.js</code> <code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>RunPod</code></td>
+<td width="50%" align="center">
+<a href="https://cryptopilot.dev/uploader">
+<img src="https://cryptopilot.dev/projects/uploader/assets/preview.png" width="100%" alt="uploader preview" />
+</a>
+<br>
+<a href="https://cryptopilot.dev/uploader"><b>📦 uploader</b></a><br>
+<sub>Telegram bot that saves files to your VPS and replies with the path.</sub><br>
+<sub><code>JavaScript</code> <code>Node.js</code> <code>Telegram</code> <code>pm2</code></sub>
+</td>
+<td width="50%" align="center">
+<a href="https://cryptopilot.dev/smartcommits">
+<img src="https://cryptopilot.dev/projects/smartcommits/assets/preview.png" width="100%" alt="smartcommit preview" />
+</a>
+<br>
+<a href="https://cryptopilot.dev/smartcommits"><b>🔁 smartcommit</b></a><br>
+<sub>Autopilot commits across all your repos. AI messages, GitHub auto-push, Telegram rollups.</sub><br>
+<sub><code>Shell</code> <code>Ollama</code> <code>GitHub API</code> <code>Telegram</code></sub>
+</td>
 </tr>
 </table>
-</div>
 
 </div>
 
