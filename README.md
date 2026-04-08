@@ -176,7 +176,7 @@
 </tr>
 <tr>
   <td><nobr>🛠️&nbsp;<b>watcher</b></nobr></td>
-  <td>Private internal ops dashboard</td>
+  <td>Private monitoring dashboard</td>
   <td><code>JavaScript</code> <code>Next.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>React</code></td>
   <td align="right">~3K</td>
 </tr>
@@ -190,6 +190,6 @@
   <td></td>
   <td></td>
   <td><b>15 projects</b></td>
-  <td align="right"><b>~440K</b></td>
+  <td align="right"><b>~441K</b></td>
 </tr>
 </table>
