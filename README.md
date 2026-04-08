@@ -178,7 +178,7 @@
   <td><nobr>🛠️&nbsp;<b>watcher</b></nobr></td>
   <td>Private monitoring dashboard</td>
   <td><code>JavaScript</code> <code>Next.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>React</code></td>
-  <td align="right">~3K</td>
+  <td align="right">~4K</td>
 </tr>
 <tr>
   <td><nobr>🖥️&nbsp;<b>codex-control</b></nobr></td>
