@@ -138,7 +138,7 @@
 </tr>
 <tr>
   <td><nobr>🤖&nbsp;<b>clawnux-v3</b></nobr></td>
-  <td>Multi-model coding agent</td>
+  <td>AI-powered autonomous software factory</td>
   <td><code>Shell</code> <code>Next.js</code> <code>PostgreSQL</code> <code>Claude Code</code></td>
   <td align="right">~73K</td>
 </tr>
