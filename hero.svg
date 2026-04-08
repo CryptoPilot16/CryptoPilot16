@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 215" width="860" height="215">
+  <rect width="860" height="215" fill="#080808"/>
+
+  <!-- Breadcrumb -->
+  <text y="22" font-family="'Courier New', monospace" font-size="12.5">
+    <tspan fill="#00e5a0">▶</tspan>
+    <tspan fill="#888" dx="8">cryptopilot16</tspan>
+    <tspan fill="#333" dx="8">/</tspan>
+    <tspan fill="#00e5a0" dx="8">main</tspan>
+    <tspan fill="#333" dx="12">·</tspan>
+    <tspan fill="#666" dx="8">16 projects</tspan>
+    <tspan fill="#333" dx="12">·</tspan>
+    <tspan fill="#666" dx="8">~441K lines</tspan>
+  </text>
+
+  <!-- "Building at the" -->
+  <text x="0" y="94" font-family="'Courier New', monospace" font-size="54" font-weight="bold" fill="#ffffff" letter-spacing="-1">Building at the</text>
+
+  <!-- "edge of everything." in green -->
+  <text x="0" y="154" font-family="'Courier New', monospace" font-size="54" font-weight="bold" fill="#00e5a0" letter-spacing="-1">edge of everything.</text>
+
+  <!-- Description line 1 -->
+  <text x="0" y="187" font-family="'Courier New', monospace" font-size="13">
+    <tspan fill="#26A5E4" font-weight="bold">Agentic AI Engineering</tspan>
+    <tspan fill="#555"> — 3D engines, trading systems, AI agents, on-chain tools,</tspan>
+  </text>
+
+  <!-- Description line 2 -->
+  <text x="0" y="207" font-family="'Courier New', monospace" font-size="13" fill="#555">surveillance infra, and ships at the speed of thought.</text>
+</svg>
