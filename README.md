@@ -14,9 +14,9 @@
 </div>
 
 <div style="padding:14px 20px">
-<a href="https://cryptopilot.dev"><img src="https://img.shields.io/badge/cryptopilot.dev-000000?style=flat-square&logo=data%3Aimage%2Fpng%3Bbase64%2C%2F9j%2F2wCEAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDIBCQkJDAsMGA0NGDIhHCEyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMv%2FAABEIACAAIAMBIgACEQEDEQH%2FxAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29%2Fj5%2BgEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4%2BTl5ufo6ery8%2FT19vf4%2Bfr%2F2gAMAwEAAhEDEQA%2FAOaigaR1RVJZiAB6k10FzZ%2BF%2FDUYXxNqwF443La22XKjsTtB69e341FoEYXxBpzN0Fwh%2BvNeY%2BKpNRh1q8sdRRlmjuXdvMUFyT33dSMAY5x6V9NmWKqUmoQdrm1aTTsjuppND1LdNol1K8CHEnmRtlM9CeOlZE8extp2ngHKsCCCMjkVW8JXdtF4e1eDcPtM8QSOMdWORjH41an8rzG8lGSPsrHJHr%2BuavLMTVqtxnqkjODbdmd3pem%2BbJDcO2yJJFOQMk4POK2%2FGVhpGs2wkltLG8mX5UaUZcDrgbSG%2FM49qo2F3GkUduSAQvT36n%2BdUtVaNwQwBHoa5MQnXndvY4KuMfO%2Bxw8VvZ6VqZCWlvEyHB2S7uf1pJlQAmPOzPG7ritedYYlJCqPoKxLm7R5Ci4xj%2FP8xWuEk8PLR6MVLFS51ZaH%2F9k%3D&logoColor=white" /></a>&nbsp;&nbsp;
-<a href="https://x.com/cryptopilot16"><img src="https://img.shields.io/badge/@cryptopilot16-000000?style=flat-square&logo=x&logoColor=white" /></a>&nbsp;&nbsp;
-<a href="https://t.me/cryptostarship"><img src="https://img.shields.io/badge/cryptostarship-000000?style=flat-square&logo=telegram&logoColor=white" /></a>
+<a href="https://cryptopilot.dev"><img src="https://img.shields.io/badge/cryptopilot.dev-000000?style=for-the-badge&logo=data%3Aimage%2Fpng%3Bbase64%2C%2F9j%2F2wCEAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDIBCQkJDAsMGA0NGDIhHCEyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMv%2FAABEIACAAIAMBIgACEQEDEQH%2FxAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29%2Fj5%2BgEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4%2BTl5ufo6ery8%2FT19vf4%2Bfr%2F2gAMAwEAAhEDEQA%2FAOaigaR1RVJZiAB6k10FzZ%2BF%2FDUYXxNqwF443La22XKjsTtB69e341FoEYXxBpzN0Fwh%2BvNeY%2BKpNRh1q8sdRRlmjuXdvMUFyT33dSMAY5x6V9NmWKqUmoQdrm1aTTsjuppND1LdNol1K8CHEnmRtlM9CeOlZE8extp2ngHKsCCCMjkVW8JXdtF4e1eDcPtM8QSOMdWORjH41an8rzG8lGSPsrHJHr%2BuavLMTVqtxnqkjODbdmd3pem%2BbJDcO2yJJFOQMk4POK2%2FGVhpGs2wkltLG8mX5UaUZcDrgbSG%2FM49qo2F3GkUduSAQvT36n%2BdUtVaNwQwBHoa5MQnXndvY4KuMfO%2Bxw8VvZ6VqZCWlvEyHB2S7uf1pJlQAmPOzPG7ritedYYlJCqPoKxLm7R5Ci4xj%2FP8xWuEk8PLR6MVLFS51ZaH%2F9k%3D&logoColor=white" /></a>&nbsp;&nbsp;
+<a href="https://x.com/cryptopilot16"><img src="https://img.shields.io/badge/@cryptopilot16-000000?style=for-the-badge&logo=x&logoColor=white" /></a>&nbsp;&nbsp;
+<a href="https://t.me/cryptostarship"><img src="https://img.shields.io/badge/cryptostarship-000000?style=for-the-badge&logo=telegram&logoColor=white" /></a>
 </div>
 
 </div>
@@ -34,6 +34,38 @@
   <source media="(max-width: 768px)" srcset="contributions-mobile.svg?v=3" />
   <img src="contributions.svg?v=3" alt="2026 Contributions" width="100%" />
 </picture>
+
+</div>
+
+<br>
+
+<!-- FEATURED PROJECTS -->
+<div style="background:#0b110e;border:1px solid #00804a;border-radius:10px;overflow:hidden;margin-bottom:12px">
+
+<div style="padding:12px 20px 10px;border-bottom:1px solid #1a3328">
+<h3><span style="color:#00e5a0">// </span>featured</h3>
+</div>
+
+<table>
+<tr>
+<td width="50%" align="center">
+<a href="https://cryptopilot.dev/uploader">
+<img src="https://cryptopilot.dev/projects/uploader/assets/preview.png" width="100%" alt="uploader preview" />
+</a>
+<br>
+📦 <a href="https://cryptopilot.dev/uploader"><b>uploader</b></a><br>
+Telegram bot that saves files to your VPS and replies with the path.
+</td>
+<td width="50%" align="center">
+<a href="https://cryptopilot.dev/smartcommits">
+<img src="https://cryptopilot.dev/projects/smartcommits/assets/preview.png" width="100%" alt="smartcommit preview" />
+</a>
+<br>
+🔁 <a href="https://cryptopilot.dev/smartcommits"><b>smartcommit</b></a><br>
+Autopilot commits across all your repos. AI messages, GitHub auto-push, Telegram rollups.
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -110,38 +142,6 @@
 </tr>
 </table>
 </div>
-
-</div>
-
-<br>
-
-<!-- FEATURED PROJECTS -->
-<div style="background:#0b110e;border:1px solid #00804a;border-radius:10px;overflow:hidden;margin-bottom:12px">
-
-<div style="padding:12px 20px 10px;border-bottom:1px solid #1a3328">
-<h3><span style="color:#00e5a0">// </span>featured</h3>
-</div>
-
-<table>
-<tr>
-<td width="50%" align="center">
-<a href="https://cryptopilot.dev/uploader">
-<img src="https://cryptopilot.dev/projects/uploader/assets/preview.png" width="100%" alt="uploader preview" />
-</a>
-<br>
-📦 <a href="https://cryptopilot.dev/uploader"><b>uploader</b></a><br>
-Telegram bot that saves files to your VPS and replies with the path.
-</td>
-<td width="50%" align="center">
-<a href="https://cryptopilot.dev/smartcommits">
-<img src="https://cryptopilot.dev/projects/smartcommits/assets/preview.png" width="100%" alt="smartcommit preview" />
-</a>
-<br>
-🔁 <a href="https://cryptopilot.dev/smartcommits"><b>smartcommit</b></a><br>
-Autopilot commits across all your repos. AI messages, GitHub auto-push, Telegram rollups.
-</td>
-</tr>
-</table>
 
 </div>
 
