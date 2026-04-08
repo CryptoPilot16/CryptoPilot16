@@ -121,12 +121,6 @@
   <td align="right">~47K</td>
 </tr>
 <tr>
-  <td><nobr>🏎️&nbsp;<b>f1_analytics</b></nobr></td>
-  <td>F1 telemetry analysis and fantasy optimization</td>
-  <td><code>JavaScript</code> <code>React</code> <code>Vite</code> <code>Node.js</code></td>
-  <td align="right">~42K</td>
-</tr>
-<tr>
   <td><nobr>✈️&nbsp;<b>Tailwinds</b></nobr></td>
   <td>Flight data aggregation and alerting</td>
   <td><code>TypeScript</code> <code>Next.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Tailwind CSS</code></td>
@@ -137,6 +131,12 @@
   <td>Prediction market execution layer</td>
   <td><code>TypeScript</code> <code>Next.js</code> <code>React</code> <code>Tailwind CSS</code> <code>ethers.js</code></td>
   <td align="right">~28K</td>
+</tr>
+<tr>
+  <td><nobr>🏎️&nbsp;<b>f1_analytics</b></nobr></td>
+  <td>F1 telemetry analysis and fantasy optimization</td>
+  <td><code>JavaScript</code> <code>React</code> <code>Vite</code> <code>Node.js</code></td>
+  <td align="right">~25K</td>
 </tr>
 <tr>
   <td><nobr>🔍&nbsp;<b>smartmoney</b></nobr></td>
@@ -181,10 +181,10 @@
   <td align="right">~4K</td>
 </tr>
 <tr>
-  <td><nobr>📦&nbsp;<b>vps-uploader</b></nobr></td>
+  <td><nobr>📦&nbsp;<b>uploader</b></nobr></td>
   <td>Telegram bot that saves files to your VPS and replies with the path</td>
   <td><code>JavaScript</code> <code>Node.js</code></td>
-  <td align="right">~381</td>
+  <td align="right">~1K</td>
 </tr>
 <tr>
   <td><nobr>🖥️&nbsp;<b>codex-control</b></nobr></td>
@@ -196,6 +196,6 @@
   <td></td>
   <td></td>
   <td><b>16 projects</b></td>
-  <td align="right"><b>~442K</b></td>
+  <td align="right"><b>~427K</b></td>
 </tr>
 </table>
