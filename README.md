@@ -7,8 +7,8 @@
 <!-- SOCIALS -->
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden;margin-bottom:12px">
 
-<div style="padding:12px 20px 10px;border-bottom:1px solid #1e1e1e">
-<h3><span style="color:#00e5a0">// </span>socials</h3>
+<div style="padding:12px 3% 10px;border-bottom:1px solid #1e1e1e">
+<h3 style="margin:0;white-space:nowrap"><span style="color:#00e5a0">// </span>socials</h3>
 </div>
 
 <div style="padding:14px 20px">
@@ -22,8 +22,8 @@
 <!-- COMMITS -->
 <div style="background:#080808;border:1px solid #1a1a1a;border-radius:10px;overflow:hidden;margin-bottom:12px;box-shadow:0 0 40px rgba(0,229,160,0.04)">
 
-<div style="padding:12px 20px 10px;border-bottom:1px solid #1e1e1e">
-<h3><span style="color:#00e5a0">// </span>commits</h3>
+<div style="padding:12px 3% 10px;border-bottom:1px solid #1e1e1e">
+<h3 style="margin:0;white-space:nowrap"><span style="color:#00e5a0">// </span>commits</h3>
 </div>
 
 <picture>
@@ -38,8 +38,8 @@
 <!-- TECH STACK -->
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden;margin-bottom:12px">
 
-<div style="padding:12px 20px 10px;border-bottom:1px solid #1e1e1e">
-<h3><span style="color:#00e5a0">// </span>tech stack</h3>
+<div style="padding:12px 3% 10px;border-bottom:1px solid #1e1e1e">
+<h3 style="margin:0;white-space:nowrap"><span style="color:#00e5a0">// </span>tech stack</h3>
 </div>
 
 <div style="padding:4px 0">
@@ -112,8 +112,8 @@
 <!-- PROJECTS -->
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden">
 
-<div style="padding:12px 20px 10px;border-bottom:1px solid #1e1e1e">
-<h3><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 16 repos · ~441K lines</span></h3>
+<div style="padding:12px 3% 10px;border-bottom:1px solid #1e1e1e">
+<h3 style="margin:0;white-space:nowrap"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 16 repos · ~441K lines</span></h3>
 </div>
 
 <div style="padding:4px 0">
@@ -240,8 +240,8 @@
 <!-- FEATURED PROJECTS -->
 <div style="background:#0b110e;border:1px solid #00804a;border-radius:10px;overflow:hidden;margin-bottom:12px">
 
-<div style="padding:12px 20px 10px;border-bottom:1px solid #1a3328">
-<h3><span style="color:#00e5a0">// </span>featured</h3>
+<div style="padding:12px 3% 10px;border-bottom:1px solid #1a3328">
+<h3 style="margin:0;white-space:nowrap"><span style="color:#00e5a0">// </span>featured</h3>
 </div>
 
 <table>
