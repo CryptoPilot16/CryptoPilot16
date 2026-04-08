@@ -105,9 +105,9 @@
 
 <table>
 <colgroup>
+  <col width="22%" />
+  <col width="38%" />
   <col width="32%" />
-  <col width="40%" />
-  <col width="20%" />
   <col width="8%" />
 </colgroup>
 <tr>
@@ -116,33 +116,30 @@
   <th align="left">Stack</th>
   <th align="right">Lines</th>
 </tr>
-<!-- featured -->
 <tr>
-  <td><nobr>⚔️&nbsp;<b>mythex</b>&nbsp;<sup><img src="https://img.shields.io/badge/featured-0b110e?style=flat-square&color=0b110e&labelColor=00804a&logoColor=00e5a0" /></sup></nobr></td>
+  <td><nobr>⚔️&nbsp;<b>mythex</b></nobr></td>
   <td>A browser-based 3D MMORPG engine</td>
   <td><code>JavaScript</code> <code>TypeScript</code> <code>React</code> <code>Vite</code> <code>Solana</code></td>
   <td align="right">~85K</td>
 </tr>
 <tr>
-  <td><nobr>📊&nbsp;<b>pm-relay</b>&nbsp;<sup><img src="https://img.shields.io/badge/featured-0b110e?style=flat-square&color=0b110e&labelColor=00804a&logoColor=00e5a0" /></sup></nobr></td>
+  <td><nobr>📊&nbsp;<b>pm-relay</b></nobr></td>
   <td>Multi-venue spread tracking and execution</td>
   <td><code>Python</code> <code>Node.js</code> <code>React</code> <code>Polygon</code> <code>Playwright</code></td>
   <td align="right">~67K</td>
 </tr>
 <tr>
-  <td><nobr>🤖&nbsp;<b>clawnux-v3</b>&nbsp;<sup><img src="https://img.shields.io/badge/featured-0b110e?style=flat-square&color=0b110e&labelColor=00804a&logoColor=00e5a0" /></sup></nobr></td>
+  <td><nobr>🤖&nbsp;<b>clawnux-v3</b></nobr></td>
   <td>Multi-model coding agent</td>
   <td><code>Shell</code> <code>Next.js</code> <code>PostgreSQL</code> <code>Claude Code</code></td>
   <td align="right">~59K</td>
 </tr>
 <tr>
-  <td><nobr>👻&nbsp;<b>echoes</b>&nbsp;<sup><img src="https://img.shields.io/badge/featured-0b110e?style=flat-square&color=0b110e&labelColor=00804a&logoColor=00e5a0" /></sup></nobr></td>
+  <td><nobr>👻&nbsp;<b>echoes</b></nobr></td>
   <td>Eternal Conversational Hologram Of Embedded Souls</td>
   <td><code>TypeScript</code> <code>Next.js</code> <code>Tailwind CSS</code> <code>Three.js</code> <code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>RunPod</code></td>
   <td align="right">~47K</td>
 </tr>
-<!-- divider -->
-<tr><td colspan="4"><sub>&nbsp;</sub></td></tr>
 <tr>
   <td><nobr>✈️&nbsp;<b>Tailwinds</b></nobr></td>
   <td>Flight data aggregation and alerting</td>
