@@ -163,6 +163,12 @@
   <td align="right">~12K</td>
 </tr>
 <tr>
+  <td><nobr>🛠️&nbsp;<b>watcher</b></nobr></td>
+  <td>Private mission-control dashboard for the OpenClaw agent stack</td>
+  <td><code>JavaScript</code> <code>Next.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>React</code></td>
+  <td align="right">~5K</td>
+</tr>
+<tr>
   <td><nobr>📞&nbsp;<b>snapmolt</b></nobr></td>
   <td>Outbound voice-call bridge with AI &amp; TTS</td>
   <td><code>JavaScript</code> <code>Node.js</code> <code>Twilio</code> <code>Express</code></td>
@@ -175,10 +181,10 @@
   <td align="right">~4K</td>
 </tr>
 <tr>
-  <td><nobr>🛠️&nbsp;<b>watcher</b></nobr></td>
-  <td>Private monitoring dashboard</td>
-  <td><code>JavaScript</code> <code>Next.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>React</code></td>
-  <td align="right">~4K</td>
+  <td><nobr>📦&nbsp;<b>vps-uploader</b></nobr></td>
+  <td>Telegram bot that saves files to your VPS and replies with the path</td>
+  <td><code>JavaScript</code> <code>Node.js</code></td>
+  <td align="right">~381</td>
 </tr>
 <tr>
   <td><nobr>🖥️&nbsp;<b>codex-control</b></nobr></td>
@@ -187,15 +193,9 @@
   <td align="right">~380</td>
 </tr>
 <tr>
-  <td><nobr>📦&nbsp;<b>uploader</b></nobr></td>
-  <td>Telegram bot that saves files to your VPS and replies with the path</td>
-  <td><code>JavaScript</code> <code>Node.js</code></td>
-  <td align="right">~284</td>
-</tr>
-<tr>
   <td></td>
   <td></td>
   <td><b>16 projects</b></td>
-  <td align="right"><b>~441K</b></td>
+  <td align="right"><b>~442K</b></td>
 </tr>
 </table>
