@@ -2,9 +2,20 @@
 
 <img src="header.svg" alt="PILOT" width="520" />
 
-
 [![X](https://img.shields.io/badge/@cryptopilot16-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/cryptopilot16)
 [![Telegram](https://img.shields.io/badge/cryptostarship-000000?style=flat-square&logo=telegram&logoColor=26A5E4)](https://t.me/cryptostarship)
+
+</div>
+
+<br>
+
+<!-- COMMITS -->
+<div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden;margin-bottom:12px">
+
+<div style="padding:14px 20px 12px;font-family:monospace;font-size:15px;color:#555;border-bottom:1px solid #1e1e1e;display:flex;justify-content:space-between;align-items:center">
+<span><span style="color:#00e5a0">// </span>commits</span>
+<a href="https://cryptopilot.dev" style="color:#26A5E4;font-size:13px;text-decoration:none">cryptopilot.dev</a>
+</div>
 
 <picture>
   <source media="(max-width: 768px)" srcset="contributions-mobile.svg?v=3" />
@@ -16,12 +27,13 @@
 <br>
 
 <!-- TECH STACK -->
-<div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;padding:4px 0;margin-bottom:12px">
+<div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden;margin-bottom:12px">
 
-<div style="padding:10px 16px 6px;font-family:monospace;font-size:12px;color:#555;border-bottom:1px solid #1e1e1e">
+<div style="padding:14px 20px 12px;font-family:monospace;font-size:15px;color:#555;border-bottom:1px solid #1e1e1e">
 <span style="color:#00e5a0">// </span>tech stack
 </div>
 
+<div style="padding:4px 0">
 <table style="margin:0">
 <tr>
 <td align="center"><b>Languages</b></td>
@@ -84,16 +96,20 @@
 </td>
 </tr>
 </table>
+</div>
 
 </div>
 
-<!-- PROJECTS -->
-<div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;padding:4px 0">
+<br>
 
-<div style="padding:10px 16px 6px;font-family:monospace;font-size:12px;color:#555;border-bottom:1px solid #1e1e1e">
+<!-- PROJECTS -->
+<div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden">
+
+<div style="padding:14px 20px 12px;font-family:monospace;font-size:15px;color:#555;border-bottom:1px solid #1e1e1e">
 <span style="color:#00e5a0">// </span>projects &nbsp;·&nbsp; 16 repos &nbsp;·&nbsp; ~441K lines
 </div>
 
+<div style="padding:4px 0">
 <table>
 <colgroup>
   <col width="32%" />
@@ -210,5 +226,6 @@
   <td align="right"><b>~441K</b></td>
 </tr>
 </table>
+</div>
 
 </div>
