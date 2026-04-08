@@ -2,6 +2,7 @@
 
 <img src="header.svg" alt="PILOT" width="520" />
 
+[![cryptopilot.dev](https://img.shields.io/badge/cryptopilot.dev-000000?style=flat-square&logo=safari&logoColor=00e5a0)](https://cryptopilot.dev)
 [![X](https://img.shields.io/badge/@cryptopilot16-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/cryptopilot16)
 [![Telegram](https://img.shields.io/badge/cryptostarship-000000?style=flat-square&logo=telegram&logoColor=26A5E4)](https://t.me/cryptostarship)
 
@@ -10,11 +11,10 @@
 <br>
 
 <!-- COMMITS -->
-<div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden;margin-bottom:12px">
+<div style="background:#080808;border:1px solid #1a1a1a;border-radius:10px;overflow:hidden;margin-bottom:12px;box-shadow:0 0 40px rgba(0,229,160,0.04)">
 
-<div style="padding:14px 20px 12px;font-family:monospace;font-size:15px;color:#555;border-bottom:1px solid #1e1e1e;display:flex;justify-content:space-between;align-items:center">
-<span><span style="color:#00e5a0">// </span>commits</span>
-<a href="https://cryptopilot.dev" style="color:#26A5E4;font-size:13px;text-decoration:none">cryptopilot.dev</a>
+<div style="padding:16px 20px 14px;font-family:'JetBrains Mono','Courier New',monospace;font-size:18px;font-weight:700;color:#666;border-bottom:1px solid #1e1e1e;letter-spacing:0.03em">
+<span style="color:#00e5a0">// </span>commits
 </div>
 
 <picture>
@@ -29,7 +29,7 @@
 <!-- TECH STACK -->
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden;margin-bottom:12px">
 
-<div style="padding:14px 20px 12px;font-family:monospace;font-size:15px;color:#555;border-bottom:1px solid #1e1e1e">
+<div style="padding:16px 20px 14px;font-family:'JetBrains Mono','Courier New',monospace;font-size:18px;font-weight:700;color:#666;border-bottom:1px solid #1e1e1e;letter-spacing:0.03em">
 <span style="color:#00e5a0">// </span>tech stack
 </div>
 
@@ -105,8 +105,8 @@
 <!-- PROJECTS -->
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden">
 
-<div style="padding:14px 20px 12px;font-family:monospace;font-size:15px;color:#555;border-bottom:1px solid #1e1e1e">
-<span style="color:#00e5a0">// </span>projects &nbsp;·&nbsp; 16 repos &nbsp;·&nbsp; ~441K lines
+<div style="padding:16px 20px 14px;font-family:'JetBrains Mono','Courier New',monospace;font-size:18px;font-weight:700;color:#666;border-bottom:1px solid #1e1e1e;letter-spacing:0.03em">
+<span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 16 repos · ~441K lines</span>
 </div>
 
 <div style="padding:4px 0">
