@@ -7,17 +7,22 @@
 [![Telegram](https://img.shields.io/badge/cryptostarship-000000?style=flat-square&logo=telegram&logoColor=26A5E4)](https://t.me/cryptostarship)
 
 <picture>
-  <source media="(max-width: 768px)" srcset="contributions-mobile.svg?v=2" />
-  <img src="contributions.svg?v=2" alt="2026 Contributions" width="100%" />
+  <source media="(max-width: 768px)" srcset="contributions-mobile.svg?v=3" />
+  <img src="contributions.svg?v=3" alt="2026 Contributions" width="100%" />
 </picture>
 
 </div>
 
----
+<br>
 
-### Tech Stack
+<!-- TECH STACK -->
+<div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;padding:4px 0;margin-bottom:12px">
 
-<table>
+<div style="padding:10px 16px 6px;font-family:monospace;font-size:12px;color:#555;border-bottom:1px solid #1e1e1e">
+<span style="color:#00e5a0">// </span>tech stack
+</div>
+
+<table style="margin:0">
 <tr>
 <td align="center"><b>Languages</b></td>
 <td>
@@ -80,9 +85,14 @@
 </tr>
 </table>
 
----
+</div>
 
-### Projects
+<!-- PROJECTS -->
+<div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;padding:4px 0">
+
+<div style="padding:10px 16px 6px;font-family:monospace;font-size:12px;color:#555;border-bottom:1px solid #1e1e1e">
+<span style="color:#00e5a0">// </span>projects &nbsp;·&nbsp; 16 repos &nbsp;·&nbsp; ~427K lines
+</div>
 
 <table>
 <colgroup>
@@ -153,7 +163,7 @@
 </tr>
 <tr>
   <td><nobr>📡&nbsp;<b>nysm</b></nobr></td>
-  <td>WiFi-based body detection + multi-camera home surveillance system with 3D spatia</td>
+  <td>WiFi-based body detection + multi-camera home surveillance system with 3D spatial mapping</td>
   <td><code>Express</code> <code>JavaScript</code> <code>Node.js</code> <code>Telegram</code></td>
   <td align="right">~13K</td>
 </tr>
@@ -182,7 +192,7 @@
   <td align="right">~4K</td>
 </tr>
 <tr>
-  <td><nobr>📤&nbsp;<b>uploader</b></nobr></td>
+  <td><nobr>📤&nbsp;<b><a href="https://cryptopilot.dev/uploader">uploader</a></b></nobr></td>
   <td>Telegram bot that saves files to your VPS and replies with the path</td>
   <td><code>JavaScript</code> <code>Node.js</code> <code>Telegram</code></td>
   <td align="right">~1K</td>
@@ -200,3 +210,5 @@
   <td align="right"><b>~427K</b></td>
 </tr>
 </table>
+
+</div>
