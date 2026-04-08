@@ -187,9 +187,15 @@
   <td align="right">~380</td>
 </tr>
 <tr>
+  <td><nobr>📦&nbsp;<b>vps-uploader</b></nobr></td>
+  <td>A personal Telegram bot that receives images, files, video, and audio — saves th</td>
+  <td><code>JavaScript</code> <code>Node.js</code></td>
+  <td align="right">~284</td>
+</tr>
+<tr>
   <td></td>
   <td></td>
-  <td><b>15 projects</b></td>
+  <td><b>16 projects</b></td>
   <td align="right"><b>~441K</b></td>
 </tr>
 </table>
