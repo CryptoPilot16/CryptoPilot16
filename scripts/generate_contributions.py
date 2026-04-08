@@ -53,17 +53,17 @@ def fetch_contributions():
 
 
 def color_for_count(count):
-    """Monochrome palette on dark background."""
+    """GitHub native contribution palette."""
     if count == 0:
-        return "#1a1a1a"
+        return "#161b22"
     elif count <= 3:
-        return "#3a3a3a"
+        return "#0e4429"
     elif count <= 6:
-        return "#666666"
+        return "#006d32"
     elif count <= 9:
-        return "#999999"
+        return "#26a641"
     else:
-        return "#d4d4d4"
+        return "#39d353"
 
 
 def generate_svg(calendar):
@@ -82,7 +82,7 @@ def generate_svg(calendar):
 
     lines = []
     lines.append(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="100%">')
-    lines.append(f'<rect width="{width}" height="{height}" fill="#080808" rx="6"/>')
+    lines.append(f'<rect width="{width}" height="{height}" fill="#0d1117" rx="6"/>')
 
     # Month labels
     months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
@@ -96,7 +96,7 @@ def generate_svg(calendar):
 
     for month_num, wi in month_positions.items():
         x = margin_left + wi * size
-        lines.append(f'<text x="{x}" y="{margin_top - 16}" fill="#555" '
+        lines.append(f'<text x="{x}" y="{margin_top - 16}" fill="#8b949e" '
                       f'font-family="monospace" font-size="28">{months[month_num - 1]}</text>')
 
     # Day labels
@@ -104,7 +104,7 @@ def generate_svg(calendar):
     for di, label in enumerate(day_labels):
         if label:
             y = margin_top + di * size + cell - 2
-            lines.append(f'<text x="2" y="{y}" fill="#555" '
+            lines.append(f'<text x="2" y="{y}" fill="#8b949e" '
                           f'font-family="monospace" font-size="16">{label}</text>')
 
     # Cells
@@ -155,7 +155,7 @@ def generate_svg(calendar):
              f'  \u00b7  {weekly_avg:.1f}/week'
              f'  \u00b7  {monthly_avg:.0f}/month'
              f'  \u00b7  {current_month_name}: {current_month_total}')
-    lines.append(f'<text x="{margin_left}" y="{stats_y}" fill="#888888" '
+    lines.append(f'<text x="{margin_left}" y="{stats_y}" fill="#39d353" '
                   f'font-family="monospace" font-size="28" font-weight="bold">'
                   f'{label}'
                   f'</text>')
