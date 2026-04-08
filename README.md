@@ -187,8 +187,8 @@
   <td align="right">~380</td>
 </tr>
 <tr>
-  <td><nobr>📦&nbsp;<b>vps-uploader</b></nobr></td>
-  <td>A personal Telegram bot that receives images, files, video, and audio — saves th</td>
+  <td><nobr>📦&nbsp;<b>uploader</b></nobr></td>
+  <td>Telegram bot that saves files to your VPS and replies with the path</td>
   <td><code>JavaScript</code> <code>Node.js</code></td>
   <td align="right">~284</td>
 </tr>
