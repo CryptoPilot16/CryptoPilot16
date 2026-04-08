@@ -113,7 +113,7 @@
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden">
 
 <div style="padding:12px 20px 10px;border-bottom:1px solid #1e1e1e">
-<h3><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 18 repos · ~380K lines</span></h3>
+<h3><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 15 repos · ~359K lines</span></h3>
 </div>
 
 <div style="padding:4px 0">
@@ -179,12 +179,6 @@
   <td align="right">~21K</td>
 </tr>
 <tr>
-  <td><nobr>📡&nbsp;<b>nysm</b></nobr></td>
-  <td>WiFi-based body detection + multi-camera home surveillance system with 3D spatia</td>
-  <td><code>Express</code> <code>JavaScript</code> <code>Node.js</code> <code>Telegram</code></td>
-  <td align="right">~13K</td>
-</tr>
-<tr>
   <td><nobr>🏛️&nbsp;<b>govdeals</b></nobr></td>
   <td>Gov surplus property scraper with Zillow valuations</td>
   <td><code>TypeScript</code> <code>Python</code> <code>Next.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Playwright</code></td>
@@ -197,12 +191,6 @@
   <td align="right">~8K</td>
 </tr>
 <tr>
-  <td><nobr>🛠️&nbsp;<b>watcher</b></nobr></td>
-  <td>Private mission-control dashboard for the OpenClaw agent stack</td>
-  <td><code>JavaScript</code> <code>Next.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>React</code></td>
-  <td align="right">~5K</td>
-</tr>
-<tr>
   <td><nobr>📞&nbsp;<b>snapmolt</b></nobr></td>
   <td>Outbound voice-call bridge with AI &amp; TTS</td>
   <td><code>JavaScript</code> <code>Node.js</code> <code>Twilio</code> <code>Express</code></td>
@@ -213,12 +201,6 @@
   <td>Multi-model API usage dashboard and cost tracker</td>
   <td><code>JavaScript</code> <code>Node.js</code> <code>HTML</code></td>
   <td align="right">~4K</td>
-</tr>
-<tr>
-  <td><nobr>📈&nbsp;<b>cryptopilotdev</b></nobr></td>
-  <td>Personal portfolio and developer hub for CryptoPilot16 — Agentic AI Engineering</td>
-  <td><code>HTML</code></td>
-  <td align="right">~3K</td>
 </tr>
 <tr>
   <td><nobr>🔁&nbsp;<b>smartcommit</b></nobr></td>
@@ -241,8 +223,8 @@
 <tr>
   <td></td>
   <td></td>
-  <td><b>18 projects</b></td>
-  <td align="right"><b>~380K</b></td>
+  <td><b>15 projects</b></td>
+  <td align="right"><b>~359K</b></td>
 </tr>
 </table>
 </div>
