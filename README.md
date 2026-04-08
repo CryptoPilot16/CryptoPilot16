@@ -2,12 +2,22 @@
 
 <img src="header.svg" alt="PILOT" width="520" />
 
+</div>
+
 <br>
 
-[![cryptopilot.dev](https://img.shields.io/badge/cryptopilot.dev-000000?style=flat-square&logo=data%3Aimage%2Fpng%3Bbase64%2C%2F9j%2F2wCEAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDIBCQkJDAsMGA0NGDIhHCEyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMv%2FAABEIACAAIAMBIgACEQEDEQH%2FxAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29%2Fj5%2BgEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4%2BTl5ufo6ery8%2FT19vf4%2Bfr%2F2gAMAwEAAhEDEQA%2FAOaigaR1RVJZiAB6k10FzZ%2BF%2FDUYXxNqwF443La22XKjsTtB69e341FoEYXxBpzN0Fwh%2BvNeY%2BKpNRh1q8sdRRlmjuXdvMUFyT33dSMAY5x6V9NmWKqUmoQdrm1aTTsjuppND1LdNol1K8CHEnmRtlM9CeOlZE8extp2ngHKsCCCMjkVW8JXdtF4e1eDcPtM8QSOMdWORjH41an8rzG8lGSPsrHJHr%2BuavLMTVqtxnqkjODbdmd3pem%2BbJDcO2yJJFOQMk4POK2%2FGVhpGs2wkltLG8mX5UaUZcDrgbSG%2FM49qo2F3GkUduSAQvT36n%2BdUtVaNwQwBHoa5MQnXndvY4KuMfO%2Bxw8VvZ6VqZCWlvEyHB2S7uf1pJlQAmPOzPG7ritedYYlJCqPoKxLm7R5Ci4xj%2FP8xWuEk8PLR6MVLFS51ZaH%2F9k%3D&logoColor=white)](https://cryptopilot.dev)
-[![X](https://img.shields.io/badge/@cryptopilot16-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/cryptopilot16)
-&nbsp;
+<!-- SOCIALS -->
+<div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden;margin-bottom:12px">
+
+<div style="padding:16px 20px 14px;font-family:'JetBrains Mono','Courier New',monospace;font-size:24px;font-weight:700;color:#666;border-bottom:1px solid #1e1e1e;letter-spacing:0.03em">
+<span style="color:#00e5a0">// </span>socials
+</div>
+
+<div style="padding:14px 20px">
+[![cryptopilot.dev](https://img.shields.io/badge/cryptopilot.dev-000000?style=flat-square&logo=data%3Aimage%2Fpng%3Bbase64%2C%2F9j%2F2wCEAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDIBCQkJDAsMGA0NGDIhHCEyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMv%2FAABEIACAAIAMBIgACEQEDEQH%2FxAGiAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgsQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29%2Fj5%2BgEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoLEQACAQIEBAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEKFiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2dri4%2BTl5ufo6ery8%2FT19vf4%2Bfr%2F2gAMAwEAAhEDEQA%2FAOaigaR1RVJZiAB6k10FzZ%2BF%2FDUYXxNqwF443La22XKjsTtB69e341FoEYXxBpzN0Fwh%2BvNeY%2BKpNRh1q8sdRRlmjuXdvMUFyT33dSMAY5x6V9NmWKqUmoQdrm1aTTsjuppND1LdNol1K8CHEnmRtlM9CeOlZE8extp2ngHKsCCCMjkVW8JXdtF4e1eDcPtM8QSOMdWORjH41an8rzG8lGSPsrHJHr%2BuavLMTVqtxnqkjODbdmd3pem%2BbJDcO2yJJFOQMk4POK2%2FGVhpGs2wkltLG8mX5UaUZcDrgbSG%2FM49qo2F3GkUduSAQvT36n%2BdUtVaNwQwBHoa5MQnXndvY4KuMfO%2Bxw8VvZ6VqZCWlvEyHB2S7uf1pJlQAmPOzPG7ritedYYlJCqPoKxLm7R5Ci4xj%2FP8xWuEk8PLR6MVLFS51ZaH%2F9k%3D&logoColor=white)](https://cryptopilot.dev) &nbsp;
+[![X](https://img.shields.io/badge/@cryptopilot16-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/cryptopilot16) &nbsp;
 [![Telegram](https://img.shields.io/badge/cryptostarship-000000?style=flat-square&logo=telegram&logoColor=26A5E4)](https://t.me/cryptostarship)
+</div>
 
 </div>
 
@@ -16,7 +26,7 @@
 <!-- COMMITS -->
 <div style="background:#080808;border:1px solid #1a1a1a;border-radius:10px;overflow:hidden;margin-bottom:12px;box-shadow:0 0 40px rgba(0,229,160,0.04)">
 
-<div style="padding:16px 20px 14px;font-family:'JetBrains Mono','Courier New',monospace;font-size:22px;font-weight:700;color:#666;border-bottom:1px solid #1e1e1e;letter-spacing:0.03em">
+<div style="padding:16px 20px 14px;font-family:'JetBrains Mono','Courier New',monospace;font-size:24px;font-weight:700;color:#666;border-bottom:1px solid #1e1e1e;letter-spacing:0.03em">
 <span style="color:#00e5a0">// </span>commits
 </div>
 
@@ -32,7 +42,7 @@
 <!-- TECH STACK -->
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden;margin-bottom:12px">
 
-<div style="padding:16px 20px 14px;font-family:'JetBrains Mono','Courier New',monospace;font-size:22px;font-weight:700;color:#666;border-bottom:1px solid #1e1e1e;letter-spacing:0.03em">
+<div style="padding:16px 20px 14px;font-family:'JetBrains Mono','Courier New',monospace;font-size:24px;font-weight:700;color:#666;border-bottom:1px solid #1e1e1e;letter-spacing:0.03em">
 <span style="color:#00e5a0">// </span>tech stack
 </div>
 
@@ -108,7 +118,7 @@
 <!-- FEATURED PROJECTS -->
 <div style="background:#0b110e;border:1px solid #00804a;border-radius:10px;overflow:hidden;margin-bottom:12px">
 
-<div style="padding:16px 20px 14px;font-family:'JetBrains Mono','Courier New',monospace;font-size:22px;font-weight:700;color:#666;border-bottom:1px solid #1a3328;letter-spacing:0.03em">
+<div style="padding:16px 20px 14px;font-family:'JetBrains Mono','Courier New',monospace;font-size:24px;font-weight:700;color:#666;border-bottom:1px solid #1a3328;letter-spacing:0.03em">
 <span style="color:#00e5a0">// </span>featured
 </div>
 
@@ -142,7 +152,7 @@
 <!-- PROJECTS -->
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden">
 
-<div style="padding:16px 20px 14px;font-family:'JetBrains Mono','Courier New',monospace;font-size:22px;font-weight:700;color:#666;border-bottom:1px solid #1e1e1e;letter-spacing:0.03em">
+<div style="padding:16px 20px 14px;font-family:'JetBrains Mono','Courier New',monospace;font-size:24px;font-weight:700;color:#666;border-bottom:1px solid #1e1e1e;letter-spacing:0.03em">
 <span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 16 repos · ~441K lines</span>
 </div>
 
