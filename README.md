@@ -1,17 +1,26 @@
-<div align="center">
-
-<img src="header.svg" alt="PILOT" width="520" />
-
-
-[![X](https://img.shields.io/badge/@cryptopilot16-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/cryptopilot16)
-[![Telegram](https://img.shields.io/badge/cryptostarship-000000?style=flat-square&logo=telegram&logoColor=26A5E4)](https://t.me/cryptostarship)
+<img src="hero.svg" width="100%" alt="Building at the edge of everything." />
 
 <picture>
   <source media="(max-width: 768px)" srcset="contributions-mobile.svg?v=3" />
   <img src="contributions.svg?v=3" alt="2026 Contributions" width="100%" />
 </picture>
 
-</div>
+<table>
+  <tr>
+    <td width="84" valign="middle">
+      <img src="https://github.com/CryptoPilot16.png" width="68" height="68" />
+    </td>
+    <td valign="middle">
+      <b>PILOT</b> &nbsp;<sup>@CryptoPilot16</sup><br/>
+      <sub>Agentic AI Engineering</sub><br/><br/>
+      <a href="https://github.com/CryptoPilot16"><img src="https://img.shields.io/badge/Follow_on_GitHub-161b22?style=flat-square&logo=github&logoColor=white" /></a>&nbsp;
+      <a href="https://x.com/cryptopilot16"><img src="https://img.shields.io/badge/Follow_on_X-000000?style=flat-square&logo=x&logoColor=white" /></a>&nbsp;
+      <a href="https://t.me/cryptostarship"><img src="https://img.shields.io/badge/Join_Community-0d1117?style=flat-square&logo=telegram&logoColor=26A5E4" /></a>
+    </td>
+  </tr>
+</table>
+
+<img src="stats.svg" width="100%" alt="16 projects · 441K lines · 8 languages · ∞ deploys" />
 
 <br>
 
@@ -91,7 +100,7 @@
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;padding:4px 0">
 
 <div style="padding:10px 16px 6px;font-family:monospace;font-size:12px;color:#555;border-bottom:1px solid #1e1e1e">
-<span style="color:#00e5a0">// </span>projects &nbsp;·&nbsp; 16 repos &nbsp;·&nbsp; ~427K lines
+<span style="color:#00e5a0">// </span>projects &nbsp;·&nbsp; 16 repos &nbsp;·&nbsp; ~441K lines
 </div>
 
 <table>
@@ -107,30 +116,33 @@
   <th align="left">Stack</th>
   <th align="right">Lines</th>
 </tr>
+<!-- featured -->
 <tr>
-  <td><nobr>⚔️&nbsp;<b>mythex</b></nobr></td>
+  <td><nobr>⚔️&nbsp;<b>mythex</b>&nbsp;<sup><img src="https://img.shields.io/badge/featured-0b110e?style=flat-square&color=0b110e&labelColor=00804a&logoColor=00e5a0" /></sup></nobr></td>
   <td>A browser-based 3D MMORPG engine</td>
   <td><code>JavaScript</code> <code>TypeScript</code> <code>React</code> <code>Vite</code> <code>Solana</code></td>
   <td align="right">~85K</td>
 </tr>
 <tr>
-  <td><nobr>📊&nbsp;<b>pm-relay</b></nobr></td>
+  <td><nobr>📊&nbsp;<b>pm-relay</b>&nbsp;<sup><img src="https://img.shields.io/badge/featured-0b110e?style=flat-square&color=0b110e&labelColor=00804a&logoColor=00e5a0" /></sup></nobr></td>
   <td>Multi-venue spread tracking and execution</td>
   <td><code>Python</code> <code>Node.js</code> <code>React</code> <code>Polygon</code> <code>Playwright</code></td>
   <td align="right">~67K</td>
 </tr>
 <tr>
-  <td><nobr>🤖&nbsp;<b>clawnux-v3</b></nobr></td>
+  <td><nobr>🤖&nbsp;<b>clawnux-v3</b>&nbsp;<sup><img src="https://img.shields.io/badge/featured-0b110e?style=flat-square&color=0b110e&labelColor=00804a&logoColor=00e5a0" /></sup></nobr></td>
   <td>Multi-model coding agent</td>
   <td><code>Shell</code> <code>Next.js</code> <code>PostgreSQL</code> <code>Claude Code</code></td>
   <td align="right">~59K</td>
 </tr>
 <tr>
-  <td><nobr>👻&nbsp;<b>echoes</b></nobr></td>
+  <td><nobr>👻&nbsp;<b>echoes</b>&nbsp;<sup><img src="https://img.shields.io/badge/featured-0b110e?style=flat-square&color=0b110e&labelColor=00804a&logoColor=00e5a0" /></sup></nobr></td>
   <td>Eternal Conversational Hologram Of Embedded Souls</td>
   <td><code>TypeScript</code> <code>Next.js</code> <code>Tailwind CSS</code> <code>Three.js</code> <code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>RunPod</code></td>
   <td align="right">~47K</td>
 </tr>
+<!-- divider -->
+<tr><td colspan="4"><sub>&nbsp;</sub></td></tr>
 <tr>
   <td><nobr>✈️&nbsp;<b>Tailwinds</b></nobr></td>
   <td>Flight data aggregation and alerting</td>
@@ -181,7 +193,7 @@
 </tr>
 <tr>
   <td><nobr>📞&nbsp;<b>snapmolt</b></nobr></td>
-  <td>Outbound voice-call bridge with AI &amp; TTS</td>
+  <td>Outbound voice-call bridge with AI & TTS</td>
   <td><code>JavaScript</code> <code>Node.js</code> <code>Twilio</code> <code>Express</code></td>
   <td align="right">~4K</td>
 </tr>
@@ -207,7 +219,7 @@
   <td></td>
   <td></td>
   <td><b>16 projects</b></td>
-  <td align="right"><b>~427K</b></td>
+  <td align="right"><b>~441K</b></td>
 </tr>
 </table>
 
