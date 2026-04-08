@@ -58,6 +58,7 @@
 <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" />
 <img src="https://img.shields.io/badge/RunPod-FF6A00?style=flat-square&logo=kubernetes&logoColor=white" />
 <img src="https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white" />
+<img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" />
 <img src="https://img.shields.io/badge/tmux-1BB91F?style=flat-square" />
 </td>
 </tr>
@@ -153,7 +154,7 @@
 <tr>
   <td><nobr>📡&nbsp;<b>nysm</b></nobr></td>
   <td>WiFi-based body detection + multi-camera home surveillance system with 3D spatia</td>
-  <td><code>Express</code> <code>JavaScript</code> <code>Node.js</code></td>
+  <td><code>Express</code> <code>JavaScript</code> <code>Node.js</code> <code>Telegram</code></td>
   <td align="right">~13K</td>
 </tr>
 <tr>
@@ -181,9 +182,9 @@
   <td align="right">~4K</td>
 </tr>
 <tr>
-  <td><nobr>📦&nbsp;<b>uploader</b></nobr></td>
+  <td><nobr>📤&nbsp;<b>uploader</b></nobr></td>
   <td>Telegram bot that saves files to your VPS and replies with the path</td>
-  <td><code>JavaScript</code> <code>Node.js</code></td>
+  <td><code>JavaScript</code> <code>Node.js</code> <code>Telegram</code></td>
   <td align="right">~1K</td>
 </tr>
 <tr>
