@@ -622,6 +622,34 @@ def merge_stack(curated_stack, detected_stack, is_auto=False):
     return sorted(key_techs, key=str.lower)[:5] if key_techs else ["—"]
 
 
+def update_header_bio(repo_root="."):
+    """Fetch the GitHub bio and write it as the subtitle line in header.svg."""
+    data = gh_api(f"users/{USERNAME}")
+    bio = (data or {}).get("bio") or ""
+    bio = bio.strip()
+
+    svg_path = os.path.join(repo_root, "header.svg")
+    if not os.path.isfile(svg_path):
+        print(f"  header.svg not found at {svg_path}, skipping bio update")
+        return
+
+    with open(svg_path, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    bio_line = f'  <text fill="#8b949e" x="40" y="200" font-family="monospace" font-size="16">{html.escape(bio)}</text>'
+
+    # Replace existing bio line if present, otherwise insert before </svg>
+    if re.search(r'<text[^>]*y="200"[^>]*>', content):
+        content = re.sub(r'  <text[^>]*y="200"[^>]*>.*?</text>', bio_line, content)
+    else:
+        content = content.replace("</svg>", f"{bio_line}\n</svg>")
+
+    with open(svg_path, "w", encoding="utf-8") as f:
+        f.write(content)
+
+    print(f"  Bio updated in header.svg: {bio!r}")
+
+
 def main():
     print(f"Updating projects for {USERNAME}...")
     all_projects = discover_repos()
@@ -657,16 +685,17 @@ def main():
     projects_data.sort(key=lambda p: p["lines_raw"], reverse=True)
 
     update_readme(projects_data)
+    update_header_bio(repo_root=os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
     # Auto-commit and push if running outside CI (the GH Actions workflow has its own commit step)
     if not os.environ.get("GITHUB_ACTIONS"):
         repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         result = subprocess.run(
-            ["git", "-C", repo_root, "diff", "--quiet", "README.md"],
+            ["git", "-C", repo_root, "diff", "--quiet", "README.md", "header.svg"],
             capture_output=True,
         )
         if result.returncode != 0:
-            subprocess.run(["git", "-C", repo_root, "add", "README.md"], check=True)
+            subprocess.run(["git", "-C", repo_root, "add", "README.md", "header.svg"], check=True)
             subprocess.run(
                 ["git", "-C", repo_root, "commit", "-m", "Update projects + tech stack (auto-sync)"],
                 check=True,
