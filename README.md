@@ -227,10 +227,10 @@
   <td align="right">~385</td>
 </tr>
 <tr>
-  <td><nobr>🖥️&nbsp;<b>codex-control</b></nobr></td>
-  <td>Server provisioning and deployment toolkit</td>
-  <td><code>Shell</code> <code>Python</code> <code>tmux</code> <code>Tailscale</code></td>
-  <td align="right">~380</td>
+  <td><nobr>⌚&nbsp;<b>watch-control</b></nobr></td>
+  <td>Approve Codex and Claude Code commands from your Apple Watch</td>
+  <td><code>Shell</code> <code>Python</code> <code>Next.js</code> <code>Tailscale</code> <code>Pushover</code></td>
+  <td align="right">~4K</td>
 </tr>
 <tr>
   <td></td>
