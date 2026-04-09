@@ -485,11 +485,8 @@ def build_projects_table(projects_data):
         stack_str = " ".join(f"<code>{html.escape(s)}</code>" for s in p["stack"])
         emoji = p.get("emoji", "📦")
         display_repo = p.get("display_repo", p["repo"])
-        live_url = p.get("live_url")
-        if live_url:
-            name_cell = f'<a href="{live_url}">{html.escape(display_repo)}</a>'
-        else:
-            name_cell = html.escape(display_repo)
+        repo_url = f'https://github.com/CryptoPilot16/{p["repo"]}'
+        name_cell = f'<a href="{repo_url}">{html.escape(display_repo)}</a>'
         lines.extend([
             "<tr>",
             f"  <td><nobr>{emoji}&nbsp;<b>{name_cell}</b></nobr></td>",
