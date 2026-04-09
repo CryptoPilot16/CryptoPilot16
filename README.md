@@ -146,7 +146,7 @@
   <td><nobr>📊&nbsp;<b>pm-relay</b></nobr></td>
   <td>Multi-venue spread tracking and execution</td>
   <td><code>Python</code> <code>Node.js</code> <code>React</code> <code>Polygon</code> <code>Playwright</code></td>
-  <td align="right">~67K</td>
+  <td align="right">~68K</td>
 </tr>
 <tr>
   <td><nobr>👻&nbsp;<b>echoes</b></nobr></td>
