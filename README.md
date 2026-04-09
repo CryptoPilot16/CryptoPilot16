@@ -117,7 +117,7 @@
 </div>
 
 <div style="padding:4px 0">
-<table style="font-size:0.85em">
+<table>
 <colgroup>
   <col width="32%" />
   <col width="40%" />
@@ -170,7 +170,7 @@
   <td><nobr>🏎️&nbsp;<b>f1_analytics</b></nobr></td>
   <td>F1 telemetry analysis and fantasy optimization</td>
   <td><code>JavaScript</code> <code>React</code> <code>Vite</code> <code>Node.js</code></td>
-  <td align="right">~25K</td>
+  <td align="right">~26K</td>
 </tr>
 <tr>
   <td><nobr>🔍&nbsp;<b>smartmoney</b></nobr></td>
@@ -203,12 +203,6 @@
   <td align="right">~5K</td>
 </tr>
 <tr>
-  <td><nobr>⌚&nbsp;<b><a href="https://cryptopilot.dev/watchcontrol">watch-control</a></b></nobr></td>
-  <td>Approve Codex and Claude Code commands from your Apple Watch</td>
-  <td><code>Shell</code> <code>Python</code> <code>Next.js</code> <code>Tailscale</code> <code>Pushover</code></td>
-  <td align="right">~4K</td>
-</tr>
-<tr>
   <td><nobr>📞&nbsp;<b>snapmolt</b></nobr></td>
   <td>Outbound voice-call bridge with AI &amp; TTS</td>
   <td><code>JavaScript</code> <code>Node.js</code> <code>Twilio</code> <code>Express</code></td>
@@ -221,13 +215,19 @@
   <td align="right">~4K</td>
 </tr>
 <tr>
-  <td><nobr>🔁&nbsp;<b><a href="https://cryptopilot.dev/smartcommits">smartcommit</a></b></nobr></td>
-  <td>Autopilot commits across all your repos</td>
-  <td><code>Shell</code> <code>Ollama</code> <code>GitHub API</code> <code>Telegram</code></td>
-  <td align="right">~900</td>
+  <td><nobr>⌚&nbsp;<b><a href="https://github.com/CryptoPilot16/watch-control">watch-control</a></b></nobr></td>
+  <td>Approve Codex and Claude Code commands from your Apple Watch</td>
+  <td><code>Shell</code> <code>Python</code> <code>Next.js</code> <code>Tailscale</code> <code>Pushover</code></td>
+  <td align="right">~4K</td>
 </tr>
 <tr>
-  <td><nobr>📤&nbsp;<b><a href="https://cryptopilot.dev/uploader">uploader</a></b></nobr></td>
+  <td><nobr>🔁&nbsp;<b><a href="https://github.com/CryptoPilot16/smartcommit">smartcommit</a></b></nobr></td>
+  <td>Autopilot commits across all your repos</td>
+  <td><code>Shell</code> <code>Ollama</code> <code>GitHub API</code> <code>Telegram</code></td>
+  <td align="right">~1K</td>
+</tr>
+<tr>
+  <td><nobr>📤&nbsp;<b><a href="https://github.com/CryptoPilot16/uploader">uploader</a></b></nobr></td>
   <td>Telegram bot that saves files to your VPS and replies with the path</td>
   <td><code>JavaScript</code> <code>Node.js</code> <code>Telegram</code></td>
   <td align="right">~385</td>
@@ -236,7 +236,7 @@
   <td></td>
   <td></td>
   <td><b>17 projects</b></td>
-  <td align="right"><b>~449K</b></td>
+  <td align="right"><b>~450K</b></td>
 </tr>
 </table>
 </div>
