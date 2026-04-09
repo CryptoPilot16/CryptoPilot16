@@ -605,7 +605,7 @@ def update_readme(projects_data):
     # Pattern 2: HTML <!-- PROJECTS --> block with padding div wrapping the table
     projects_pattern_html = (
         r"(<div style=\"padding:4px 0\">\n)"
-        r"<table[^>]*>.*?</table>"
+        r"<table>.*?</table>"
     )
 
     if re.search(projects_pattern_md, content, flags=re.S):
