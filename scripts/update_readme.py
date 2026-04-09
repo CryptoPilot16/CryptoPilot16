@@ -485,8 +485,11 @@ def build_projects_table(projects_data):
         stack_str = " ".join(f"<code>{html.escape(s)}</code>" for s in p["stack"])
         emoji = p.get("emoji", "📦")
         display_repo = p.get("display_repo", p["repo"])
-        repo_url = f'https://github.com/CryptoPilot16/{p["repo"]}'
-        name_cell = f'<a href="{repo_url}">{html.escape(display_repo)}</a>'
+        if p.get("public", False):
+            repo_url = f'https://github.com/CryptoPilot16/{p["repo"]}'
+            name_cell = f'<a href="{repo_url}">{html.escape(display_repo)}</a>'
+        else:
+            name_cell = html.escape(display_repo)
         lines.extend([
             "<tr>",
             f"  <td><nobr>{emoji}&nbsp;<b>{name_cell}</b></nobr></td>",
@@ -602,7 +605,7 @@ def update_readme(projects_data):
     # Pattern 2: HTML <!-- PROJECTS --> block with padding div wrapping the table
     projects_pattern_html = (
         r"(<div style=\"padding:4px 0\">\n)"
-        r"<table>.*?</table>"
+        r"<table[^>]*>.*?</table>"
     )
 
     if re.search(projects_pattern_md, content, flags=re.S):
