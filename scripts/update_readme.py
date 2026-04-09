@@ -481,17 +481,18 @@ def build_projects_table(projects_data):
         "  <th align=\"right\">Lines</th>",
         "</tr>",
     ]
-    gh_icon = '<img src="https://img.shields.io/badge/--181717?style=flat-square&logo=github&logoColor=white" height="13"/>'
     for p in projects_data:
         stack_str = " ".join(f"<code>{html.escape(s)}</code>" for s in p["stack"])
         emoji = p.get("emoji", "📦")
         display_repo = p.get("display_repo", p["repo"])
-        repo_url = f'https://github.com/CryptoPilot16/{p["repo"]}'
-        name_cell = f'<a href="{repo_url}">{html.escape(display_repo)}</a>'
-        gh_link = f'&nbsp;<a href="{repo_url}">{gh_icon}</a>'
+        live_url = p.get("live_url")
+        if live_url:
+            name_cell = f'<a href="{live_url}">{html.escape(display_repo)}</a>'
+        else:
+            name_cell = html.escape(display_repo)
         lines.extend([
             "<tr>",
-            f"  <td><nobr>{emoji}&nbsp;<b>{name_cell}</b>{gh_link}</nobr></td>",
+            f"  <td><nobr>{emoji}&nbsp;<b>{name_cell}</b></nobr></td>",
             f"  <td>{html.escape(p['desc'])}</td>",
             f"  <td>{stack_str}</td>",
             f"  <td align=\"right\">{html.escape(p['lines_fmt'])}</td>",
