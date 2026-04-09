@@ -124,33 +124,34 @@ def generate_svg(calendar):
                           f'<title>{day["date"]}: {count} contribution{"s" if count != 1 else ""}</title>'
                           f'</rect>')
 
-    # Count days with data (up to today) and compute averages
+    # Count active days/weeks/months (only those with ≥1 contribution) and compute averages
     today = date.today()
-    days_elapsed = 0
-    weeks_elapsed = 0
-    months_seen = set()
+    active_days = 0
+    active_weeks = set()
+    active_months = set()
     current_month_total = 0
+    week_index = 0
     for week in weeks:
-        week_has_past_day = False
+        week_active = False
         for day in week["contributionDays"]:
             d = date.fromisoformat(day["date"])
             if d <= today:
-                days_elapsed += 1
-                months_seen.add((d.year, d.month))
-                week_has_past_day = True
+                if day["contributionCount"] > 0:
+                    active_days += 1
+                    active_weeks.add(week_index)
+                    active_months.add((d.year, d.month))
                 if d.year == today.year and d.month == today.month:
                     current_month_total += day["contributionCount"]
-        if week_has_past_day:
-            weeks_elapsed += 1
-    months_elapsed = len(months_seen)
-    daily_avg = total / max(days_elapsed, 1)
-    weekly_avg = total / max(weeks_elapsed, 1)
-    monthly_avg = total / max(months_elapsed, 1)
+        week_index += 1
+    daily_avg = total / max(active_days, 1)
+    weekly_avg = total / max(len(active_weeks), 1)
+    monthly_avg = total / max(len(active_months), 1)
     current_month_name = today.strftime("%b")
 
-    # Single stats line: total | daily | weekly | monthly | current month
+    # Single stats line: total | active days | daily | weekly | monthly | current month
     stats_y = height - 14
     label = (f'{total} in {YEAR}'
+             f'  \u00b7  {active_days} days'
              f'  \u00b7  {daily_avg:.1f}/day'
              f'  \u00b7  {weekly_avg:.1f}/week'
              f'  \u00b7  {monthly_avg:.0f}/month'
