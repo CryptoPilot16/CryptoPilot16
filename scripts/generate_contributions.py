@@ -3,9 +3,8 @@
 
 import json
 import urllib.request
-import sys
 import os
-from datetime import date, timedelta
+from datetime import date
 
 USERNAME = os.environ.get("GITHUB_USERNAME", "CryptoPilot16")
 YEAR = int(os.environ.get("CONTRIB_YEAR", "2026"))
@@ -124,28 +123,21 @@ def generate_svg(calendar):
                           f'<title>{day["date"]}: {count} contribution{"s" if count != 1 else ""}</title>'
                           f'</rect>')
 
-    # Count active days/weeks/months (only those with ≥1 contribution) and compute averages
+    # Count active days (days with ≥1 contribution) and project averages from daily rate
     today = date.today()
     active_days = 0
-    active_weeks = set()
-    active_months = set()
     current_month_total = 0
-    week_index = 0
     for week in weeks:
-        week_active = False
         for day in week["contributionDays"]:
             d = date.fromisoformat(day["date"])
             if d <= today:
                 if day["contributionCount"] > 0:
                     active_days += 1
-                    active_weeks.add(week_index)
-                    active_months.add((d.year, d.month))
                 if d.year == today.year and d.month == today.month:
                     current_month_total += day["contributionCount"]
-        week_index += 1
     daily_avg = total / max(active_days, 1)
-    weekly_avg = total / max(len(active_weeks), 1)
-    monthly_avg = total / max(len(active_months), 1)
+    weekly_avg = daily_avg * 7
+    monthly_avg = daily_avg * 30
     current_month_name = today.strftime("%b")
 
     # Single stats line: total | active days | daily | weekly | monthly | current month
