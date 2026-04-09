@@ -203,6 +203,12 @@
   <td align="right">~5K</td>
 </tr>
 <tr>
+  <td><nobr>⌚&nbsp;<b><a href="https://watch-control.clawnux.com">watch-control</a></b></nobr></td>
+  <td>Approve Codex and Claude Code commands from your Apple Watch</td>
+  <td><code>Shell</code> <code>Python</code> <code>Next.js</code> <code>Tailscale</code> <code>Pushover</code></td>
+  <td align="right">~4K</td>
+</tr>
+<tr>
   <td><nobr>📞&nbsp;<b>snapmolt</b></nobr></td>
   <td>Outbound voice-call bridge with AI &amp; TTS</td>
   <td><code>JavaScript</code> <code>Node.js</code> <code>Twilio</code> <code>Express</code></td>
@@ -225,12 +231,6 @@
   <td>Telegram bot that saves files to your VPS and replies with the path</td>
   <td><code>JavaScript</code> <code>Node.js</code> <code>Telegram</code></td>
   <td align="right">~385</td>
-</tr>
-<tr>
-  <td><nobr>⌚&nbsp;<b><a href="https://watch-control.clawnux.com">watch-control</a></b></nobr></td>
-  <td>Approve Codex and Claude Code commands from your Apple Watch</td>
-  <td><code>Shell</code> <code>Python</code> <code>Next.js</code> <code>Tailscale</code> <code>Pushover</code></td>
-  <td align="right">~4K</td>
 </tr>
 <tr>
   <td></td>
