@@ -25,7 +25,7 @@ PROJECTS = [
     {"repo": "smartmoney-radar",  "emoji": "🔍", "desc": "On-chain wallet profiling and flow monitoring",     "stack": ["TypeScript", "Next.js", "React", "PostgreSQL", "ethers.js", "Solana"]},
     {"repo": "clawnux-v3",        "emoji": "🤖", "desc": "AI-powered autonomous software factory",                          "stack": ["Shell", "Next.js", "PostgreSQL", "Claude Code"]},
     {"repo": "govdeals-platform", "emoji": "🏛️",  "desc": "Gov surplus property scraper with Zillow valuations", "stack": ["TypeScript", "Python", "Next.js", "Node.js", "PostgreSQL", "Playwright"]},
-    {"repo": "watch-control",     "emoji": "⌚",  "desc": "Approve Codex and Claude Code commands from your Apple Watch",        "stack": ["Shell", "Python", "Next.js", "Tailscale", "Pushover"]},
+    {"repo": "watch-control",     "emoji": "⌚",  "desc": "Approve Codex and Claude Code commands from your Apple Watch",        "stack": ["Shell", "Python", "Next.js", "Tailscale", "Pushover"], "public": True},
     {"repo": "echoes",            "emoji": "👻", "desc": "Eternal Conversational Hologram Of Embedded Souls", "stack": ["TypeScript", "Next.js", "Tailwind CSS", "Three.js", "Python", "FastAPI", "PostgreSQL", "RunPod"]},
     {"repo": "tokens",            "emoji": "🪙", "desc": "Multi-model API usage dashboard and cost tracker",  "stack": ["JavaScript", "Node.js", "HTML"]},
     {"repo": "snapmolt",          "emoji": "📞", "desc": "Outbound voice-call bridge with AI & TTS",           "stack": ["JavaScript", "Node.js", "Twilio", "Express"]},
@@ -485,9 +485,9 @@ def build_projects_table(projects_data):
         stack_str = " ".join(f"<code>{html.escape(s)}</code>" for s in p["stack"])
         emoji = p.get("emoji", "📦")
         display_repo = p.get("display_repo", p["repo"])
-        live_url = p.get("live_url")
-        if live_url:
-            name_cell = f'<a href="{live_url}">{html.escape(display_repo)}</a>'
+        if p.get("public", False):
+            repo_url = f'https://github.com/CryptoPilot16/{p["repo"]}'
+            name_cell = f'<a href="{repo_url}">{html.escape(display_repo)}</a>'
         else:
             name_cell = html.escape(display_repo)
         lines.extend([
@@ -602,10 +602,11 @@ def update_readme(projects_data):
         r"(### Projects\s*\n\s*\n)"
         r"(?:\| Project \| Description \|.*?\n(?:\|.*\n)+|<table>.*?</table>\s*)"
     )
-    # Pattern 2: HTML <!-- PROJECTS --> block with padding div wrapping the table
+    # Pattern 2: HTML <!-- PROJECTS --> block — anchored to the "// projects" header
+    # to avoid matching the tech stack div which uses the same padding style
     projects_pattern_html = (
-        r"(<div style=\"padding:4px 0\">\n)"
-        r"<table>.*?</table>"
+        r"(// </span>projects[^\n]*</h3>\n</div>\n\n<div style=\"padding:4px 0\">\n)"
+        r"<table[^>]*>.*?</table>"
     )
 
     if re.search(projects_pattern_md, content, flags=re.S):
