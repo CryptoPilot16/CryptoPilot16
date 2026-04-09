@@ -57,103 +57,103 @@
   <th align="right">Lines</th>
 </tr>
 <tr>
-  <td><nobr>⚔️&nbsp;<b><a href="https://github.com/CryptoPilot16/mythex">mythex</a></b>&nbsp;<a href="https://github.com/CryptoPilot16/mythex"><img src="https://img.shields.io/badge/--181717?style=flat-square&logo=github&logoColor=white" height="13"/></a></nobr></td>
+  <td><nobr>⚔️&nbsp;<b>mythex</b></nobr></td>
   <td>A browser-based 3D MMORPG engine</td>
   <td><code>JavaScript</code> <code>TypeScript</code> <code>React</code> <code>Vite</code> <code>Solana</code></td>
   <td align="right">~85K</td>
 </tr>
 <tr>
-  <td><nobr>🤖&nbsp;<b><a href="https://github.com/CryptoPilot16/clawnux-v3">clawnux-v3</a></b>&nbsp;<a href="https://github.com/CryptoPilot16/clawnux-v3"><img src="https://img.shields.io/badge/--181717?style=flat-square&logo=github&logoColor=white" height="13"/></a></nobr></td>
+  <td><nobr>🤖&nbsp;<b>clawnux-v3</b></nobr></td>
   <td>AI-powered autonomous software factory</td>
   <td><code>Shell</code> <code>Next.js</code> <code>PostgreSQL</code> <code>Claude Code</code></td>
   <td align="right">~73K</td>
 </tr>
 <tr>
-  <td><nobr>📊&nbsp;<b><a href="https://github.com/CryptoPilot16/pm-relay">pm-relay</a></b>&nbsp;<a href="https://github.com/CryptoPilot16/pm-relay"><img src="https://img.shields.io/badge/--181717?style=flat-square&logo=github&logoColor=white" height="13"/></a></nobr></td>
+  <td><nobr>📊&nbsp;<b>pm-relay</b></nobr></td>
   <td>Multi-venue spread tracking and execution</td>
   <td><code>Python</code> <code>Node.js</code> <code>React</code> <code>Polygon</code> <code>Playwright</code></td>
   <td align="right">~67K</td>
 </tr>
 <tr>
-  <td><nobr>👻&nbsp;<b><a href="https://github.com/CryptoPilot16/echoes">echoes</a></b>&nbsp;<a href="https://github.com/CryptoPilot16/echoes"><img src="https://img.shields.io/badge/--181717?style=flat-square&logo=github&logoColor=white" height="13"/></a></nobr></td>
+  <td><nobr>👻&nbsp;<b>echoes</b></nobr></td>
   <td>Eternal Conversational Hologram Of Embedded Souls</td>
   <td><code>TypeScript</code> <code>Next.js</code> <code>Tailwind CSS</code> <code>Three.js</code> <code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>RunPod</code></td>
   <td align="right">~47K</td>
 </tr>
 <tr>
-  <td><nobr>✈️&nbsp;<b><a href="https://github.com/CryptoPilot16/Tailwinds">Tailwinds</a></b>&nbsp;<a href="https://github.com/CryptoPilot16/Tailwinds"><img src="https://img.shields.io/badge/--181717?style=flat-square&logo=github&logoColor=white" height="13"/></a></nobr></td>
+  <td><nobr>✈️&nbsp;<b>Tailwinds</b></nobr></td>
   <td>Flight data aggregation and alerting</td>
   <td><code>TypeScript</code> <code>Next.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Tailwind CSS</code></td>
   <td align="right">~33K</td>
 </tr>
 <tr>
-  <td><nobr>🎯&nbsp;<b><a href="https://github.com/CryptoPilot16/TradingOdds">TradingOdds</a></b>&nbsp;<a href="https://github.com/CryptoPilot16/TradingOdds"><img src="https://img.shields.io/badge/--181717?style=flat-square&logo=github&logoColor=white" height="13"/></a></nobr></td>
+  <td><nobr>🎯&nbsp;<b>TradingOdds</b></nobr></td>
   <td>Prediction market execution layer</td>
   <td><code>TypeScript</code> <code>Next.js</code> <code>React</code> <code>Tailwind CSS</code> <code>ethers.js</code></td>
   <td align="right">~28K</td>
 </tr>
 <tr>
-  <td><nobr>🏎️&nbsp;<b><a href="https://github.com/CryptoPilot16/f1_analytics">f1_analytics</a></b>&nbsp;<a href="https://github.com/CryptoPilot16/f1_analytics"><img src="https://img.shields.io/badge/--181717?style=flat-square&logo=github&logoColor=white" height="13"/></a></nobr></td>
+  <td><nobr>🏎️&nbsp;<b>f1_analytics</b></nobr></td>
   <td>F1 telemetry analysis and fantasy optimization</td>
   <td><code>JavaScript</code> <code>React</code> <code>Vite</code> <code>Node.js</code></td>
   <td align="right">~26K</td>
 </tr>
 <tr>
-  <td><nobr>🔍&nbsp;<b><a href="https://github.com/CryptoPilot16/smartmoney-radar">smartmoney</a></b>&nbsp;<a href="https://github.com/CryptoPilot16/smartmoney-radar"><img src="https://img.shields.io/badge/--181717?style=flat-square&logo=github&logoColor=white" height="13"/></a></nobr></td>
+  <td><nobr>🔍&nbsp;<b>smartmoney</b></nobr></td>
   <td>On-chain wallet profiling and flow monitoring</td>
   <td><code>TypeScript</code> <code>Next.js</code> <code>React</code> <code>PostgreSQL</code> <code>ethers.js</code> <code>Solana</code></td>
   <td align="right">~25K</td>
 </tr>
 <tr>
-  <td><nobr>🌍&nbsp;<b><a href="https://github.com/CryptoPilot16/skybuddy">skybuddy</a></b>&nbsp;<a href="https://github.com/CryptoPilot16/skybuddy"><img src="https://img.shields.io/badge/--181717?style=flat-square&logo=github&logoColor=white" height="13"/></a></nobr></td>
+  <td><nobr>🌍&nbsp;<b>skybuddy</b></nobr></td>
   <td>3D social flight tracker</td>
   <td><code>JavaScript</code> <code>Cesium.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Playwright</code></td>
   <td align="right">~21K</td>
 </tr>
 <tr>
-  <td><nobr>📡&nbsp;<b><a href="https://github.com/CryptoPilot16/nysm">nysm</a></b>&nbsp;<a href="https://github.com/CryptoPilot16/nysm"><img src="https://img.shields.io/badge/--181717?style=flat-square&logo=github&logoColor=white" height="13"/></a></nobr></td>
+  <td><nobr>📡&nbsp;<b>nysm</b></nobr></td>
   <td>WiFi-based body detection and multi-camera home surveillance with 3D spatial mapping</td>
   <td><code>JavaScript</code> <code>Node.js</code> <code>Express</code></td>
   <td align="right">~13K</td>
 </tr>
 <tr>
-  <td><nobr>🏛️&nbsp;<b><a href="https://github.com/CryptoPilot16/govdeals-platform">govdeals</a></b>&nbsp;<a href="https://github.com/CryptoPilot16/govdeals-platform"><img src="https://img.shields.io/badge/--181717?style=flat-square&logo=github&logoColor=white" height="13"/></a></nobr></td>
+  <td><nobr>🏛️&nbsp;<b>govdeals</b></nobr></td>
   <td>Gov surplus property scraper with Zillow valuations</td>
   <td><code>TypeScript</code> <code>Python</code> <code>Next.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Playwright</code></td>
   <td align="right">~12K</td>
 </tr>
 <tr>
-  <td><nobr>🛠️&nbsp;<b><a href="https://github.com/CryptoPilot16/watcher">watcher</a></b>&nbsp;<a href="https://github.com/CryptoPilot16/watcher"><img src="https://img.shields.io/badge/--181717?style=flat-square&logo=github&logoColor=white" height="13"/></a></nobr></td>
+  <td><nobr>🛠️&nbsp;<b>watcher</b></nobr></td>
   <td>Private infrastructure monitoring dashboard with alerting and service health</td>
   <td><code>JavaScript</code> <code>Next.js</code> <code>PostgreSQL</code> <code>React</code></td>
   <td align="right">~5K</td>
 </tr>
 <tr>
-  <td><nobr>📞&nbsp;<b><a href="https://github.com/CryptoPilot16/snapmolt">snapmolt</a></b>&nbsp;<a href="https://github.com/CryptoPilot16/snapmolt"><img src="https://img.shields.io/badge/--181717?style=flat-square&logo=github&logoColor=white" height="13"/></a></nobr></td>
+  <td><nobr>📞&nbsp;<b>snapmolt</b></nobr></td>
   <td>Outbound voice-call bridge with AI &amp; TTS</td>
   <td><code>JavaScript</code> <code>Node.js</code> <code>Twilio</code> <code>Express</code></td>
   <td align="right">~4K</td>
 </tr>
 <tr>
-  <td><nobr>🪙&nbsp;<b><a href="https://github.com/CryptoPilot16/tokens">tokens</a></b>&nbsp;<a href="https://github.com/CryptoPilot16/tokens"><img src="https://img.shields.io/badge/--181717?style=flat-square&logo=github&logoColor=white" height="13"/></a></nobr></td>
+  <td><nobr>🪙&nbsp;<b>tokens</b></nobr></td>
   <td>Multi-model API usage dashboard and cost tracker</td>
   <td><code>JavaScript</code> <code>Node.js</code> <code>HTML</code></td>
   <td align="right">~4K</td>
 </tr>
 <tr>
-  <td><nobr>⌚&nbsp;<b><a href="https://github.com/CryptoPilot16/watch-control">watch-control</a></b>&nbsp;<a href="https://github.com/CryptoPilot16/watch-control"><img src="https://img.shields.io/badge/--181717?style=flat-square&logo=github&logoColor=white" height="13"/></a></nobr></td>
+  <td><nobr>⌚&nbsp;<b>watch-control</b></nobr></td>
   <td>Approve Codex and Claude Code commands from your Apple Watch</td>
   <td><code>Shell</code> <code>Python</code> <code>Next.js</code> <code>Tailscale</code> <code>Pushover</code></td>
   <td align="right">~4K</td>
 </tr>
 <tr>
-  <td><nobr>🔁&nbsp;<b><a href="https://github.com/CryptoPilot16/smartcommit">smartcommit</a></b>&nbsp;<a href="https://github.com/CryptoPilot16/smartcommit"><img src="https://img.shields.io/badge/--181717?style=flat-square&logo=github&logoColor=white" height="13"/></a></nobr></td>
+  <td><nobr>🔁&nbsp;<b><a href="https://cryptopilot.dev/smartcommits">smartcommit</a></b></nobr></td>
   <td>Autopilot commits across all your repos</td>
   <td><code>Shell</code> <code>Ollama</code> <code>GitHub API</code> <code>Telegram</code></td>
   <td align="right">~1K</td>
 </tr>
 <tr>
-  <td><nobr>📤&nbsp;<b><a href="https://github.com/CryptoPilot16/uploader">uploader</a></b>&nbsp;<a href="https://github.com/CryptoPilot16/uploader"><img src="https://img.shields.io/badge/--181717?style=flat-square&logo=github&logoColor=white" height="13"/></a></nobr></td>
+  <td><nobr>📤&nbsp;<b><a href="https://cryptopilot.dev/uploader">uploader</a></b></nobr></td>
   <td>Telegram bot that saves files to your VPS and replies with the path</td>
   <td><code>JavaScript</code> <code>Node.js</code> <code>Telegram</code></td>
   <td align="right">~385</td>
