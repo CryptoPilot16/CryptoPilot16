@@ -269,6 +269,17 @@ Telegram bot that saves files to your VPS and replies with the path.
 Autopilot commits across all your repos. AI messages, GitHub auto-push, Telegram rollups.
 </td>
 </tr>
+<tr>
+<td width="50%" align="center">
+<a href="https://watch-control.clawnux.com">
+<img src="https://cryptopilot.dev/projects/watchcontrol/assets/preview.png" width="100%" alt="watch-control preview" />
+</a>
+<br>
+⌚ <a href="https://watch-control.clawnux.com"><b>watch-control</b></a><br>
+Approve Codex and Claude Code commands from your Apple Watch.
+</td>
+<td width="50%"></td>
+</tr>
 </table>
 
 </div>
