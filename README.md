@@ -203,6 +203,12 @@
   <td align="right">~5K</td>
 </tr>
 <tr>
+  <td><nobr>⌚&nbsp;<b><a href="https://github.com/CryptoPilot16/watch-control">watch-control</a></b></nobr></td>
+  <td>Approve Codex and Claude Code commands from your Apple Watch</td>
+  <td><code>Shell</code> <code>Python</code> <code>Next.js</code> <code>Tailscale</code> <code>Pushover</code></td>
+  <td align="right">~4K</td>
+</tr>
+<tr>
   <td><nobr>📞&nbsp;<b>snapmolt</b></nobr></td>
   <td>Outbound voice-call bridge with AI &amp; TTS</td>
   <td><code>JavaScript</code> <code>Node.js</code> <code>Twilio</code> <code>Express</code></td>
@@ -212,12 +218,6 @@
   <td><nobr>🪙&nbsp;<b>tokens</b></nobr></td>
   <td>Multi-model API usage dashboard and cost tracker</td>
   <td><code>JavaScript</code> <code>Node.js</code> <code>HTML</code></td>
-  <td align="right">~4K</td>
-</tr>
-<tr>
-  <td><nobr>⌚&nbsp;<b><a href="https://github.com/CryptoPilot16/watch-control">watch-control</a></b></nobr></td>
-  <td>Approve Codex and Claude Code commands from your Apple Watch</td>
-  <td><code>Shell</code> <code>Python</code> <code>Next.js</code> <code>Tailscale</code> <code>Pushover</code></td>
   <td align="right">~4K</td>
 </tr>
 <tr>
