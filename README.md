@@ -272,7 +272,7 @@ Autopilot commits across all your repos. AI messages, GitHub auto-push, Telegram
 <tr>
 <td width="50%" align="center">
 <a href="https://cryptopilot.dev/watchcontrol">
-<img src="https://cryptopilot.dev/projects/watchcontrol/assets/preview.png" width="100%" alt="watch-control preview" />
+<img src="https://cryptopilot.dev/projects/watchcontrol/assets/preview.png?v=2" width="100%" alt="watch-control preview" />
 </a>
 <br>
 ⌚ <a href="https://cryptopilot.dev/watchcontrol"><b>watch-control</b></a><br>
