@@ -595,8 +595,18 @@ def update_readme(projects_data):
         content = f.read()
 
     new_tech_table = build_tech_stack_table(projects_data)
-    tech_pattern = r"(### Tech Stack\s*\n\s*\n)(<table>.*?</table>)"
-    content = re.sub(tech_pattern, rf"\1{new_tech_table}", content, flags=re.S, count=1)
+    # The README has migrated from "### Tech Stack" markdown to an HTML
+    # block anchored on "// tech stack". Try both so the script keeps
+    # working if either layout is used.
+    tech_pattern_md = r"(### Tech Stack\s*\n\s*\n)(<table>.*?</table>)"
+    tech_pattern_html = (
+        r"(// </span>tech stack[^\n]*</h3>\n</div>\n\n<div style=\"padding:4px 0\">\n)"
+        r"<table[^>]*>.*?</table>"
+    )
+    if re.search(tech_pattern_md, content, flags=re.S):
+        content = re.sub(tech_pattern_md, rf"\1{new_tech_table}", content, flags=re.S, count=1)
+    elif re.search(tech_pattern_html, content, flags=re.S):
+        content = re.sub(tech_pattern_html, rf"\1{new_tech_table}", content, flags=re.S, count=1)
 
     # Replace the projects table — handles both markdown ### heading and HTML <!-- PROJECTS --> style
     new_table = build_projects_table(projects_data)
