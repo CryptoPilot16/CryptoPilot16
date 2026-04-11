@@ -25,7 +25,7 @@ PROJECTS = [
     {"repo": "smartmoney-radar",  "emoji": "🔍", "desc": "On-chain wallet profiling and flow monitoring",     "stack": ["TypeScript", "Next.js", "React", "PostgreSQL", "ethers.js", "Solana"]},
     {"repo": "clawnux-v3",        "emoji": "🤖", "desc": "AI-powered autonomous software factory",                          "stack": ["Shell", "Next.js", "PostgreSQL", "Claude Code"]},
     {"repo": "govdeals-platform", "emoji": "🏛️",  "desc": "Gov surplus property scraper with Zillow valuations", "stack": ["TypeScript", "Python", "Next.js", "Node.js", "PostgreSQL", "Playwright"]},
-    {"repo": "watch-control",     "emoji": "⌚",  "desc": "Approve Codex and Claude Code commands from your Apple Watch",        "stack": ["Shell", "Python", "Next.js", "Tailscale", "Pushover"],
+    {"repo": "watch-control",     "emoji": "⌚",  "desc": "Approve Codex and Claude Code commands from your Apple Watch — native watchOS app + Node.js bridge over Tailscale", "stack": ["Swift", "SwiftUI", "watchOS", "Node.js", "Shell", "Python", "Next.js", "Tailscale"],
      "public": True, "featured": True, "href": "https://cryptopilot.dev/watchcontrol", "preview": "/projects/watchcontrol/assets/preview.png"},
     {"repo": "echoes",            "emoji": "👻", "desc": "Eternal Conversational Hologram Of Embedded Souls", "stack": ["TypeScript", "Next.js", "Tailwind CSS", "Three.js", "Python", "FastAPI", "PostgreSQL", "RunPod"]},
     {"repo": "tokens",            "emoji": "🪙", "desc": "Multi-model API usage dashboard and cost tracker",  "stack": ["JavaScript", "Node.js", "HTML"]},
