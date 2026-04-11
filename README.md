@@ -206,15 +206,15 @@
   <td align="right">~12K</td>
 </tr>
 <tr>
-  <td><nobr>🛠️&nbsp;<b>watcher</b></nobr></td>
-  <td>Private infrastructure monitoring dashboard with alerting and service health</td>
-  <td><code>JavaScript</code> <code>Next.js</code> <code>PostgreSQL</code> <code>React</code></td>
-  <td align="right">~5K</td>
-</tr>
-<tr>
   <td><nobr>⌚&nbsp;<b><a href="https://github.com/CryptoPilot16/watch-control">watch-control</a></b></nobr></td>
   <td>Approve Codex and Claude Code commands from your Apple Watch — native watchOS app + Node.js bridge over Tailscale</td>
   <td><code>Swift</code> <code>SwiftUI</code> <code>watchOS</code> <code>Node.js</code> <code>Shell</code> <code>Python</code> <code>Next.js</code> <code>Tailscale</code></td>
+  <td align="right">~5K</td>
+</tr>
+<tr>
+  <td><nobr>🛠️&nbsp;<b>watcher</b></nobr></td>
+  <td>Private infrastructure monitoring dashboard with alerting and service health</td>
+  <td><code>JavaScript</code> <code>Next.js</code> <code>PostgreSQL</code> <code>React</code></td>
   <td align="right">~5K</td>
 </tr>
 <tr>
