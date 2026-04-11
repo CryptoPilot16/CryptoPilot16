@@ -43,7 +43,7 @@
 </div>
 
 <div style="padding:4px 0">
-<table style="margin:0">
+<table>
 <tr>
 <td align="center"><b>Languages</b></td>
 <td>
@@ -52,6 +52,7 @@
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
 <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" />
 <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
+<img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white" />
 </td>
 </tr>
 <tr>
@@ -60,6 +61,7 @@
 <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
 <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
 <img src="https://img.shields.io/badge/Cesium.js-6CADDF?style=flat-square&logo=cesium&logoColor=white" />
+<img src="https://img.shields.io/badge/SwiftUI-0091FF?style=flat-square&logo=swift&logoColor=white" />
 <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
 <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" />
 <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
@@ -85,7 +87,7 @@
 <img src="https://img.shields.io/badge/RunPod-FF6A00?style=flat-square&logo=kubernetes&logoColor=white" />
 <img src="https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white" />
 <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" />
-<img src="https://img.shields.io/badge/tmux-1BB91F?style=flat-square" />
+<img src="https://img.shields.io/badge/watchOS-000000?style=flat-square&logo=apple&logoColor=white" />
 </td>
 </tr>
 <tr>
@@ -102,6 +104,13 @@
 <img src="https://img.shields.io/badge/Claude_API-CC785C?style=flat-square&logo=anthropic&logoColor=white" />
 <img src="https://img.shields.io/badge/Claude_Code-CC785C?style=flat-square&logo=anthropic&logoColor=white" />
 <img src="https://img.shields.io/badge/Codex-000000?style=flat-square&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/Ollama-111111?style=flat-square&logo=ollama&logoColor=white" />
+</td>
+</tr>
+<tr>
+<td align="center"><b>Other</b></td>
+<td>
+<img src="https://img.shields.io/badge/GitHub_API-4B5563?style=flat-square" />
 </td>
 </tr>
 </table>
