@@ -50,6 +50,8 @@ WEBSITE_DIR = os.environ.get("WEBSITE_DIR", "/opt/cryptopilotdev")
 
 # Repos to never include (profile repo, forks, etc.)
 IGNORE_REPOS = {USERNAME, USERNAME.lower(), ".github", "dotfiles", "cryptopilotdev", "cryptopilot16.github.io"}
+IGNORE_REPO_EXACT = {f"App{i}" for i in range(1, 11)}
+IGNORE_REPO_EXACT_LOWER = {name.lower() for name in IGNORE_REPO_EXACT}
 
 # Only show auto-discovered repos created on or after this date
 AUTO_DISCOVER_SINCE = "2026-01-01T00:00:00Z"
@@ -443,7 +445,14 @@ def discover_repos():
             break
         for r in data:
             name = r["name"]
-            if r.get("fork") or name in IGNORE_REPOS or name.lower() in IGNORE_REPOS:
+            lowered = name.lower()
+            if (
+                r.get("fork")
+                or name in IGNORE_REPOS
+                or lowered in IGNORE_REPOS
+                or name in IGNORE_REPO_EXACT
+                or lowered in IGNORE_REPO_EXACT_LOWER
+            ):
                 continue
             github_meta[name] = {"private": bool(r.get("private", True))}
             if name.lower() not in known:
