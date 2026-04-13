@@ -122,7 +122,7 @@
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden">
 
 <div style="padding:12px 3% 10px;border-bottom:1px solid #1e1e1e">
-<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 17 repos · ~453K lines</span></h3>
+<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 27 repos · ~454K lines</span></h3>
 </div>
 
 <div style="padding:4px 0">
@@ -242,10 +242,70 @@
   <td align="right">~385</td>
 </tr>
 <tr>
+  <td><nobr>📦&nbsp;<b>App10</b></nobr></td>
+  <td>App10</td>
+  <td><code>—</code></td>
+  <td align="right">~102</td>
+</tr>
+<tr>
+  <td><nobr>📦&nbsp;<b>App9</b></nobr></td>
+  <td>App9</td>
+  <td><code>—</code></td>
+  <td align="right">~102</td>
+</tr>
+<tr>
+  <td><nobr>📦&nbsp;<b>App8</b></nobr></td>
+  <td>App8</td>
+  <td><code>—</code></td>
+  <td align="right">~102</td>
+</tr>
+<tr>
+  <td><nobr>📦&nbsp;<b>App7</b></nobr></td>
+  <td>App7</td>
+  <td><code>—</code></td>
+  <td align="right">~102</td>
+</tr>
+<tr>
+  <td><nobr>📦&nbsp;<b>App6</b></nobr></td>
+  <td>App6</td>
+  <td><code>—</code></td>
+  <td align="right">~102</td>
+</tr>
+<tr>
+  <td><nobr>📦&nbsp;<b>App5</b></nobr></td>
+  <td>App5</td>
+  <td><code>—</code></td>
+  <td align="right">~102</td>
+</tr>
+<tr>
+  <td><nobr>📦&nbsp;<b>App4</b></nobr></td>
+  <td>App4</td>
+  <td><code>—</code></td>
+  <td align="right">~102</td>
+</tr>
+<tr>
+  <td><nobr>📦&nbsp;<b>App3</b></nobr></td>
+  <td>App3</td>
+  <td><code>—</code></td>
+  <td align="right">~102</td>
+</tr>
+<tr>
+  <td><nobr>📦&nbsp;<b>App2</b></nobr></td>
+  <td>App2</td>
+  <td><code>—</code></td>
+  <td align="right">~102</td>
+</tr>
+<tr>
+  <td><nobr>📦&nbsp;<b>App1</b></nobr></td>
+  <td>App1</td>
+  <td><code>—</code></td>
+  <td align="right">~102</td>
+</tr>
+<tr>
   <td></td>
   <td></td>
-  <td><b>17 projects</b></td>
-  <td align="right"><b>~453K</b></td>
+  <td><b>27 projects</b></td>
+  <td align="right"><b>~454K</b></td>
 </tr>
 </table>
 </div>
