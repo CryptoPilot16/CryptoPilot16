@@ -122,7 +122,7 @@
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden">
 
 <div style="padding:12px 3% 10px;border-bottom:1px solid #1e1e1e">
-<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 17 repos · ~458K lines</span></h3>
+<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 17 repos · ~459K lines</span></h3>
 </div>
 
 <div style="padding:4px 0">
@@ -191,7 +191,7 @@
   <td><nobr>🌍&nbsp;<b>skybuddy</b></nobr></td>
   <td>3D social flight tracker</td>
   <td><code>JavaScript</code> <code>Cesium.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Playwright</code></td>
-  <td align="right">~21K</td>
+  <td align="right">~22K</td>
 </tr>
 <tr>
   <td><nobr>📡&nbsp;<b>nysm</b></nobr></td>
@@ -245,7 +245,7 @@
   <td></td>
   <td></td>
   <td><b>17 projects</b></td>
-  <td align="right"><b>~458K</b></td>
+  <td align="right"><b>~459K</b></td>
 </tr>
 </table>
 </div>
