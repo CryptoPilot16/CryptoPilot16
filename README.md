@@ -209,7 +209,7 @@
   <td><nobr>🛠️&nbsp;<b>watcher</b></nobr></td>
   <td>Private infrastructure monitoring dashboard with alerting and service health</td>
   <td><code>JavaScript</code> <code>Next.js</code> <code>PostgreSQL</code> <code>React</code></td>
-  <td align="right">~9K</td>
+  <td align="right">~10K</td>
 </tr>
 <tr>
   <td><nobr>⌚&nbsp;<b><a href="https://github.com/CryptoPilot16/watch-control">watch-control</a></b></nobr></td>
