@@ -206,9 +206,9 @@
   <td align="right">~12K</td>
 </tr>
 <tr>
-  <td><nobr>🛠️&nbsp;<b><a href="https://github.com/CryptoPilot16/watcher">watcher</a></b></nobr></td>
-  <td>Private infrastructure monitoring dashboard with alerting and service health</td>
-  <td><code>JavaScript</code> <code>Next.js</code> <code>PostgreSQL</code> <code>React</code></td>
+  <td><nobr>🛰️&nbsp;<b><a href="https://github.com/CryptoPilot16/watcher">watcher</a></b></nobr></td>
+  <td>Mission control for multi-agent operations — 3D office floor visibility, sessions, runs, flows, logs, health</td>
+  <td><code>TypeScript</code> <code>Next.js</code> <code>Three.js</code> <code>PostgreSQL</code> <code>React</code></td>
   <td align="right">~10K</td>
 </tr>
 <tr>
@@ -257,6 +257,47 @@
 
 <div style="padding:12px 3% 10px;border-bottom:1px solid #1a3328">
 <h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>featured</h3>
+</div>
+
+<table>
+<tr>
+<td width="50%" align="center">
+<a href="https://cryptopilot.dev/watcher">
+<img src="https://cryptopilot.dev/projects/watcher/assets/preview.png" width="100%" alt="watcher preview" />
+</a>
+<br>
+🛰️ <a href="https://cryptopilot.dev/watcher"><b>watcher</b></a><br>
+Mission control for multi-agent operations.
+</td>
+<td width="50%" align="center">
+<a href="https://cryptopilot.dev/watchcontrol">
+<img src="https://cryptopilot.dev/projects/watchcontrol/assets/preview.png" width="100%" alt="watch-control preview" />
+</a>
+<br>
+⌚ <a href="https://cryptopilot.dev/watchcontrol"><b>watch-control</b></a><br>
+Approve Codex and Claude Code commands from your Apple Watch.
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<a href="https://cryptopilot.dev/smartcommits">
+<img src="https://cryptopilot.dev/projects/smartcommits/assets/preview.png" width="100%" alt="smartcommit preview" />
+</a>
+<br>
+🔁 <a href="https://cryptopilot.dev/smartcommits"><b>smartcommit</b></a><br>
+Autopilot commits across all your repos.
+</td>
+<td width="50%" align="center">
+<a href="https://cryptopilot.dev/uploader">
+<img src="https://cryptopilot.dev/projects/uploader/assets/preview.png" width="100%" alt="uploader preview" />
+</a>
+<br>
+📤 <a href="https://cryptopilot.dev/uploader"><b>uploader</b></a><br>
+Telegram bot that saves files to your VPS and replies with the path.
+</td>
+</tr>
+</table>
+
 </div>
 
 <table>
