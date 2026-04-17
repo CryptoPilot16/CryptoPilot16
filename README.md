@@ -206,9 +206,9 @@
   <td align="right">~12K</td>
 </tr>
 <tr>
-  <td><nobr>🛠️&nbsp;<b><a href="https://github.com/CryptoPilot16/watcher">watcher</a></b></nobr></td>
-  <td>Private infrastructure monitoring dashboard with alerting and service health</td>
-  <td><code>JavaScript</code> <code>Next.js</code> <code>PostgreSQL</code> <code>React</code></td>
+  <td><nobr>👁️&nbsp;<b><a href="https://github.com/CryptoPilot16/watcher">watcher</a></b></nobr></td>
+  <td>Mission control for multi-agent operations — 3D office floor visibility, sessions, runs, flows, logs, health</td>
+  <td><code>Next.js</code> <code>React</code> <code>TypeScript</code> <code>Three.js</code> <code>react-three-fiber</code></td>
   <td align="right">~10K</td>
 </tr>
 <tr>
@@ -287,7 +287,14 @@ Autopilot commits across all your repos. AI messages, GitHub auto-push, Telegram
 ⌚ <a href="https://cryptopilot.dev/watchcontrol"><b>watch-control</b></a><br>
 Approve Codex and Claude Code commands from your Apple Watch.
 </td>
-<td width="50%"></td>
+<td width="50%" align="center">
+<a href="https://cryptopilot.dev/watcher">
+<img src="https://cryptopilot.dev/projects/watcher/assets/preview.png" width="100%" alt="watcher preview" />
+</a>
+<br>
+👁️ <a href="https://cryptopilot.dev/watcher"><b>watcher</b></a> · <a href="https://github.com/CryptoPilot16/watcher">github</a><br>
+Mission control for multi-agent operations — 3D office floor visibility, sessions, runs, flows, logs, health.
+</td>
 </tr>
 </table>
 
