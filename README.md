@@ -292,7 +292,7 @@ Approve Codex and Claude Code commands from your Apple Watch.
 <img src="https://cryptopilot.dev/projects/watcher/assets/preview.png" width="100%" alt="watcher preview" />
 </a>
 <br>
-👁️ <a href="https://cryptopilot.dev/watcher"><b>watcher</b></a> · <a href="https://github.com/CryptoPilot16/watcher">github</a><br>
+👁️ <a href="https://cryptopilot.dev/watcher"><b>watcher</b></a> <br>
 Mission control for multi-agent operations — 3D office floor visibility, sessions, runs, flows, logs, health.
 </td>
 </tr>
