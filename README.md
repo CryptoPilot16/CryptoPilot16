@@ -207,7 +207,7 @@
 </tr>
 <tr>
   <td><nobr>👁️&nbsp;<b><a href="https://github.com/CryptoPilot16/watcher">watcher</a></b></nobr></td>
-  <td>Mission control for multi-agent operations — 3D office floor visibility, sessions, runs, flows, logs, health</td>
+  <td>Mission control for multi-agent operations</td>
   <td><code>Next.js</code> <code>React</code> <code>TypeScript</code> <code>Three.js</code> <code>react-three-fiber</code></td>
   <td align="right">~10K</td>
 </tr>
@@ -293,7 +293,7 @@ Approve Codex and Claude Code commands from your Apple Watch.
 </a>
 <br>
 👁️ <a href="https://cryptopilot.dev/watcher"><b>watcher</b></a> · <a href="https://github.com/CryptoPilot16/watcher">github</a><br>
-Mission control for multi-agent operations — 3D office floor visibility, sessions, runs, flows, logs, health.
+Mission control for multi-agent operations.
 </td>
 </tr>
 </table>
