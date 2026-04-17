@@ -299,13 +299,6 @@ Telegram bot that saves files to your VPS and replies with the path.
 </table>
 
 </div>
-
-<table>
-<tr>
-<td width="50%" align="center">
-<a href="https://cryptopilot.dev/watcher">
-<img src="https://cryptopilot.dev/projects/watcher/assets/preview.png" width="100%" alt="watcher preview" />
-</a>
 <br>
 👁️ <a href="https://cryptopilot.dev/watcher"><b>watcher</b></a><br>
 Mission control for multi-agent operations — 3D office floor visibility, sessions, runs, flows, logs, health.
