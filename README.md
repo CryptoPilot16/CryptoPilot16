@@ -299,39 +299,5 @@ Telegram bot that saves files to your VPS and replies with the path.
 </table>
 
 </div>
-<br>
-👁️ <a href="https://cryptopilot.dev/watcher"><b>watcher</b></a><br>
-Mission control for multi-agent operations — 3D office floor visibility, sessions, runs, flows, logs, health.
-</td>
-<td width="50%" align="center">
-<a href="https://cryptopilot.dev/watchcontrol">
-<img src="https://cryptopilot.dev/projects/watchcontrol/assets/preview.png" width="100%" alt="watch-control preview" />
-</a>
-<br>
-⌚ <a href="https://cryptopilot.dev/watchcontrol"><b>watch-control</b></a><br>
-Approve Codex and Claude Code commands from your Apple Watch — native watchOS app + Node.js bridge over Tailscale.
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-<a href="https://cryptopilot.dev/smartcommits">
-<img src="https://cryptopilot.dev/projects/smartcommits/assets/preview.png" width="100%" alt="smartcommit preview" />
-</a>
-<br>
-🔁 <a href="https://cryptopilot.dev/smartcommits"><b>smartcommit</b></a><br>
-Autopilot commits across all your repos.
-</td>
-<td width="50%" align="center">
-<a href="https://cryptopilot.dev/uploader">
-<img src="https://cryptopilot.dev/projects/uploader/assets/preview.png" width="100%" alt="uploader preview" />
-</a>
-<br>
-📤 <a href="https://cryptopilot.dev/uploader"><b>uploader</b></a><br>
-Telegram bot that saves files to your VPS and replies with the path.
-</td>
-</tr>
-</table>
-
-</div>
 
 <br>
