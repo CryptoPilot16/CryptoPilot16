@@ -173,7 +173,7 @@
   <td><nobr>🌍&nbsp;<b>skybuddy</b></nobr></td>
   <td>3D social flight tracker</td>
   <td><code>JavaScript</code> <code>Cesium.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Playwright</code></td>
-  <td align="right">~30K</td>
+  <td align="right">~31K</td>
 </tr>
 <tr>
   <td><nobr>🎯&nbsp;<b>TradingOdds</b></nobr></td>
@@ -206,9 +206,9 @@
   <td align="right">~12K</td>
 </tr>
 <tr>
-  <td><nobr>🛠️&nbsp;<b><a href="https://github.com/CryptoPilot16/watcher">watcher</a></b></nobr></td>
-  <td>Private infrastructure monitoring dashboard with alerting and service health</td>
-  <td><code>JavaScript</code> <code>Next.js</code> <code>PostgreSQL</code> <code>React</code></td>
+  <td><nobr>👁️&nbsp;<b><a href="https://github.com/CryptoPilot16/watcher">watcher</a></b></nobr></td>
+  <td>Mission control for multi-agent operations — 3D office floor visibility, sessions, runs, flows, logs, health</td>
+  <td><code>TypeScript</code> <code>Next.js</code> <code>Three.js</code> <code>PostgreSQL</code> <code>React</code></td>
   <td align="right">~11K</td>
 </tr>
 <tr>
