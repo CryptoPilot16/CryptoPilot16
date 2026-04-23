@@ -161,7 +161,7 @@
   <td><nobr>👻&nbsp;<b>echoes</b></nobr></td>
   <td>Eternal Conversational Hologram Of Embedded Souls</td>
   <td><code>TypeScript</code> <code>Next.js</code> <code>Tailwind CSS</code> <code>Three.js</code> <code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>RunPod</code></td>
-  <td align="right">~48K</td>
+  <td align="right">~49K</td>
 </tr>
 <tr>
   <td><nobr>✈️&nbsp;<b>Tailwinds</b></nobr></td>
@@ -206,9 +206,9 @@
   <td align="right">~12K</td>
 </tr>
 <tr>
-  <td><nobr>👁️&nbsp;<b><a href="https://github.com/CryptoPilot16/watcher">watcher</a></b></nobr></td>
-  <td>Mission control for multi-agent operations — 3D office floor visibility, sessions, runs, flows, logs, health</td>
-  <td><code>TypeScript</code> <code>Next.js</code> <code>Three.js</code> <code>PostgreSQL</code> <code>React</code></td>
+  <td><nobr>🛠️&nbsp;<b><a href="https://github.com/CryptoPilot16/watcher">watcher</a></b></nobr></td>
+  <td>Private infrastructure monitoring dashboard with alerting and service health</td>
+  <td><code>JavaScript</code> <code>Next.js</code> <code>PostgreSQL</code> <code>React</code></td>
   <td align="right">~11K</td>
 </tr>
 <tr>
