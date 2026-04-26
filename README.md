@@ -122,7 +122,7 @@
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden">
 
 <div style="padding:12px 3% 10px;border-bottom:1px solid #1e1e1e">
-<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 17 repos · ~529K lines</span></h3>
+<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 17 repos · ~534K lines</span></h3>
 </div>
 
 <div style="padding:4px 0">
@@ -158,21 +158,21 @@
   <td align="right">~73K</td>
 </tr>
 <tr>
-  <td><nobr>👻&nbsp;<b><a href="https://github.com/CryptoPilot16/echoes">echoes</a></b></nobr></td>
+  <td><nobr>👻&nbsp;<b><a href="https://echoes.live">echoes</a></b></nobr></td>
   <td>Eternal Conversational Hologram Of Embedded Souls</td>
   <td><code>TypeScript</code> <code>Next.js</code> <code>Tailwind CSS</code> <code>Three.js</code> <code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>RunPod</code></td>
   <td align="right">~49K</td>
 </tr>
 <tr>
+  <td><nobr>🌍&nbsp;<b><a href="https://skybuddy.live">skybuddy</a></b></nobr></td>
+  <td>3D social flight tracker</td>
+  <td><code>JavaScript</code> <code>Cesium.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Playwright</code></td>
+  <td align="right">~38K</td>
+</tr>
+<tr>
   <td><nobr>✈️&nbsp;<b>Tailwinds</b></nobr></td>
   <td>Flight data aggregation and alerting</td>
   <td><code>TypeScript</code> <code>Next.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Tailwind CSS</code></td>
-  <td align="right">~33K</td>
-</tr>
-<tr>
-  <td><nobr>🌍&nbsp;<b><a href="https://github.com/CryptoPilot16/skybuddy">skybuddy</a></b></nobr></td>
-  <td>3D social flight tracker</td>
-  <td><code>JavaScript</code> <code>Cesium.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Playwright</code></td>
   <td align="right">~33K</td>
 </tr>
 <tr>
@@ -230,13 +230,13 @@
   <td align="right">~4K</td>
 </tr>
 <tr>
-  <td><nobr>🔁&nbsp;<b><a href="https://github.com/CryptoPilot16/smartcommit">smartcommit</a></b></nobr></td>
+  <td><nobr>🔁&nbsp;<b><a href="https://cryptopilot.dev/smartcommits">smartcommit</a></b></nobr></td>
   <td>Autopilot commits across all your repos</td>
   <td><code>Shell</code> <code>Ollama</code> <code>GitHub API</code> <code>Telegram</code></td>
   <td align="right">~1K</td>
 </tr>
 <tr>
-  <td><nobr>📤&nbsp;<b><a href="https://github.com/CryptoPilot16/uploader">uploader</a></b></nobr></td>
+  <td><nobr>📤&nbsp;<b><a href="https://cryptopilot.dev/uploader">uploader</a></b></nobr></td>
   <td>Telegram bot that saves files to your VPS and replies with the path</td>
   <td><code>JavaScript</code> <code>Node.js</code> <code>Telegram</code></td>
   <td align="right">~385</td>
@@ -245,7 +245,7 @@
   <td></td>
   <td></td>
   <td><b>17 projects</b></td>
-  <td align="right"><b>~529K</b></td>
+  <td align="right"><b>~534K</b></td>
 </tr>
 </table>
 </div>
@@ -262,19 +262,19 @@
 <table>
 <tr>
 <td width="50%" align="center">
-<a href="https://cryptopilot.dev/echoes">
+<a href="https://echoes.live">
 <img src="https://cryptopilot.dev/projects/echoes/assets/preview.png" width="100%" alt="echoes preview" />
 </a>
 <br>
-👻 <a href="https://cryptopilot.dev/echoes"><b>echoes</b></a><br>
+👻 <a href="https://echoes.live"><b>echoes</b></a><br>
 Eternal Conversational Hologram Of Embedded Souls.
 </td>
 <td width="50%" align="center">
-<a href="https://cryptopilot.dev/skybuddy">
+<a href="https://skybuddy.live">
 <img src="https://cryptopilot.dev/projects/skybuddy/assets/preview.png" width="100%" alt="skybuddy preview" />
 </a>
 <br>
-🌍 <a href="https://cryptopilot.dev/skybuddy"><b>skybuddy</b></a><br>
+🌍 <a href="https://skybuddy.live"><b>skybuddy</b></a><br>
 3D social flight tracker.
 </td>
 </tr>
