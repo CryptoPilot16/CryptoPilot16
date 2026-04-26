@@ -21,7 +21,7 @@ PROJECTS = [
     {"repo": "Tailwinds",         "emoji": "✈️",  "desc": "Flight data aggregation and alerting",              "stack": ["TypeScript", "Next.js", "Node.js", "PostgreSQL", "Tailwind CSS"]},
     {"repo": "f1_analytics",      "emoji": "🏎️",  "desc": "F1 telemetry analysis and fantasy optimization",    "stack": ["JavaScript", "React", "Vite", "Node.js"]},
     {"repo": "skybuddy",          "emoji": "🌍", "desc": "3D social flight tracker",                          "stack": ["JavaScript", "Cesium.js", "Node.js", "PostgreSQL", "Playwright"], "live_url": "https://skybuddy.live",
-     "public": True, "featured": True, "href": "https://skybuddy.live", "preview": "/projects/skybuddy/assets/preview.png"},
+     "public": False, "featured": True, "href": "https://skybuddy.live", "preview": "/projects/skybuddy/assets/preview.png"},
     {"repo": "TradingOdds",       "emoji": "🎯", "desc": "Prediction market execution layer",                 "stack": ["TypeScript", "Next.js", "React", "Tailwind CSS", "ethers.js"]},
     {"repo": "smartmoney-radar",  "emoji": "🔍", "desc": "On-chain wallet profiling and flow monitoring",     "stack": ["TypeScript", "Next.js", "React", "PostgreSQL", "ethers.js", "Solana"]},
     {"repo": "clawnux-v3",        "emoji": "🤖", "desc": "AI-powered autonomous software factory",                          "stack": ["Shell", "Next.js", "PostgreSQL", "Claude Code"]},
@@ -29,7 +29,7 @@ PROJECTS = [
     {"repo": "watch-control",     "emoji": "⌚",  "desc": "Approve Codex and Claude Code commands from your Apple Watch — native watchOS app + Node.js bridge over Tailscale", "stack": ["Swift", "SwiftUI", "watchOS", "Node.js", "Shell", "Python", "Next.js", "Tailscale"],
      "public": True, "featured": True, "href": "https://cryptopilot.dev/watchcontrol", "preview": "/projects/watchcontrol/assets/preview.png"},
     {"repo": "echoes",            "emoji": "👻", "desc": "Eternal Conversational Hologram Of Embedded Souls", "stack": ["TypeScript", "Next.js", "Tailwind CSS", "Three.js", "Python", "FastAPI", "PostgreSQL", "RunPod"], "live_url": "https://myechoes.live",
-     "public": True, "featured": True, "href": "https://myechoes.live", "preview": "/projects/echoes/assets/preview.png"},
+     "public": False, "featured": True, "href": "https://myechoes.live", "preview": "/projects/echoes/assets/preview.png"},
     {"repo": "tokens",            "emoji": "🪙", "desc": "Multi-model API usage dashboard and cost tracker",  "stack": ["JavaScript", "Node.js", "HTML"]},
     {"repo": "snapmolt",          "emoji": "📞", "desc": "Outbound voice-call bridge with AI & TTS",           "stack": ["JavaScript", "Node.js", "Twilio", "Express"]},
     {"repo": "uploader",          "emoji": "📤", "desc": "Telegram bot that saves files to your VPS and replies with the path", "stack": ["JavaScript", "Node.js", "Telegram"], "live_url": "https://cryptopilot.dev/uploader",
@@ -608,7 +608,7 @@ def build_featured_section(projects_data):
     Featured projects are those with both `featured` and `public` true. Rendered
     as a 2-col table (preview, name+desc) with rows of pairs.
     """
-    featured = [p for p in projects_data if p.get("featured") and p.get("public")]
+    featured = [p for p in projects_data if p.get("featured")]
     featured.sort(key=lambda p: p.get("lines_raw", 0), reverse=True)
     if not featured:
         return ""
