@@ -158,7 +158,7 @@
   <td align="right">~73K</td>
 </tr>
 <tr>
-  <td><nobr>👻&nbsp;<b><a href="https://echoes.live">echoes</a></b></nobr></td>
+  <td><nobr>👻&nbsp;<b><a href="https://myechoes.live">echoes</a></b></nobr></td>
   <td>Eternal Conversational Hologram Of Embedded Souls</td>
   <td><code>TypeScript</code> <code>Next.js</code> <code>Tailwind CSS</code> <code>Three.js</code> <code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>RunPod</code></td>
   <td align="right">~49K</td>
@@ -262,11 +262,11 @@
 <table>
 <tr>
 <td width="50%" align="center">
-<a href="https://echoes.live">
+<a href="https://myechoes.live">
 <img src="https://cryptopilot.dev/projects/echoes/assets/preview.png" width="100%" alt="echoes preview" />
 </a>
 <br>
-👻 <a href="https://echoes.live"><b>echoes</b></a><br>
+👻 <a href="https://myechoes.live"><b>echoes</b></a><br>
 Eternal Conversational Hologram Of Embedded Souls.
 </td>
 <td width="50%" align="center">
