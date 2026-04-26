@@ -20,16 +20,16 @@ PROJECTS = [
     {"repo": "pm-relay",          "emoji": "📊", "desc": "Multi-venue spread tracking and execution",         "stack": ["Python", "Node.js", "React", "Polygon", "Playwright"]},
     {"repo": "Tailwinds",         "emoji": "✈️",  "desc": "Flight data aggregation and alerting",              "stack": ["TypeScript", "Next.js", "Node.js", "PostgreSQL", "Tailwind CSS"]},
     {"repo": "f1_analytics",      "emoji": "🏎️",  "desc": "F1 telemetry analysis and fantasy optimization",    "stack": ["JavaScript", "React", "Vite", "Node.js"]},
-    {"repo": "skybuddy",          "emoji": "🌍", "desc": "3D social flight tracker",                          "stack": ["JavaScript", "Cesium.js", "Node.js", "PostgreSQL", "Playwright"],
-     "public": True, "featured": True, "href": "/skybuddy", "preview": "/projects/skybuddy/assets/preview.png"},
+    {"repo": "skybuddy",          "emoji": "🌍", "desc": "3D social flight tracker",                          "stack": ["JavaScript", "Cesium.js", "Node.js", "PostgreSQL", "Playwright"], "live_url": "https://skybuddy.live",
+     "public": True, "featured": True, "href": "https://skybuddy.live", "preview": "/projects/skybuddy/assets/preview.png"},
     {"repo": "TradingOdds",       "emoji": "🎯", "desc": "Prediction market execution layer",                 "stack": ["TypeScript", "Next.js", "React", "Tailwind CSS", "ethers.js"]},
     {"repo": "smartmoney-radar",  "emoji": "🔍", "desc": "On-chain wallet profiling and flow monitoring",     "stack": ["TypeScript", "Next.js", "React", "PostgreSQL", "ethers.js", "Solana"]},
     {"repo": "clawnux-v3",        "emoji": "🤖", "desc": "AI-powered autonomous software factory",                          "stack": ["Shell", "Next.js", "PostgreSQL", "Claude Code"]},
     {"repo": "govdeals-platform", "emoji": "🏛️",  "desc": "Gov surplus property scraper with Zillow valuations", "stack": ["TypeScript", "Python", "Next.js", "Node.js", "PostgreSQL", "Playwright"]},
     {"repo": "watch-control",     "emoji": "⌚",  "desc": "Approve Codex and Claude Code commands from your Apple Watch — native watchOS app + Node.js bridge over Tailscale", "stack": ["Swift", "SwiftUI", "watchOS", "Node.js", "Shell", "Python", "Next.js", "Tailscale"],
      "public": True, "featured": True, "href": "https://cryptopilot.dev/watchcontrol", "preview": "/projects/watchcontrol/assets/preview.png"},
-    {"repo": "echoes",            "emoji": "👻", "desc": "Eternal Conversational Hologram Of Embedded Souls", "stack": ["TypeScript", "Next.js", "Tailwind CSS", "Three.js", "Python", "FastAPI", "PostgreSQL", "RunPod"],
-     "public": True, "featured": True, "href": "/echoes", "preview": "/projects/echoes/assets/preview.png"},
+    {"repo": "echoes",            "emoji": "👻", "desc": "Eternal Conversational Hologram Of Embedded Souls", "stack": ["TypeScript", "Next.js", "Tailwind CSS", "Three.js", "Python", "FastAPI", "PostgreSQL", "RunPod"], "live_url": "https://echoes.live",
+     "public": True, "featured": True, "href": "https://echoes.live", "preview": "/projects/echoes/assets/preview.png"},
     {"repo": "tokens",            "emoji": "🪙", "desc": "Multi-model API usage dashboard and cost tracker",  "stack": ["JavaScript", "Node.js", "HTML"]},
     {"repo": "snapmolt",          "emoji": "📞", "desc": "Outbound voice-call bridge with AI & TTS",           "stack": ["JavaScript", "Node.js", "Twilio", "Express"]},
     {"repo": "uploader",          "emoji": "📤", "desc": "Telegram bot that saves files to your VPS and replies with the path", "stack": ["JavaScript", "Node.js", "Telegram"], "live_url": "https://cryptopilot.dev/uploader",
@@ -501,9 +501,11 @@ def build_projects_table(projects_data):
         stack_str = " ".join(f"<code>{html.escape(s)}</code>" for s in p["stack"])
         emoji = p.get("emoji", "📦")
         display_repo = p.get("display_repo", p["repo"])
-        if p.get("public", False):
-            repo_url = f'https://github.com/CryptoPilot16/{p["repo"]}'
-            name_cell = f'<a href="{repo_url}">{html.escape(display_repo)}</a>'
+        link_url = p.get("live_url")
+        if not link_url and p.get("public", False):
+            link_url = f'https://github.com/CryptoPilot16/{p["repo"]}'
+        if link_url:
+            name_cell = f'<a href="{link_url}">{html.escape(display_repo)}</a>'
         else:
             name_cell = html.escape(display_repo)
         lines.extend([
