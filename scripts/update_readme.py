@@ -20,14 +20,16 @@ PROJECTS = [
     {"repo": "pm-relay",          "emoji": "📊", "desc": "Multi-venue spread tracking and execution",         "stack": ["Python", "Node.js", "React", "Polygon", "Playwright"]},
     {"repo": "Tailwinds",         "emoji": "✈️",  "desc": "Flight data aggregation and alerting",              "stack": ["TypeScript", "Next.js", "Node.js", "PostgreSQL", "Tailwind CSS"]},
     {"repo": "f1_analytics",      "emoji": "🏎️",  "desc": "F1 telemetry analysis and fantasy optimization",    "stack": ["JavaScript", "React", "Vite", "Node.js"]},
-    {"repo": "skybuddy",          "emoji": "🌍", "desc": "3D social flight tracker",                          "stack": ["JavaScript", "Cesium.js", "Node.js", "PostgreSQL", "Playwright"]},
+    {"repo": "skybuddy",          "emoji": "🌍", "desc": "3D social flight tracker",                          "stack": ["JavaScript", "Cesium.js", "Node.js", "PostgreSQL", "Playwright"],
+     "public": True, "featured": True, "href": "/skybuddy", "preview": "/projects/skybuddy/assets/preview.png"},
     {"repo": "TradingOdds",       "emoji": "🎯", "desc": "Prediction market execution layer",                 "stack": ["TypeScript", "Next.js", "React", "Tailwind CSS", "ethers.js"]},
     {"repo": "smartmoney-radar",  "emoji": "🔍", "desc": "On-chain wallet profiling and flow monitoring",     "stack": ["TypeScript", "Next.js", "React", "PostgreSQL", "ethers.js", "Solana"]},
     {"repo": "clawnux-v3",        "emoji": "🤖", "desc": "AI-powered autonomous software factory",                          "stack": ["Shell", "Next.js", "PostgreSQL", "Claude Code"]},
     {"repo": "govdeals-platform", "emoji": "🏛️",  "desc": "Gov surplus property scraper with Zillow valuations", "stack": ["TypeScript", "Python", "Next.js", "Node.js", "PostgreSQL", "Playwright"]},
     {"repo": "watch-control",     "emoji": "⌚",  "desc": "Approve Codex and Claude Code commands from your Apple Watch — native watchOS app + Node.js bridge over Tailscale", "stack": ["Swift", "SwiftUI", "watchOS", "Node.js", "Shell", "Python", "Next.js", "Tailscale"],
      "public": True, "featured": True, "href": "https://cryptopilot.dev/watchcontrol", "preview": "/projects/watchcontrol/assets/preview.png"},
-    {"repo": "echoes",            "emoji": "👻", "desc": "Eternal Conversational Hologram Of Embedded Souls", "stack": ["TypeScript", "Next.js", "Tailwind CSS", "Three.js", "Python", "FastAPI", "PostgreSQL", "RunPod"]},
+    {"repo": "echoes",            "emoji": "👻", "desc": "Eternal Conversational Hologram Of Embedded Souls", "stack": ["TypeScript", "Next.js", "Tailwind CSS", "Three.js", "Python", "FastAPI", "PostgreSQL", "RunPod"],
+     "public": True, "featured": True, "href": "/echoes", "preview": "/projects/echoes/assets/preview.png"},
     {"repo": "tokens",            "emoji": "🪙", "desc": "Multi-model API usage dashboard and cost tracker",  "stack": ["JavaScript", "Node.js", "HTML"]},
     {"repo": "snapmolt",          "emoji": "📞", "desc": "Outbound voice-call bridge with AI & TTS",           "stack": ["JavaScript", "Node.js", "Twilio", "Express"]},
     {"repo": "uploader",          "emoji": "📤", "desc": "Telegram bot that saves files to your VPS and replies with the path", "stack": ["JavaScript", "Node.js", "Telegram"], "live_url": "https://cryptopilot.dev/uploader",
@@ -35,7 +37,8 @@ PROJECTS = [
     {"repo": "smartcommit",       "emoji": "🔁", "desc": "Autopilot commits across all your repos",                         "stack": ["Shell", "Ollama", "GitHub API", "Telegram"], "live_url": "https://cryptopilot.dev/smartcommits",
      "public": True, "featured": True, "href": "/smartcommits", "preview": "/projects/smartcommits/assets/preview.png"},
     {"repo": "nysm",              "emoji": "📡", "desc": "WiFi-based body detection and multi-camera home surveillance with 3D spatial mapping", "stack": ["JavaScript", "Node.js", "Express"]},
-    {"repo": "watcher",           "emoji": "🛠️",  "desc": "Private infrastructure monitoring dashboard with alerting and service health",      "stack": ["JavaScript", "Next.js", "PostgreSQL", "React"]},
+    {"repo": "watcher",           "emoji": "👁️", "desc": "Mission control for multi-agent operations — 3D office floor visibility, sessions, runs, flows, logs, health", "stack": ["TypeScript", "Next.js", "Three.js", "PostgreSQL", "React"],
+     "public": True, "featured": True, "href": "https://cryptopilot.dev/watcher", "preview": "/projects/watcher/assets/preview.png"},
 ]
 
 # Keep project names compact in the README table for cleaner spacing.
@@ -597,11 +600,82 @@ def build_tech_stack_table(projects_data):
     return "\n".join(html)
 
 
+def build_featured_section(projects_data):
+    """Render the FEATURED PROJECTS HTML block, sorted by lines of code (desc).
+
+    Featured projects are those with both `featured` and `public` true. Rendered
+    as a 2-col table (preview, name+desc) with rows of pairs.
+    """
+    featured = [p for p in projects_data if p.get("featured") and p.get("public")]
+    featured.sort(key=lambda p: p.get("lines_raw", 0), reverse=True)
+    if not featured:
+        return ""
+    def short_desc(p):
+        d = p.get("desc", "").strip()
+        return d if d.endswith(".") else d + "."
+    def abs_href(p):
+        h = p.get("href") or ""
+        if h.startswith("http"):
+            return h
+        if h.startswith("/"):
+            return "https://cryptopilot.dev" + h
+        return h
+    def preview_url(p):
+        pv = p.get("preview") or ""
+        if pv.startswith("http"):
+            return pv
+        if pv.startswith("/"):
+            return "https://cryptopilot.dev" + pv
+        return pv
+    rows_html = []
+    for i in range(0, len(featured), 2):
+        pair = featured[i:i + 2]
+        cells = []
+        for p in pair:
+            name = p.get("name") or p["repo"]
+            href = abs_href(p)
+            preview = preview_url(p)
+            cells.append(
+                "<td width=\"50%\" align=\"center\">\n"
+                f"<a href=\"{href}\">\n"
+                f"<img src=\"{preview}\" width=\"100%\" alt=\"{html.escape(name)} preview\" />\n"
+                "</a>\n"
+                "<br>\n"
+                f"{p.get('emoji', '📦')} <a href=\"{href}\"><b>{html.escape(name)}</b></a><br>\n"
+                f"{html.escape(short_desc(p))}\n"
+                "</td>"
+            )
+        # If odd count, pad with an empty cell so the layout stays 2-col
+        if len(cells) == 1:
+            cells.append("<td width=\"50%\"></td>")
+        rows_html.append("<tr>\n" + "\n".join(cells) + "\n</tr>")
+    table = "<table>\n" + "\n".join(rows_html) + "\n</table>"
+    return (
+        "<!-- FEATURED PROJECTS -->\n"
+        "<div style=\"background:#0b110e;border:1px solid #00804a;border-radius:10px;overflow:hidden;margin-bottom:12px\">\n\n"
+        "<div style=\"padding:12px 3% 10px;border-bottom:1px solid #1a3328\">\n"
+        "<h3 style=\"margin:0;white-space:nowrap;font-size:1em\"><span style=\"color:#00e5a0\">// </span>featured</h3>\n"
+        "</div>\n\n"
+        f"{table}\n\n"
+        "</div>"
+    )
+
+
 def update_readme(projects_data):
     """Replace tech stack and projects table in README.md."""
     readme_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "README.md")
     with open(readme_path, "r") as f:
         content = f.read()
+
+    # Replace the FEATURED PROJECTS block (sorted by lines desc).
+    # Greedy match so any legacy orphan <table>s that accumulated AFTER the
+    # proper block get absorbed too — from the marker through the last
+    # `</table>\s*</div>` sequence that precedes the next section or EOF.
+    new_featured = build_featured_section(projects_data)
+    if new_featured:
+        featured_pattern = r"<!-- FEATURED PROJECTS -->[\s\S]*</table>\s*</div>"
+        if re.search(featured_pattern, content):
+            content = re.sub(featured_pattern, new_featured, content, count=1)
 
     new_tech_table = build_tech_stack_table(projects_data)
     # The README has migrated from "### Tech Stack" markdown to an HTML
