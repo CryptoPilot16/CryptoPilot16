@@ -625,10 +625,21 @@ def build_featured_section(projects_data):
     def preview_url(p):
         pv = p.get("preview") or ""
         if pv.startswith("http"):
+            url = pv
+        elif pv.startswith("/"):
+            url = "https://cryptopilot.dev" + pv
+        else:
             return pv
-        if pv.startswith("/"):
-            return "https://cryptopilot.dev" + pv
-        return pv
+        try:
+            import urllib.request
+            req = urllib.request.Request(url, method="HEAD")
+            with urllib.request.urlopen(req, timeout=5) as r:
+                etag = (r.headers.get("etag") or "").strip('"')
+                if etag:
+                    return f"{url}?v={etag}"
+        except Exception:
+            pass
+        return url
     rows_html = []
     for i in range(0, len(featured), 2):
         pair = featured[i:i + 2]
