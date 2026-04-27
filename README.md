@@ -200,15 +200,15 @@
   <td align="right">~13K</td>
 </tr>
 <tr>
-  <td><nobr>🏛️&nbsp;<b>govdeals</b></nobr></td>
-  <td>Gov surplus property scraper with Zillow valuations</td>
-  <td><code>TypeScript</code> <code>Python</code> <code>Next.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Playwright</code></td>
-  <td align="right">~12K</td>
-</tr>
-<tr>
   <td><nobr>👁️&nbsp;<b><a href="https://github.com/CryptoPilot16/watcher">watcher</a></b></nobr></td>
   <td>Mission control for multi-agent operations — 3D office floor visibility, sessions, runs, flows, logs, health</td>
   <td><code>TypeScript</code> <code>Next.js</code> <code>Three.js</code> <code>PostgreSQL</code> <code>React</code></td>
+  <td align="right">~12K</td>
+</tr>
+<tr>
+  <td><nobr>🏛️&nbsp;<b>govdeals</b></nobr></td>
+  <td>Gov surplus property scraper with Zillow valuations</td>
+  <td><code>TypeScript</code> <code>Python</code> <code>Next.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Playwright</code></td>
   <td align="right">~12K</td>
 </tr>
 <tr>
