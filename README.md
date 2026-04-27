@@ -209,7 +209,7 @@
   <td><nobr>👁️&nbsp;<b><a href="https://github.com/CryptoPilot16/watcher">watcher</a></b></nobr></td>
   <td>Mission control for multi-agent operations — 3D office floor visibility, sessions, runs, flows, logs, health</td>
   <td><code>TypeScript</code> <code>Next.js</code> <code>Three.js</code> <code>PostgreSQL</code> <code>React</code></td>
-  <td align="right">~11K</td>
+  <td align="right">~12K</td>
 </tr>
 <tr>
   <td><nobr>⌚&nbsp;<b><a href="https://github.com/CryptoPilot16/watch-control">watch-control</a></b></nobr></td>
