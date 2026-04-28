@@ -122,7 +122,7 @@
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden">
 
 <div style="padding:12px 3% 10px;border-bottom:1px solid #1e1e1e">
-<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 17 repos · ~537K lines</span></h3>
+<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 18 repos · ~541K lines</span></h3>
 </div>
 
 <div style="padding:4px 0">
@@ -167,7 +167,7 @@
   <td><nobr>🌍&nbsp;<b><a href="https://skybuddy.live">skybuddy</a></b></nobr></td>
   <td>3D social flight tracker</td>
   <td><code>JavaScript</code> <code>Cesium.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Playwright</code></td>
-  <td align="right">~40K</td>
+  <td align="right">~43K</td>
 </tr>
 <tr>
   <td><nobr>✈️&nbsp;<b>Tailwinds</b></nobr></td>
@@ -230,6 +230,12 @@
   <td align="right">~4K</td>
 </tr>
 <tr>
+  <td><nobr>✈️&nbsp;<b>skybuddy-ios</b></nobr></td>
+  <td>Capacitor iOS wrapper for SkyBuddy — loads app.skybuddy.live</td>
+  <td><code>Claude Code</code> <code>JavaScript</code> <code>Node.js</code></td>
+  <td align="right">~2K</td>
+</tr>
+<tr>
   <td><nobr>🔁&nbsp;<b><a href="https://cryptopilot.dev/smartcommits">smartcommit</a></b></nobr></td>
   <td>Autopilot commits across all your repos</td>
   <td><code>Shell</code> <code>Ollama</code> <code>GitHub API</code> <code>Telegram</code></td>
@@ -244,8 +250,8 @@
 <tr>
   <td></td>
   <td></td>
-  <td><b>17 projects</b></td>
-  <td align="right"><b>~537K</b></td>
+  <td><b>18 projects</b></td>
+  <td align="right"><b>~541K</b></td>
 </tr>
 </table>
 </div>
