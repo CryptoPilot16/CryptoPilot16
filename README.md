@@ -84,6 +84,7 @@
 <img src="https://img.shields.io/badge/Caddy-1F88C0?style=flat-square&logo=caddy&logoColor=white" />
 <img src="https://img.shields.io/badge/PM2-2B037A?style=flat-square&logo=pm2&logoColor=white" />
 <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
 <img src="https://img.shields.io/badge/RunPod-FF6A00?style=flat-square&logo=kubernetes&logoColor=white" />
 <img src="https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white" />
 <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" />
@@ -122,7 +123,7 @@
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden">
 
 <div style="padding:12px 3% 10px;border-bottom:1px solid #1e1e1e">
-<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 18 repos · ~545K lines</span></h3>
+<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 19 repos · ~557K lines</span></h3>
 </div>
 
 <div style="padding:4px 0">
@@ -200,6 +201,12 @@
   <td align="right">~13K</td>
 </tr>
 <tr>
+  <td><nobr>✈️&nbsp;<b>smartpilot</b></nobr></td>
+  <td>Pre-flight briefing assistant for Kalitta Air 747 pilots. Personal-use tool, not</td>
+  <td><code>Claude Code</code> <code>GitHub Actions</code> <code>JavaScript</code> <code>Node.js</code> <code>Python</code></td>
+  <td align="right">~12K</td>
+</tr>
+<tr>
   <td><nobr>👁️&nbsp;<b><a href="https://github.com/CryptoPilot16/watcher">watcher</a></b></nobr></td>
   <td>Mission control for multi-agent operations — 3D office floor visibility, sessions, runs, flows, logs, health</td>
   <td><code>TypeScript</code> <code>Next.js</code> <code>Three.js</code> <code>PostgreSQL</code> <code>React</code></td>
@@ -250,8 +257,8 @@
 <tr>
   <td></td>
   <td></td>
-  <td><b>18 projects</b></td>
-  <td align="right"><b>~545K</b></td>
+  <td><b>19 projects</b></td>
+  <td align="right"><b>~557K</b></td>
 </tr>
 </table>
 </div>
