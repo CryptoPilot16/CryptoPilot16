@@ -180,7 +180,7 @@
   <td><nobr>🏎️&nbsp;<b>f1_analytics</b></nobr></td>
   <td>F1 telemetry analysis and fantasy optimization</td>
   <td><code>JavaScript</code> <code>React</code> <code>Vite</code> <code>Node.js</code></td>
-  <td align="right">~29K</td>
+  <td align="right">~30K</td>
 </tr>
 <tr>
   <td><nobr>🎯&nbsp;<b>TradingOdds</b></nobr></td>
