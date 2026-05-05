@@ -202,7 +202,7 @@
 </tr>
 <tr>
   <td><nobr>✈️&nbsp;<b>smartpilot</b></nobr></td>
-  <td>Pre-flight briefing assistant for 747 cargo pilots. Personal-use tool, not an FA</td>
+  <td>Pre-flight briefing assistant for pilots</td>
   <td><code>Claude Code</code> <code>GitHub Actions</code> <code>JavaScript</code> <code>Node.js</code> <code>Python</code></td>
   <td align="right">~12K</td>
 </tr>
