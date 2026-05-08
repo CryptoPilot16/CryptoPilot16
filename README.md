@@ -204,7 +204,7 @@
   <td><nobr>📡&nbsp;<b>nysm</b></nobr></td>
   <td>WiFi-based body detection and multi-camera home surveillance with 3D spatial mapping</td>
   <td><code>JavaScript</code> <code>Node.js</code> <code>Express</code></td>
-  <td align="right">~15K</td>
+  <td align="right">~16K</td>
 </tr>
 <tr>
   <td><nobr>✈️&nbsp;<b>smartpilot</b></nobr></td>
