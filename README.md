@@ -51,6 +51,7 @@
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
 <img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
 <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
 <img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white" />
 </td>
@@ -123,7 +124,7 @@
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden">
 
 <div style="padding:12px 3% 10px;border-bottom:1px solid #1e1e1e">
-<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 19 repos · ~571K lines</span></h3>
+<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 20 repos · ~745K lines</span></h3>
 </div>
 
 <div style="padding:4px 0">
@@ -139,6 +140,12 @@
   <th align="left">Description</th>
   <th align="left">Stack</th>
   <th align="right">Lines</th>
+</tr>
+<tr>
+  <td><nobr>✈️&nbsp;<b>axiom</b></nobr></td>
+  <td>Airline ops substrate</td>
+  <td><code>Rust</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Next.js</code></td>
+  <td align="right">~174K</td>
 </tr>
 <tr>
   <td><nobr>📊&nbsp;<b>pm-relay</b></nobr></td>
@@ -257,8 +264,8 @@
 <tr>
   <td></td>
   <td></td>
-  <td><b>19 projects</b></td>
-  <td align="right"><b>~571K</b></td>
+  <td><b>20 projects</b></td>
+  <td align="right"><b>~745K</b></td>
 </tr>
 </table>
 </div>
