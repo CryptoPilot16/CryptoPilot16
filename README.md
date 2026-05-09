@@ -123,7 +123,7 @@
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden">
 
 <div style="padding:12px 3% 10px;border-bottom:1px solid #1e1e1e">
-<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 19 repos · ~570K lines</span></h3>
+<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 19 repos · ~571K lines</span></h3>
 </div>
 
 <div style="padding:4px 0">
@@ -198,7 +198,7 @@
   <td><nobr>👁️&nbsp;<b><a href="https://github.com/CryptoPilot16/watcher">watcher</a></b></nobr></td>
   <td>Mission control for multi-agent operations — 3D office floor visibility, sessions, runs, flows, logs, health</td>
   <td><code>TypeScript</code> <code>Next.js</code> <code>Three.js</code> <code>PostgreSQL</code> <code>React</code></td>
-  <td align="right">~20K</td>
+  <td align="right">~21K</td>
 </tr>
 <tr>
   <td><nobr>📡&nbsp;<b>nysm</b></nobr></td>
@@ -258,7 +258,7 @@
   <td></td>
   <td></td>
   <td><b>19 projects</b></td>
-  <td align="right"><b>~570K</b></td>
+  <td align="right"><b>~571K</b></td>
 </tr>
 </table>
 </div>
