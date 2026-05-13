@@ -175,7 +175,7 @@
   <td><nobr>🌍&nbsp;<b><a href="https://skybuddy.live">skybuddy</a></b></nobr></td>
   <td>3D social flight tracker</td>
   <td><code>JavaScript</code> <code>Cesium.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Playwright</code></td>
-  <td align="right">~44K</td>
+  <td align="right">~45K</td>
 </tr>
 <tr>
   <td><nobr>✈️&nbsp;<b>Tailwinds</b></nobr></td>
