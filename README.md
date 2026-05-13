@@ -301,7 +301,7 @@ Eternal Conversational Hologram Of Embedded Souls.
 <tr>
 <td width="50%" align="center">
 <a href="https://cryptopilot.dev/watcher">
-<img src="https://cryptopilot.dev/projects/watcher/assets/preview.png?v=tesweedr0h" width="100%" alt="watcher preview" />
+<img src="https://cryptopilot.dev/projects/watcher/assets/preview.png?v=teybekdxf5" width="100%" alt="watcher preview" />
 </a>
 <br>
 👁️ <a href="https://cryptopilot.dev/watcher"><b>watcher</b></a><br>
