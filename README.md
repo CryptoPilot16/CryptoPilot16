@@ -145,7 +145,7 @@
   <td><nobr>✈️&nbsp;<b>axiom</b></nobr></td>
   <td>Airline ops substrate</td>
   <td><code>Rust</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Next.js</code></td>
-  <td align="right">~180K</td>
+  <td align="right">~181K</td>
 </tr>
 <tr>
   <td><nobr>📊&nbsp;<b>Oddsgap</b></nobr></td>
