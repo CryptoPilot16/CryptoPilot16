@@ -16,28 +16,28 @@ USERNAME = os.environ.get("GITHUB_USERNAME", "CryptoPilot16")
 # Project registry — emoji, description, and stack are manually curated; lines auto-counted.
 # New repos not listed here are auto-discovered and appended with defaults.
 PROJECTS = [
-    {"repo": "axiom",             "emoji": "✈️", "desc": "Airline ops substrate", "stack": ["Rust", "Node.js", "PostgreSQL", "Next.js"], "public": False},
-    {"repo": "mythex",            "emoji": "⚔️",  "desc": "A browser-based 3D MMORPG engine", "stack": ["JavaScript", "TypeScript", "React", "Vite", "Solana"]},
-    {"repo": "pm-relay",          "emoji": "📊", "desc": "Multi-venue spread tracking and execution",         "stack": ["Python", "Node.js", "React", "Polygon", "Playwright"]},
-    {"repo": "Tailwinds",         "emoji": "✈️",  "desc": "Flight data aggregation and alerting",              "stack": ["TypeScript", "Next.js", "Node.js", "PostgreSQL", "Tailwind CSS"]},
-    {"repo": "f1_analytics",      "emoji": "🏎️",  "desc": "F1 telemetry analysis and fantasy optimization",    "stack": ["JavaScript", "React", "Vite", "Node.js"]},
+    {"repo": "axiom",             "emoji": "✈️", "desc": "Airline ops substrate", "stack": ["Rust", "Node.js", "PostgreSQL", "Next.js"], "public": False, "preview": "/projects/axiom/assets/preview.png"},
+    {"repo": "mythex",            "emoji": "⚔️",  "desc": "A browser-based 3D MMORPG engine", "stack": ["JavaScript", "TypeScript", "React", "Vite", "Solana"], "preview": "/projects/mythex/assets/preview.png"},
+    {"repo": "pm-relay",          "emoji": "📊", "desc": "Multi-venue spread tracking and execution",         "stack": ["Python", "Node.js", "React", "Polygon", "Playwright"], "preview": "/projects/pm-relay/assets/preview.png"},
+    {"repo": "Tailwinds",         "emoji": "✈️",  "desc": "Flight data aggregation and alerting",              "stack": ["TypeScript", "Next.js", "Node.js", "PostgreSQL", "Tailwind CSS"], "preview": "/projects/Tailwinds/assets/preview.png"},
+    {"repo": "f1_analytics",      "emoji": "🏎️",  "desc": "F1 telemetry analysis and fantasy optimization",    "stack": ["JavaScript", "React", "Vite", "Node.js"], "preview": "/projects/f1_analytics/assets/preview.png"},
     {"repo": "skybuddy",          "emoji": "🌍", "desc": "3D social flight tracker",                          "stack": ["JavaScript", "Cesium.js", "Node.js", "PostgreSQL", "Playwright"], "live_url": "https://skybuddy.live",
      "public": False, "featured": True, "href": "https://skybuddy.live", "preview": "/projects/skybuddy/assets/preview.png"},
-    {"repo": "TradingOdds",       "emoji": "🎯", "desc": "Prediction market execution layer",                 "stack": ["TypeScript", "Next.js", "React", "Tailwind CSS", "ethers.js"]},
-    {"repo": "smartmoney-radar",  "emoji": "🔍", "desc": "On-chain wallet profiling and flow monitoring",     "stack": ["TypeScript", "Next.js", "React", "PostgreSQL", "ethers.js", "Solana"]},
-    {"repo": "clawnux-v3",        "emoji": "🤖", "desc": "AI-powered autonomous software factory",                          "stack": ["Shell", "Next.js", "PostgreSQL", "Claude Code"]},
-    {"repo": "govdeals-platform", "emoji": "🏛️",  "desc": "Gov surplus property scraper with Zillow valuations", "stack": ["TypeScript", "Python", "Next.js", "Node.js", "PostgreSQL", "Playwright"]},
+    {"repo": "TradingOdds",       "emoji": "🎯", "desc": "Prediction market execution layer",                 "stack": ["TypeScript", "Next.js", "React", "Tailwind CSS", "ethers.js"], "preview": "/projects/TradingOdds/assets/preview.png"},
+    {"repo": "smartmoney-radar",  "emoji": "🔍", "desc": "On-chain wallet profiling and flow monitoring",     "stack": ["TypeScript", "Next.js", "React", "PostgreSQL", "ethers.js", "Solana"], "preview": "/projects/smartmoney-radar/assets/preview.png"},
+    {"repo": "clawnux-v3",        "emoji": "🤖", "desc": "AI-powered autonomous software factory",                          "stack": ["Shell", "Next.js", "PostgreSQL", "Claude Code"], "preview": "/projects/clawnux-v3/assets/preview.png"},
+    {"repo": "govdeals-platform", "emoji": "🏛️",  "desc": "Gov surplus property scraper with Zillow valuations", "stack": ["TypeScript", "Python", "Next.js", "Node.js", "PostgreSQL", "Playwright"], "preview": "/projects/govdeals-platform/assets/preview.png"},
     {"repo": "watch-control",     "emoji": "⌚",  "desc": "Approve Codex and Claude Code commands from your Apple Watch — native watchOS app + Node.js bridge over Tailscale", "stack": ["Swift", "SwiftUI", "watchOS", "Node.js", "Shell", "Python", "Next.js", "Tailscale"],
      "public": True, "featured": True, "href": "https://cryptopilot.dev/watchcontrol", "preview": "/projects/watchcontrol/assets/preview.png"},
     {"repo": "echoes",            "emoji": "👻", "desc": "Eternal Conversational Hologram Of Embedded Souls", "stack": ["TypeScript", "Next.js", "Tailwind CSS", "Three.js", "Python", "FastAPI", "PostgreSQL", "RunPod"], "live_url": "https://myechoes.live",
      "public": False, "featured": True, "href": "https://myechoes.live", "preview": "/projects/echoes/assets/preview.png"},
-    {"repo": "tokens",            "emoji": "🪙", "desc": "Multi-model API usage dashboard and cost tracker",  "stack": ["JavaScript", "Node.js", "HTML"]},
-    {"repo": "snapmolt",          "emoji": "📞", "desc": "Outbound voice-call bridge with AI & TTS",           "stack": ["JavaScript", "Node.js", "Twilio", "Express"]},
+    {"repo": "tokens",            "emoji": "🪙", "desc": "Multi-model API usage dashboard and cost tracker",  "stack": ["JavaScript", "Node.js", "HTML"], "preview": "/projects/tokens/assets/preview.png"},
+    {"repo": "snapmolt",          "emoji": "📞", "desc": "Outbound voice-call bridge with AI & TTS",           "stack": ["JavaScript", "Node.js", "Twilio", "Express"], "preview": "/projects/snapmolt/assets/preview.png"},
     {"repo": "uploader",          "emoji": "📤", "desc": "Telegram bot that saves files to your VPS and replies with the path", "stack": ["JavaScript", "Node.js", "Telegram"], "live_url": "https://cryptopilot.dev/uploader",
      "public": True, "featured": True, "href": "/uploader", "preview": "/projects/uploader/assets/preview.png"},
     {"repo": "smartcommit",       "emoji": "🔁", "desc": "Autopilot commits across all your repos",                         "stack": ["Shell", "Ollama", "GitHub API", "Telegram"], "live_url": "https://cryptopilot.dev/smartcommits",
      "public": True, "featured": True, "href": "/smartcommits", "preview": "/projects/smartcommits/assets/preview.png"},
-    {"repo": "nysm",              "emoji": "📡", "desc": "WiFi-based body detection and multi-camera home surveillance with 3D spatial mapping", "stack": ["JavaScript", "Node.js", "Express"]},
+    {"repo": "nysm",              "emoji": "📡", "desc": "WiFi-based body detection and multi-camera home surveillance with 3D spatial mapping", "stack": ["JavaScript", "Node.js", "Express"], "preview": "/projects/nysm/assets/preview.png"},
     {"repo": "watcher",           "emoji": "👁️", "desc": "Mission control for multi-agent operations — 3D office floor visibility, sessions, runs, flows, logs, health", "stack": ["TypeScript", "Next.js", "Three.js", "PostgreSQL", "React"],
      "public": True, "featured": True, "href": "https://cryptopilot.dev/watcher", "preview": "/projects/watcher/assets/preview.png"},
 ]
@@ -819,7 +819,8 @@ def write_projects_json(projects_data):
             "featured":  p.get("featured", False),
         }
         if p.get("featured"):
-            rec["href"]    = p.get("href", "")
+            rec["href"] = p.get("href", "")
+        if p.get("preview"):
             rec["preview"] = p.get("preview", "")
         records.append(rec)
     # Featured projects first, then rest sorted by lines descending (already sorted)
