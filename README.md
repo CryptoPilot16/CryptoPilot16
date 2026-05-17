@@ -283,7 +283,7 @@
 <tr>
 <td width="50%" align="center">
 <a href="https://myechoes.live">
-<img src="https://cryptopilot.dev/projects/echoes/assets/preview.png?v=teswdz4jm3" width="100%" alt="echoes preview" />
+<img src="https://cryptopilot.dev/projects/echoes/assets/preview.png?v=tf5v2b4jng" width="100%" alt="echoes preview" />
 </a>
 <br>
 👻 <a href="https://myechoes.live"><b>echoes</b></a><br>
@@ -291,7 +291,7 @@ Eternal Conversational Hologram Of Embedded Souls.
 </td>
 <td width="50%" align="center">
 <a href="https://skybuddy.live">
-<img src="https://cryptopilot.dev/projects/skybuddy/assets/preview.png?v=teswdl9ty9" width="100%" alt="skybuddy preview" />
+<img src="https://cryptopilot.dev/projects/skybuddy/assets/preview.png?v=tf5v1x9tod" width="100%" alt="skybuddy preview" />
 </a>
 <br>
 🌍 <a href="https://skybuddy.live"><b>skybuddy</b></a><br>
@@ -301,7 +301,7 @@ Eternal Conversational Hologram Of Embedded Souls.
 <tr>
 <td width="50%" align="center">
 <a href="https://cryptopilot.dev/watcher">
-<img src="https://cryptopilot.dev/projects/watcher/assets/preview.png?v=teybekdxf5" width="100%" alt="watcher preview" />
+<img src="https://cryptopilot.dev/projects/watcher/assets/preview.png?v=tf5v2rcp5p" width="100%" alt="watcher preview" />
 </a>
 <br>
 👁️ <a href="https://cryptopilot.dev/watcher"><b>watcher</b></a><br>
@@ -309,7 +309,7 @@ Mission control for multi-agent operations — 3D office floor visibility, sessi
 </td>
 <td width="50%" align="center">
 <a href="https://cryptopilot.dev/watchcontrol">
-<img src="https://cryptopilot.dev/projects/watchcontrol/assets/preview.png?v=teswd61x0k" width="100%" alt="watch-control preview" />
+<img src="https://cryptopilot.dev/projects/watchcontrol/assets/preview.png?v=tf5v1d1x0l" width="100%" alt="watch-control preview" />
 </a>
 <br>
 ⌚ <a href="https://cryptopilot.dev/watchcontrol"><b>watch-control</b></a><br>
