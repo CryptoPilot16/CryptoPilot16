@@ -47,6 +47,7 @@ MAX_PROJECT_NAME_LEN = 16
 DISPLAY_NAME_OVERRIDES = {
     "smartmoney-radar": "smartmoney",
     "govdeals-platform": "govdeals",
+    "pm-relay": "Oddsgap",
 }
 
 # Path to the website directory — write projects.json here after each sync
