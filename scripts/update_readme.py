@@ -23,6 +23,8 @@ PROJECTS = [
     {"repo": "f1_analytics",      "emoji": "🏎️",  "desc": "F1 telemetry analysis and fantasy optimization",    "stack": ["JavaScript", "React", "Vite", "Node.js"], "preview": "/projects/f1_analytics/assets/preview.png"},
     {"repo": "skybuddy",          "emoji": "🌍", "desc": "3D social flight tracker",                          "stack": ["JavaScript", "Cesium.js", "Node.js", "PostgreSQL", "Playwright"], "live_url": "https://skybuddy.live",
      "public": False, "featured": True, "href": "https://skybuddy.live", "preview": "/projects/skybuddy/assets/preview.png"},
+    {"repo": "skybuddy-ios",      "emoji": "✈️",  "desc": "Capacitor iOS wrapper for SkyBuddy — loads app.skybuddy.live", "stack": ["Claude Code", "JavaScript", "Node.js"],
+     "public": False, "href": "https://skybuddy.live", "preview": "/projects/skybuddy/assets/preview.png"},
     {"repo": "TradingOdds",       "emoji": "🎯", "desc": "Prediction market execution layer",                 "stack": ["TypeScript", "Next.js", "React", "Tailwind CSS", "ethers.js"], "preview": "/projects/TradingOdds/assets/preview.png"},
     {"repo": "smartmoney-radar",  "emoji": "🔍", "desc": "On-chain wallet profiling and flow monitoring",     "stack": ["TypeScript", "Next.js", "React", "PostgreSQL", "ethers.js", "Solana"], "preview": "/projects/smartmoney-radar/assets/preview.png"},
     {"repo": "clawnux-v3",        "emoji": "🤖", "desc": "AI-powered autonomous software factory",                          "stack": ["Shell", "Next.js", "PostgreSQL", "Claude Code"], "preview": "/projects/clawnux-v3/assets/preview.png"},
@@ -818,10 +820,10 @@ def write_projects_json(projects_data):
             "public":    p.get("public", False),
             "featured":  p.get("featured", False),
         }
-        if p.get("featured"):
-            rec["href"] = p.get("href", "")
+        if p.get("href"):
+            rec["href"] = p["href"]
         if p.get("preview"):
-            rec["preview"] = p.get("preview", "")
+            rec["preview"] = p["preview"]
         records.append(rec)
     # Featured projects first, then rest sorted by lines descending (already sorted)
     records.sort(key=lambda r: (not r["featured"], -r["lines_raw"]))
