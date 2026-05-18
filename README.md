@@ -124,7 +124,7 @@
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden">
 
 <div style="padding:12px 3% 10px;border-bottom:1px solid #1e1e1e">
-<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 21 repos · ~789K lines</span></h3>
+<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 21 repos · ~790K lines</span></h3>
 </div>
 
 <div style="padding:4px 0">
@@ -175,7 +175,7 @@
   <td><nobr>🌍&nbsp;<b><a href="https://skybuddy.live">skybuddy</a></b></nobr></td>
   <td>3D social flight tracker</td>
   <td><code>JavaScript</code> <code>Cesium.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Playwright</code></td>
-  <td align="right">~47K</td>
+  <td align="right">~48K</td>
 </tr>
 <tr>
   <td><nobr>✈️&nbsp;<b>Tailwinds</b></nobr></td>
@@ -271,7 +271,7 @@
   <td></td>
   <td></td>
   <td><b>21 projects</b></td>
-  <td align="right"><b>~789K</b></td>
+  <td align="right"><b>~790K</b></td>
 </tr>
 </table>
 </div>
