@@ -124,7 +124,7 @@
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden">
 
 <div style="padding:12px 3% 10px;border-bottom:1px solid #1e1e1e">
-<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 21 repos · ~787K lines</span></h3>
+<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 21 repos · ~788K lines</span></h3>
 </div>
 
 <div style="padding:4px 0">
@@ -169,7 +169,7 @@
   <td><nobr>👻&nbsp;<b><a href="https://myechoes.live">echoes</a></b></nobr></td>
   <td>Eternal Conversational Hologram Of Embedded Souls</td>
   <td><code>TypeScript</code> <code>Next.js</code> <code>Tailwind CSS</code> <code>Three.js</code> <code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>RunPod</code></td>
-  <td align="right">~49K</td>
+  <td align="right">~50K</td>
 </tr>
 <tr>
   <td><nobr>🌍&nbsp;<b><a href="https://skybuddy.live">skybuddy</a></b></nobr></td>
@@ -271,7 +271,7 @@
   <td></td>
   <td></td>
   <td><b>21 projects</b></td>
-  <td align="right"><b>~787K</b></td>
+  <td align="right"><b>~788K</b></td>
 </tr>
 </table>
 </div>
