@@ -169,7 +169,7 @@
   <td><nobr>👻&nbsp;<b><a href="https://myechoes.live">echoes</a></b></nobr></td>
   <td>Eternal Conversational Hologram Of Embedded Souls</td>
   <td><code>TypeScript</code> <code>Next.js</code> <code>Tailwind CSS</code> <code>Three.js</code> <code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>RunPod</code></td>
-  <td align="right">~50K</td>
+  <td align="right">~51K</td>
 </tr>
 <tr>
   <td><nobr>🌍&nbsp;<b><a href="https://skybuddy.live">skybuddy</a></b></nobr></td>
@@ -226,15 +226,15 @@
   <td align="right">~12K</td>
 </tr>
 <tr>
-  <td><nobr>⌚&nbsp;<b><a href="https://github.com/CryptoPilot16/watch-control">watch-control</a></b></nobr></td>
-  <td>Approve Codex and Claude Code commands from your Apple Watch — native watchOS app + Node.js bridge over Tailscale</td>
-  <td><code>Swift</code> <code>SwiftUI</code> <code>watchOS</code> <code>Node.js</code> <code>Shell</code> <code>Python</code> <code>Next.js</code> <code>Tailscale</code></td>
-  <td align="right">~5K</td>
-</tr>
-<tr>
   <td><nobr>🤖&nbsp;<b>agent</b></nobr></td>
   <td>Persona-agnostic real-time avatar shell at agent.clawnux.com</td>
   <td><code>JavaScript</code> <code>Python</code> <code>TypeScript</code></td>
+  <td align="right">~5K</td>
+</tr>
+<tr>
+  <td><nobr>⌚&nbsp;<b><a href="https://github.com/CryptoPilot16/watch-control">watch-control</a></b></nobr></td>
+  <td>Approve Codex and Claude Code commands from your Apple Watch — native watchOS app + Node.js bridge over Tailscale</td>
+  <td><code>Swift</code> <code>SwiftUI</code> <code>watchOS</code> <code>Node.js</code> <code>Shell</code> <code>Python</code> <code>Next.js</code> <code>Tailscale</code></td>
   <td align="right">~5K</td>
 </tr>
 <tr>
