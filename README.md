@@ -227,7 +227,7 @@
 </tr>
 <tr>
   <td><nobr>🤖&nbsp;<b>agent</b></nobr></td>
-  <td>Persona-agnostic real-time avatar shell at agent.clawnux.com</td>
+  <td>Persona-agnostic real-time avatar shell</td>
   <td><code>JavaScript</code> <code>Python</code> <code>TypeScript</code></td>
   <td align="right">~7K</td>
 </tr>
