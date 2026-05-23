@@ -40,6 +40,7 @@ PROJECTS = [
     {"repo": "smartcommit",       "emoji": "🔁", "desc": "Autopilot commits across all your repos",                         "stack": ["Shell", "Ollama", "GitHub API", "Telegram"], "live_url": "https://cryptopilot.dev/smartcommits",
      "public": True, "featured": True, "href": "/smartcommits", "preview": "/projects/smartcommits/assets/preview.png"},
     {"repo": "nysm",              "emoji": "📡", "desc": "WiFi-based body detection and multi-camera home surveillance with 3D spatial mapping", "stack": ["JavaScript", "Node.js", "Express"], "preview": "/projects/nysm/assets/preview.png"},
+    {"repo": "terminal",          "emoji": "📟", "desc": "Unified X + Telegram feed (aggregation only)", "stack": ["TypeScript", "Node.js", "Python", "Telethon", "Express"]},
     {"repo": "watcher",           "emoji": "👁️", "desc": "Mission control for multi-agent operations — 3D office floor visibility, sessions, runs, flows, logs, health", "stack": ["TypeScript", "Next.js", "Three.js", "PostgreSQL", "React"],
      "public": True, "featured": True, "href": "https://cryptopilot.dev/watcher", "preview": "/projects/watcher/assets/preview.png"},
 ]
