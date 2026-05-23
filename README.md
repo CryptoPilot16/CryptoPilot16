@@ -113,6 +113,7 @@
 <td align="center"><b>Other</b></td>
 <td>
 <img src="https://img.shields.io/badge/GitHub_API-4B5563?style=flat-square" />
+<img src="https://img.shields.io/badge/Telethon-4B5563?style=flat-square" />
 </td>
 </tr>
 </table>
@@ -124,7 +125,7 @@
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden">
 
 <div style="padding:12px 3% 10px;border-bottom:1px solid #1e1e1e">
-<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 21 repos · ~793K lines</span></h3>
+<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 22 repos · ~799K lines</span></h3>
 </div>
 
 <div style="padding:4px 0">
@@ -232,6 +233,12 @@
   <td align="right">~7K</td>
 </tr>
 <tr>
+  <td><nobr>📟&nbsp;<b>terminal</b></nobr></td>
+  <td>Unified X + Telegram feed (aggregation only)</td>
+  <td><code>TypeScript</code> <code>Node.js</code> <code>Python</code> <code>Telethon</code> <code>Express</code></td>
+  <td align="right">~6K</td>
+</tr>
+<tr>
   <td><nobr>⌚&nbsp;<b><a href="https://github.com/CryptoPilot16/watch-control">watch-control</a></b></nobr></td>
   <td>Approve Codex and Claude Code commands from your Apple Watch — native watchOS app + Node.js bridge over Tailscale</td>
   <td><code>Swift</code> <code>SwiftUI</code> <code>watchOS</code> <code>Node.js</code> <code>Shell</code> <code>Python</code> <code>Next.js</code> <code>Tailscale</code></td>
@@ -270,8 +277,8 @@
 <tr>
   <td></td>
   <td></td>
-  <td><b>21 projects</b></td>
-  <td align="right"><b>~793K</b></td>
+  <td><b>22 projects</b></td>
+  <td align="right"><b>~799K</b></td>
 </tr>
 </table>
 </div>
