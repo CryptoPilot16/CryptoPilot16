@@ -85,6 +85,7 @@
 <img src="https://img.shields.io/badge/Caddy-1F88C0?style=flat-square&logo=caddy&logoColor=white" />
 <img src="https://img.shields.io/badge/PM2-2B037A?style=flat-square&logo=pm2&logoColor=white" />
 <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
 <img src="https://img.shields.io/badge/RunPod-FF6A00?style=flat-square&logo=kubernetes&logoColor=white" />
 <img src="https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white" />
 <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" />
@@ -124,7 +125,7 @@
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden">
 
 <div style="padding:12px 3% 10px;border-bottom:1px solid #1e1e1e">
-<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 20 repos · ~791K lines</span></h3>
+<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 22 repos · ~812K lines</span></h3>
 </div>
 
 <div style="padding:4px 0">
@@ -220,10 +221,22 @@
   <td align="right">~15K</td>
 </tr>
 <tr>
+  <td><nobr>✈️&nbsp;<b>smartpilot</b></nobr></td>
+  <td>Pre-flight briefing assistant for pilots</td>
+  <td><code>Claude Code</code> <code>GitHub Actions</code> <code>JavaScript</code> <code>Node.js</code> <code>Python</code></td>
+  <td align="right">~14K</td>
+</tr>
+<tr>
   <td><nobr>🏛️&nbsp;<b>govdeals</b></nobr></td>
   <td>Gov surplus property scraper with Zillow valuations</td>
   <td><code>TypeScript</code> <code>Python</code> <code>Next.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Playwright</code></td>
   <td align="right">~12K</td>
+</tr>
+<tr>
+  <td><nobr>🤖&nbsp;<b>agent</b></nobr></td>
+  <td>Persona-agnostic real-time avatar shell</td>
+  <td><code>JavaScript</code> <code>Python</code> <code>TypeScript</code></td>
+  <td align="right">~7K</td>
 </tr>
 <tr>
   <td><nobr>⌚&nbsp;<b><a href="https://github.com/CryptoPilot16/watch-control">watch-control</a></b></nobr></td>
@@ -264,8 +277,8 @@
 <tr>
   <td></td>
   <td></td>
-  <td><b>20 projects</b></td>
-  <td align="right"><b>~791K</b></td>
+  <td><b>22 projects</b></td>
+  <td align="right"><b>~812K</b></td>
 </tr>
 </table>
 </div>
