@@ -245,9 +245,9 @@
   <td align="right">~5K</td>
 </tr>
 <tr>
-  <td><nobr>📦&nbsp;<b>agenda</b></nobr></td>
-  <td>A single-page React + Vite PWA that renders a Google Calendar feed as a Portugue</td>
-  <td><code>Node.js</code> <code>React</code> <code>TypeScript</code> <code>Vite</code></td>
+  <td><nobr>📅&nbsp;<b>agenda</b></nobr></td>
+  <td>Personal schedule viewer</td>
+  <td><code>TypeScript</code> <code>React</code> <code>Vite</code> <code>Node.js</code> <code>Caddy</code></td>
   <td align="right">~5K</td>
 </tr>
 <tr>
