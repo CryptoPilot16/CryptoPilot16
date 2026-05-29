@@ -43,6 +43,9 @@ PROJECTS = [
     {"repo": "terminal",          "emoji": "📟", "desc": "Unified X + Telegram feed (aggregation only)", "stack": ["TypeScript", "Node.js", "Python", "Telethon", "Express"]},
     {"repo": "watcher",           "emoji": "👁️", "desc": "Mission control for multi-agent operations — 3D office floor visibility, sessions, runs, flows, logs, health", "stack": ["TypeScript", "Next.js", "Three.js", "PostgreSQL", "React"],
      "public": True, "featured": True, "href": "https://cryptopilot.dev/watcher", "preview": "/projects/watcher/assets/preview.png"},
+    {"repo": "agenda",            "emoji": "📅", "desc": "Personal schedule viewer",
+     "stack": ["TypeScript", "React", "Vite", "Node.js", "Caddy"],
+     "public": False, "featured": True},
 ]
 
 # Keep project names compact in the README table for cleaner spacing.
