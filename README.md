@@ -125,7 +125,7 @@
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden">
 
 <div style="padding:12px 3% 10px;border-bottom:1px solid #1e1e1e">
-<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 22 repos · ~810K lines</span></h3>
+<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 23 repos · ~817K lines</span></h3>
 </div>
 
 <div style="padding:4px 0">
@@ -212,7 +212,7 @@
   <td><nobr>📡&nbsp;<b>nysm</b></nobr></td>
   <td>WiFi-based body detection and multi-camera home surveillance with 3D spatial mapping</td>
   <td><code>JavaScript</code> <code>Node.js</code> <code>Express</code></td>
-  <td align="right">~19K</td>
+  <td align="right">~21K</td>
 </tr>
 <tr>
   <td><nobr>📟&nbsp;<b>terminal</b></nobr></td>
@@ -242,6 +242,12 @@
   <td><nobr>⌚&nbsp;<b><a href="https://github.com/CryptoPilot16/watch-control">watch-control</a></b></nobr></td>
   <td>Approve Codex and Claude Code commands from your Apple Watch — native watchOS app + Node.js bridge over Tailscale</td>
   <td><code>Swift</code> <code>SwiftUI</code> <code>watchOS</code> <code>Node.js</code> <code>Shell</code> <code>Python</code> <code>Next.js</code> <code>Tailscale</code></td>
+  <td align="right">~5K</td>
+</tr>
+<tr>
+  <td><nobr>📦&nbsp;<b>agenda</b></nobr></td>
+  <td>A single-page React + Vite PWA that renders a Google Calendar feed as a Portugue</td>
+  <td><code>Node.js</code> <code>React</code> <code>TypeScript</code> <code>Vite</code></td>
   <td align="right">~5K</td>
 </tr>
 <tr>
@@ -277,8 +283,8 @@
 <tr>
   <td></td>
   <td></td>
-  <td><b>22 projects</b></td>
-  <td align="right"><b>~810K</b></td>
+  <td><b>23 projects</b></td>
+  <td align="right"><b>~817K</b></td>
 </tr>
 </table>
 </div>
