@@ -337,6 +337,14 @@ Approve Codex and Claude Code commands from your Apple Watch — native watchOS 
 </tr>
 <tr>
 <td width="50%" align="center">
+<a href="">
+<img src="" width="100%" alt="agenda preview" />
+</a>
+<br>
+📅 <a href=""><b>agenda</b></a><br>
+Personal schedule viewer.
+</td>
+<td width="50%" align="center">
 <a href="https://cryptopilot.dev/smartcommits">
 <img src="https://cryptopilot.dev/projects/smartcommits/assets/preview.png?v=td6ria29rn" width="100%" alt="smartcommit preview" />
 </a>
@@ -344,6 +352,8 @@ Approve Codex and Claude Code commands from your Apple Watch — native watchOS 
 🔁 <a href="https://cryptopilot.dev/smartcommits"><b>smartcommit</b></a><br>
 Autopilot commits across all your repos.
 </td>
+</tr>
+<tr>
 <td width="50%" align="center">
 <a href="https://cryptopilot.dev/uploader">
 <img src="https://cryptopilot.dev/projects/uploader/assets/preview.png?v=td6q141c2j" width="100%" alt="uploader preview" />
@@ -352,6 +362,7 @@ Autopilot commits across all your repos.
 📤 <a href="https://cryptopilot.dev/uploader"><b>uploader</b></a><br>
 Telegram bot that saves files to your VPS and replies with the path.
 </td>
+<td width="50%"></td>
 </tr>
 </table>
 
