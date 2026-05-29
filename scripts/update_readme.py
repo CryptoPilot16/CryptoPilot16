@@ -45,7 +45,7 @@ PROJECTS = [
      "public": True, "featured": True, "href": "https://cryptopilot.dev/watcher", "preview": "/projects/watcher/assets/preview.png"},
     {"repo": "agenda",            "emoji": "📅", "desc": "Personal schedule viewer",
      "stack": ["TypeScript", "React", "Vite", "Node.js", "Caddy"],
-     "public": False, "featured": True},
+     "public": False, "featured": False},
 ]
 
 # Keep project names compact in the README table for cleaner spacing.
