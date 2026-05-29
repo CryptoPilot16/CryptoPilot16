@@ -43,6 +43,9 @@ PROJECTS = [
     {"repo": "terminal",          "emoji": "📟", "desc": "Unified X + Telegram feed (aggregation only)", "stack": ["TypeScript", "Node.js", "Python", "Telethon", "Express"]},
     {"repo": "watcher",           "emoji": "👁️", "desc": "Mission control for multi-agent operations — 3D office floor visibility, sessions, runs, flows, logs, health", "stack": ["TypeScript", "Next.js", "Three.js", "PostgreSQL", "React"],
      "public": True, "featured": True, "href": "https://cryptopilot.dev/watcher", "preview": "/projects/watcher/assets/preview.png"},
+    {"repo": "agenda",            "emoji": "📅", "desc": "Personal schedule viewer",
+     "stack": ["TypeScript", "React", "Vite", "Node.js", "Caddy"],
+     "public": False, "featured": False},
 ]
 
 # Keep project names compact in the README table for cleaner spacing.
@@ -57,7 +60,7 @@ DISPLAY_NAME_OVERRIDES = {
 WEBSITE_DIR = os.environ.get("WEBSITE_DIR", "/opt/cryptopilotdev")
 
 # Repos to never include (profile repo, forks, etc.)
-IGNORE_REPOS = {USERNAME, USERNAME.lower(), ".github", "dotfiles", "cryptopilotdev", "cryptopilot16.github.io", "agenda"}
+IGNORE_REPOS = {USERNAME, USERNAME.lower(), ".github", "dotfiles", "cryptopilotdev", "cryptopilot16.github.io"}
 IGNORE_REPO_EXACT = {f"App{i}" for i in range(1, 11)}
 IGNORE_REPO_EXACT_LOWER = {name.lower() for name in IGNORE_REPO_EXACT}
 
