@@ -125,7 +125,7 @@
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden">
 
 <div style="padding:12px 3% 10px;border-bottom:1px solid #1e1e1e">
-<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 23 repos · ~833K lines</span></h3>
+<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 23 repos · ~834K lines</span></h3>
 </div>
 
 <div style="padding:4px 0">
@@ -284,7 +284,7 @@
   <td></td>
   <td></td>
   <td><b>23 projects</b></td>
-  <td align="right"><b>~833K</b></td>
+  <td align="right"><b>~834K</b></td>
 </tr>
 </table>
 </div>
@@ -302,7 +302,7 @@
 <tr>
 <td width="50%" align="center">
 <a href="https://myechoes.live">
-<img src="https://cryptopilot.dev/projects/echoes/assets/preview.png?v=tfvsed4k5d" width="100%" alt="echoes preview" />
+<img src="https://cryptopilot.dev/projects/echoes/assets/preview.png" width="100%" alt="echoes preview" />
 </a>
 <br>
 👻 <a href="https://myechoes.live"><b>echoes</b></a><br>
@@ -310,7 +310,7 @@ Eternal Conversational Hologram Of Embedded Souls.
 </td>
 <td width="50%" align="center">
 <a href="https://skybuddy.live">
-<img src="https://cryptopilot.dev/projects/skybuddy/assets/preview.png?v=tfvsdz92nr" width="100%" alt="skybuddy preview" />
+<img src="https://cryptopilot.dev/projects/skybuddy/assets/preview.png" width="100%" alt="skybuddy preview" />
 </a>
 <br>
 🌍 <a href="https://skybuddy.live"><b>skybuddy</b></a><br>
@@ -320,7 +320,7 @@ Eternal Conversational Hologram Of Embedded Souls.
 <tr>
 <td width="50%" align="center">
 <a href="https://cryptopilot.dev/watcher">
-<img src="https://cryptopilot.dev/projects/watcher/assets/preview.png?v=tfvsetcqk6" width="100%" alt="watcher preview" />
+<img src="https://cryptopilot.dev/projects/watcher/assets/preview.png" width="100%" alt="watcher preview" />
 </a>
 <br>
 👁️ <a href="https://cryptopilot.dev/watcher"><b>watcher</b></a><br>
@@ -328,7 +328,7 @@ Mission control for multi-agent operations — 3D office floor visibility, sessi
 </td>
 <td width="50%" align="center">
 <a href="https://cryptopilot.dev/watchcontrol">
-<img src="https://cryptopilot.dev/projects/watchcontrol/assets/preview.png?v=tfvsde1x0j" width="100%" alt="watch-control preview" />
+<img src="https://cryptopilot.dev/projects/watchcontrol/assets/preview.png" width="100%" alt="watch-control preview" />
 </a>
 <br>
 ⌚ <a href="https://cryptopilot.dev/watchcontrol"><b>watch-control</b></a><br>
@@ -338,7 +338,7 @@ Approve Codex and Claude Code commands from your Apple Watch — native watchOS 
 <tr>
 <td width="50%" align="center">
 <a href="https://cryptopilot.dev/smartcommits">
-<img src="https://cryptopilot.dev/projects/smartcommits/assets/preview.png?v=td6ria29rn" width="100%" alt="smartcommit preview" />
+<img src="https://cryptopilot.dev/projects/smartcommits/assets/preview.png" width="100%" alt="smartcommit preview" />
 </a>
 <br>
 🔁 <a href="https://cryptopilot.dev/smartcommits"><b>smartcommit</b></a><br>
@@ -346,7 +346,7 @@ Autopilot commits across all your repos.
 </td>
 <td width="50%" align="center">
 <a href="https://cryptopilot.dev/uploader">
-<img src="https://cryptopilot.dev/projects/uploader/assets/preview.png?v=td6q141c2j" width="100%" alt="uploader preview" />
+<img src="https://cryptopilot.dev/projects/uploader/assets/preview.png" width="100%" alt="uploader preview" />
 </a>
 <br>
 📤 <a href="https://cryptopilot.dev/uploader"><b>uploader</b></a><br>
