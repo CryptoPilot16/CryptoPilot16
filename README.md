@@ -200,7 +200,7 @@
   <td><nobr>📟&nbsp;<b>terminal</b></nobr></td>
   <td>Unified X + Telegram feed (aggregation only)</td>
   <td><code>TypeScript</code> <code>Node.js</code> <code>Python</code> <code>Telethon</code> <code>Express</code></td>
-  <td align="right">~26K</td>
+  <td align="right">~27K</td>
 </tr>
 <tr>
   <td><nobr>🔍&nbsp;<b>smartmoney</b></nobr></td>
