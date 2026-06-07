@@ -188,7 +188,7 @@
   <td><nobr>🏎️&nbsp;<b>f1_analytics</b></nobr></td>
   <td>F1 telemetry analysis and fantasy optimization</td>
   <td><code>JavaScript</code> <code>React</code> <code>Vite</code> <code>Node.js</code></td>
-  <td align="right">~30K</td>
+  <td align="right">~31K</td>
 </tr>
 <tr>
   <td><nobr>📟&nbsp;<b>terminal</b></nobr></td>
