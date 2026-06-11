@@ -125,7 +125,7 @@
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden">
 
 <div style="padding:12px 3% 10px;border-bottom:1px solid #1e1e1e">
-<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 23 repos · ~837K lines</span></h3>
+<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 23 repos · ~841K lines</span></h3>
 </div>
 
 <div style="padding:4px 0">
@@ -203,15 +203,15 @@
   <td align="right">~28K</td>
 </tr>
 <tr>
-  <td><nobr>🔍&nbsp;<b>smartmoney</b></nobr></td>
-  <td>On-chain wallet profiling and flow monitoring</td>
-  <td><code>TypeScript</code> <code>Next.js</code> <code>React</code> <code>PostgreSQL</code> <code>ethers.js</code> <code>Solana</code></td>
-  <td align="right">~25K</td>
-</tr>
-<tr>
   <td><nobr>📡&nbsp;<b>nysm</b></nobr></td>
   <td>WiFi-based body detection and multi-camera home surveillance with 3D spatial mapping</td>
   <td><code>JavaScript</code> <code>Node.js</code> <code>Express</code></td>
+  <td align="right">~28K</td>
+</tr>
+<tr>
+  <td><nobr>🔍&nbsp;<b>smartmoney</b></nobr></td>
+  <td>On-chain wallet profiling and flow monitoring</td>
+  <td><code>TypeScript</code> <code>Next.js</code> <code>React</code> <code>PostgreSQL</code> <code>ethers.js</code> <code>Solana</code></td>
   <td align="right">~25K</td>
 </tr>
 <tr>
@@ -284,7 +284,7 @@
   <td></td>
   <td></td>
   <td><b>23 projects</b></td>
-  <td align="right"><b>~837K</b></td>
+  <td align="right"><b>~841K</b></td>
 </tr>
 </table>
 </div>
