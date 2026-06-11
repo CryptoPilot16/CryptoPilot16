@@ -125,7 +125,7 @@
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden">
 
 <div style="padding:12px 3% 10px;border-bottom:1px solid #1e1e1e">
-<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 23 repos · ~841K lines</span></h3>
+<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 24 repos · ~851K lines</span></h3>
 </div>
 
 <div style="padding:4px 0">
@@ -233,6 +233,12 @@
   <td align="right">~12K</td>
 </tr>
 <tr>
+  <td><nobr>📈&nbsp;<b><a href="https://github.com/CryptoPilot16/paste-trade">paste-trade</a></b></nobr></td>
+  <td>Paste a source. AI finds the trade, captures the price when the author said it, </td>
+  <td><code>JavaScript</code> <code>Node.js</code> <code>TypeScript</code></td>
+  <td align="right">~11K</td>
+</tr>
+<tr>
   <td><nobr>🤖&nbsp;<b>agent</b></nobr></td>
   <td>Persona-agnostic real-time avatar shell</td>
   <td><code>JavaScript</code> <code>Python</code> <code>TypeScript</code></td>
@@ -283,8 +289,8 @@
 <tr>
   <td></td>
   <td></td>
-  <td><b>23 projects</b></td>
-  <td align="right"><b>~841K</b></td>
+  <td><b>24 projects</b></td>
+  <td align="right"><b>~851K</b></td>
 </tr>
 </table>
 </div>
