@@ -188,7 +188,7 @@
   <td><nobr>📟&nbsp;<b>terminal</b></nobr></td>
   <td>Unified X + Telegram feed (aggregation only)</td>
   <td><code>TypeScript</code> <code>Node.js</code> <code>Python</code> <code>Telethon</code> <code>Express</code></td>
-  <td align="right">~31K</td>
+  <td align="right">~32K</td>
 </tr>
 <tr>
   <td><nobr>🏎️&nbsp;<b>f1_analytics</b></nobr></td>
