@@ -179,15 +179,15 @@
   <td align="right">~48K</td>
 </tr>
 <tr>
-  <td><nobr>✈️&nbsp;<b>Tailwinds</b></nobr></td>
-  <td>Flight data aggregation and alerting</td>
-  <td><code>TypeScript</code> <code>Next.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Tailwind CSS</code></td>
-  <td align="right">~33K</td>
-</tr>
-<tr>
   <td><nobr>📟&nbsp;<b>terminal</b></nobr></td>
   <td>Unified X + Telegram feed (aggregation only)</td>
   <td><code>TypeScript</code> <code>Node.js</code> <code>Python</code> <code>Telethon</code> <code>Express</code></td>
+  <td align="right">~33K</td>
+</tr>
+<tr>
+  <td><nobr>✈️&nbsp;<b>Tailwinds</b></nobr></td>
+  <td>Flight data aggregation and alerting</td>
+  <td><code>TypeScript</code> <code>Next.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Tailwind CSS</code></td>
   <td align="right">~33K</td>
 </tr>
 <tr>
