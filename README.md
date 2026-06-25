@@ -125,7 +125,7 @@
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden">
 
 <div style="padding:12px 3% 10px;border-bottom:1px solid #1e1e1e">
-<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 24 repos · ~859K lines</span></h3>
+<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 24 repos · ~768K lines</span></h3>
 </div>
 
 <div style="padding:4px 0">
@@ -147,12 +147,6 @@
   <td>Airline ops substrate</td>
   <td><code>Rust</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Next.js</code></td>
   <td align="right">~239K</td>
-</tr>
-<tr>
-  <td><nobr>📊&nbsp;<b>Oddsgap</b></nobr></td>
-  <td>Multi-venue spread tracking and execution</td>
-  <td><code>Python</code> <code>Node.js</code> <code>React</code> <code>Polygon</code> <code>Playwright</code></td>
-  <td align="right">~91K</td>
 </tr>
 <tr>
   <td><nobr>⚔️&nbsp;<b>mythex</b></nobr></td>
@@ -287,10 +281,16 @@
   <td align="right">~385</td>
 </tr>
 <tr>
+  <td><nobr>📊&nbsp;<b>Oddsgap</b></nobr></td>
+  <td>Multi-venue spread tracking and execution</td>
+  <td><code>Python</code> <code>Node.js</code> <code>React</code> <code>Polygon</code> <code>Playwright</code></td>
+  <td align="right">—</td>
+</tr>
+<tr>
   <td></td>
   <td></td>
   <td><b>24 projects</b></td>
-  <td align="right"><b>~859K</b></td>
+  <td align="right"><b>~768K</b></td>
 </tr>
 </table>
 </div>
@@ -308,7 +308,7 @@
 <tr>
 <td width="50%" align="center">
 <a href="https://myechoes.live">
-<img src="https://cryptopilot.dev/projects/echoes/assets/preview.png?v=tgyoe14jg4" width="100%" alt="echoes preview" />
+<img src="https://cryptopilot.dev/projects/echoes/assets/preview.png" width="100%" alt="echoes preview" />
 </a>
 <br>
 👻 <a href="https://myechoes.live"><b>echoes</b></a><br>
@@ -316,7 +316,7 @@ Eternal Conversational Hologram Of Embedded Souls.
 </td>
 <td width="50%" align="center">
 <a href="https://skybuddy.live">
-<img src="https://cryptopilot.dev/projects/skybuddy/assets/preview.png?v=tgyodm9t4q" width="100%" alt="skybuddy preview" />
+<img src="https://cryptopilot.dev/projects/skybuddy/assets/preview.png" width="100%" alt="skybuddy preview" />
 </a>
 <br>
 🌍 <a href="https://skybuddy.live"><b>skybuddy</b></a><br>
@@ -326,7 +326,7 @@ Eternal Conversational Hologram Of Embedded Souls.
 <tr>
 <td width="50%" align="center">
 <a href="https://cryptopilot.dev/watcher">
-<img src="https://cryptopilot.dev/projects/watcher/assets/preview.png?v=tgyoefcqj3" width="100%" alt="watcher preview" />
+<img src="https://cryptopilot.dev/projects/watcher/assets/preview.png" width="100%" alt="watcher preview" />
 </a>
 <br>
 👁️ <a href="https://cryptopilot.dev/watcher"><b>watcher</b></a><br>
@@ -334,7 +334,7 @@ Mission control for multi-agent operations — 3D office floor visibility, sessi
 </td>
 <td width="50%" align="center">
 <a href="https://cryptopilot.dev/watchcontrol">
-<img src="https://cryptopilot.dev/projects/watchcontrol/assets/preview.png?v=tgyod71x0k" width="100%" alt="watch-control preview" />
+<img src="https://cryptopilot.dev/projects/watchcontrol/assets/preview.png" width="100%" alt="watch-control preview" />
 </a>
 <br>
 ⌚ <a href="https://cryptopilot.dev/watchcontrol"><b>watch-control</b></a><br>
@@ -344,7 +344,7 @@ Approve Codex and Claude Code commands from your Apple Watch — native watchOS 
 <tr>
 <td width="50%" align="center">
 <a href="https://cryptopilot.dev/smartcommits">
-<img src="https://cryptopilot.dev/projects/smartcommits/assets/preview.png?v=td6ria29rn" width="100%" alt="smartcommit preview" />
+<img src="https://cryptopilot.dev/projects/smartcommits/assets/preview.png" width="100%" alt="smartcommit preview" />
 </a>
 <br>
 🔁 <a href="https://cryptopilot.dev/smartcommits"><b>smartcommit</b></a><br>
@@ -352,7 +352,7 @@ Autopilot commits across all your repos.
 </td>
 <td width="50%" align="center">
 <a href="https://cryptopilot.dev/uploader">
-<img src="https://cryptopilot.dev/projects/uploader/assets/preview.png?v=td6q141c2j" width="100%" alt="uploader preview" />
+<img src="https://cryptopilot.dev/projects/uploader/assets/preview.png" width="100%" alt="uploader preview" />
 </a>
 <br>
 📤 <a href="https://cryptopilot.dev/uploader"><b>uploader</b></a><br>
