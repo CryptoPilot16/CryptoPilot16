@@ -85,7 +85,6 @@
 <img src="https://img.shields.io/badge/Caddy-1F88C0?style=flat-square&logo=caddy&logoColor=white" />
 <img src="https://img.shields.io/badge/PM2-2B037A?style=flat-square&logo=pm2&logoColor=white" />
 <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
 <img src="https://img.shields.io/badge/RunPod-FF6A00?style=flat-square&logo=kubernetes&logoColor=white" />
 <img src="https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white" />
 <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" />
@@ -125,7 +124,7 @@
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden">
 
 <div style="padding:12px 3% 10px;border-bottom:1px solid #1e1e1e">
-<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 24 repos · ~863K lines</span></h3>
+<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 21 repos · ~832K lines</span></h3>
 </div>
 
 <div style="padding:4px 0">
@@ -221,28 +220,10 @@
   <td align="right">~23K</td>
 </tr>
 <tr>
-  <td><nobr>✈️&nbsp;<b>smartpilot</b></nobr></td>
-  <td>Pre-flight briefing assistant for pilots</td>
-  <td><code>Claude Code</code> <code>GitHub Actions</code> <code>JavaScript</code> <code>Node.js</code> <code>Python</code></td>
-  <td align="right">~14K</td>
-</tr>
-<tr>
   <td><nobr>🏛️&nbsp;<b>govdeals</b></nobr></td>
   <td>Gov surplus property scraper with Zillow valuations</td>
   <td><code>TypeScript</code> <code>Python</code> <code>Next.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Playwright</code></td>
   <td align="right">~12K</td>
-</tr>
-<tr>
-  <td><nobr>📈&nbsp;<b><a href="https://github.com/CryptoPilot16/paste-trade">paste-trade</a></b></nobr></td>
-  <td>Paste a source. AI finds the trade, captures the price when the author said it, </td>
-  <td><code>JavaScript</code> <code>Node.js</code> <code>TypeScript</code></td>
-  <td align="right">~11K</td>
-</tr>
-<tr>
-  <td><nobr>🤖&nbsp;<b>agent</b></nobr></td>
-  <td>Persona-agnostic real-time avatar shell</td>
-  <td><code>JavaScript</code> <code>Python</code> <code>TypeScript</code></td>
-  <td align="right">~7K</td>
 </tr>
 <tr>
   <td><nobr>📅&nbsp;<b>agenda</b></nobr></td>
@@ -289,8 +270,8 @@
 <tr>
   <td></td>
   <td></td>
-  <td><b>24 projects</b></td>
-  <td align="right"><b>~863K</b></td>
+  <td><b>21 projects</b></td>
+  <td align="right"><b>~832K</b></td>
 </tr>
 </table>
 </div>
@@ -308,7 +289,7 @@
 <tr>
 <td width="50%" align="center">
 <a href="https://myechoes.live">
-<img src="https://cryptopilot.dev/projects/echoes/assets/preview.png" width="100%" alt="echoes preview" />
+<img src="https://cryptopilot.dev/projects/echoes/assets/preview.png?v=ti1ke54j3r" width="100%" alt="echoes preview" />
 </a>
 <br>
 👻 <a href="https://myechoes.live"><b>echoes</b></a><br>
@@ -316,7 +297,7 @@ Eternal Conversational Hologram Of Embedded Souls.
 </td>
 <td width="50%" align="center">
 <a href="https://skybuddy.live">
-<img src="https://cryptopilot.dev/projects/skybuddy/assets/preview.png" width="100%" alt="skybuddy preview" />
+<img src="https://cryptopilot.dev/projects/skybuddy/assets/preview.png?v=ti1kds95o3" width="100%" alt="skybuddy preview" />
 </a>
 <br>
 🌍 <a href="https://skybuddy.live"><b>skybuddy</b></a><br>
@@ -326,7 +307,7 @@ Eternal Conversational Hologram Of Embedded Souls.
 <tr>
 <td width="50%" align="center">
 <a href="https://cryptopilot.dev/watcher">
-<img src="https://cryptopilot.dev/projects/watcher/assets/preview.png" width="100%" alt="watcher preview" />
+<img src="https://cryptopilot.dev/projects/watcher/assets/preview.png?v=ti1kekcqj3" width="100%" alt="watcher preview" />
 </a>
 <br>
 👁️ <a href="https://cryptopilot.dev/watcher"><b>watcher</b></a><br>
@@ -334,7 +315,7 @@ Mission control for multi-agent operations — 3D office floor visibility, sessi
 </td>
 <td width="50%" align="center">
 <a href="https://cryptopilot.dev/watchcontrol">
-<img src="https://cryptopilot.dev/projects/watchcontrol/assets/preview.png" width="100%" alt="watch-control preview" />
+<img src="https://cryptopilot.dev/projects/watchcontrol/assets/preview.png?v=ti1kdb1x0l" width="100%" alt="watch-control preview" />
 </a>
 <br>
 ⌚ <a href="https://cryptopilot.dev/watchcontrol"><b>watch-control</b></a><br>
@@ -344,7 +325,7 @@ Approve Codex and Claude Code commands from your Apple Watch — native watchOS 
 <tr>
 <td width="50%" align="center">
 <a href="https://cryptopilot.dev/smartcommits">
-<img src="https://cryptopilot.dev/projects/smartcommits/assets/preview.png" width="100%" alt="smartcommit preview" />
+<img src="https://cryptopilot.dev/projects/smartcommits/assets/preview.png?v=td6ria29rn" width="100%" alt="smartcommit preview" />
 </a>
 <br>
 🔁 <a href="https://cryptopilot.dev/smartcommits"><b>smartcommit</b></a><br>
@@ -352,7 +333,7 @@ Autopilot commits across all your repos.
 </td>
 <td width="50%" align="center">
 <a href="https://cryptopilot.dev/uploader">
-<img src="https://cryptopilot.dev/projects/uploader/assets/preview.png" width="100%" alt="uploader preview" />
+<img src="https://cryptopilot.dev/projects/uploader/assets/preview.png?v=td6q141c2j" width="100%" alt="uploader preview" />
 </a>
 <br>
 📤 <a href="https://cryptopilot.dev/uploader"><b>uploader</b></a><br>
