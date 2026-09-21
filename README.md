@@ -239,15 +239,15 @@
   <td align="right">~11K</td>
 </tr>
 <tr>
-  <td><nobr>🤖&nbsp;<b>agent</b></nobr></td>
-  <td>Persona-agnostic real-time avatar shell</td>
-  <td><code>JavaScript</code> <code>Python</code> <code>TypeScript</code></td>
-  <td align="right">~7K</td>
-</tr>
-<tr>
   <td><nobr>📦&nbsp;<b>omof</b></nobr></td>
   <td>OMOF means out missing of fear. It is a mobile-first Solana bag manager for low-</td>
   <td><code>JavaScript</code> <code>Node.js</code> <code>TypeScript</code></td>
+  <td align="right">~7K</td>
+</tr>
+<tr>
+  <td><nobr>🤖&nbsp;<b>agent</b></nobr></td>
+  <td>Persona-agnostic real-time avatar shell</td>
+  <td><code>JavaScript</code> <code>Python</code> <code>TypeScript</code></td>
   <td align="right">~7K</td>
 </tr>
 <tr>
