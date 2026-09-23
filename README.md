@@ -89,6 +89,7 @@
 <img src="https://img.shields.io/badge/RunPod-FF6A00?style=flat-square&logo=kubernetes&logoColor=white" />
 <img src="https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white" />
 <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" />
+<img src="https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white" />
 <img src="https://img.shields.io/badge/watchOS-000000?style=flat-square&logo=apple&logoColor=white" />
 </td>
 </tr>
@@ -125,7 +126,7 @@
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden">
 
 <div style="padding:12px 3% 10px;border-bottom:1px solid #1e1e1e">
-<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 25 repos · ~871K lines</span></h3>
+<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 26 repos · ~888K lines</span></h3>
 </div>
 
 <div style="padding:4px 0">
@@ -221,6 +222,12 @@
   <td align="right">~23K</td>
 </tr>
 <tr>
+  <td><nobr>🤖&nbsp;<b>trenchworld</b></nobr></td>
+  <td>trenchworld</td>
+  <td><code>Claude Code</code> <code>JavaScript</code> <code>Node.js</code> <code>TypeScript</code> <code>Vitest</code></td>
+  <td align="right">~17K</td>
+</tr>
+<tr>
   <td><nobr>✈️&nbsp;<b>smartpilot</b></nobr></td>
   <td>Pre-flight briefing assistant for pilots</td>
   <td><code>Claude Code</code> <code>GitHub Actions</code> <code>JavaScript</code> <code>Node.js</code> <code>Python</code></td>
@@ -295,8 +302,8 @@
 <tr>
   <td></td>
   <td></td>
-  <td><b>25 projects</b></td>
-  <td align="right"><b>~871K</b></td>
+  <td><b>26 projects</b></td>
+  <td align="right"><b>~888K</b></td>
 </tr>
 </table>
 </div>
