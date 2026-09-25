@@ -66,6 +66,8 @@ IGNORE_REPO_EXACT_LOWER = {name.lower() for name in IGNORE_REPO_EXACT}
 
 # Only show auto-discovered repos created on or after this date
 AUTO_DISCOVER_SINCE = "2026-01-01T00:00:00Z"
+# Repos tagged with this GitHub topic are never auto-discovered (kept off the README and cryptopilot.dev).
+HIDE_TOPIC = "hide-from-profile"
 
 # Language → stack label mapping for auto-discovered repos
 LANG_MAP = {
@@ -463,6 +465,7 @@ def discover_repos():
                 or lowered in IGNORE_REPOS
                 or name in IGNORE_REPO_EXACT
                 or lowered in IGNORE_REPO_EXACT_LOWER
+                or HIDE_TOPIC in (r.get("topics") or [])
             ):
                 continue
             github_meta[name] = {"private": bool(r.get("private", True))}
