@@ -126,7 +126,7 @@
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden">
 
 <div style="padding:12px 3% 10px;border-bottom:1px solid #1e1e1e">
-<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 26 repos · ~889K lines</span></h3>
+<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 26 repos · ~804K lines</span></h3>
 </div>
 
 <div style="padding:4px 0">
@@ -154,12 +154,6 @@
   <td>Multi-venue spread tracking and execution</td>
   <td><code>Python</code> <code>Node.js</code> <code>React</code> <code>Polygon</code> <code>Playwright</code></td>
   <td align="right">~91K</td>
-</tr>
-<tr>
-  <td><nobr>⚔️&nbsp;<b>mythex</b></nobr></td>
-  <td>A browser-based 3D MMORPG engine</td>
-  <td><code>JavaScript</code> <code>TypeScript</code> <code>React</code> <code>Vite</code> <code>Solana</code></td>
-  <td align="right">~85K</td>
 </tr>
 <tr>
   <td><nobr>🤖&nbsp;<b>clawnux-v3</b></nobr></td>
@@ -300,10 +294,16 @@
   <td align="right">~385</td>
 </tr>
 <tr>
+  <td><nobr>⚔️&nbsp;<b>mythex</b></nobr></td>
+  <td>A browser-based 3D MMORPG engine</td>
+  <td><code>JavaScript</code> <code>TypeScript</code> <code>React</code> <code>Vite</code> <code>Solana</code></td>
+  <td align="right">—</td>
+</tr>
+<tr>
   <td></td>
   <td></td>
   <td><b>26 projects</b></td>
-  <td align="right"><b>~889K</b></td>
+  <td align="right"><b>~804K</b></td>
 </tr>
 </table>
 </div>
