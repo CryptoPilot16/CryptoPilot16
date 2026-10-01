@@ -168,13 +168,13 @@
   <td align="right">~73K</td>
 </tr>
 <tr>
-  <td><nobr>👻&nbsp;<b><a href="https://myechoes.live">echoes</a></b></nobr></td>
+  <td><nobr>👻&nbsp;<b>echoes</b></nobr></td>
   <td>Eternal Conversational Hologram Of Embedded Souls</td>
   <td><code>TypeScript</code> <code>Next.js</code> <code>Tailwind CSS</code> <code>Three.js</code> <code>Python</code> <code>FastAPI</code> <code>PostgreSQL</code> <code>RunPod</code></td>
   <td align="right">~51K</td>
 </tr>
 <tr>
-  <td><nobr>🌍&nbsp;<b><a href="https://skybuddy.live">skybuddy</a></b></nobr></td>
+  <td><nobr>🌍&nbsp;<b>skybuddy</b></nobr></td>
   <td>3D social flight tracker</td>
   <td><code>JavaScript</code> <code>Cesium.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Playwright</code></td>
   <td align="right">~48K</td>
@@ -216,7 +216,7 @@
   <td align="right">~25K</td>
 </tr>
 <tr>
-  <td><nobr>👁️&nbsp;<b><a href="https://github.com/CryptoPilot16/watcher">watcher</a></b></nobr></td>
+  <td><nobr>👁️&nbsp;<b>watcher</b></nobr></td>
   <td>Mission control for multi-agent operations — 3D office floor visibility, sessions, runs, flows, logs, health</td>
   <td><code>TypeScript</code> <code>Next.js</code> <code>Three.js</code> <code>PostgreSQL</code> <code>React</code></td>
   <td align="right">~23K</td>
@@ -240,7 +240,7 @@
   <td align="right">~12K</td>
 </tr>
 <tr>
-  <td><nobr>📈&nbsp;<b><a href="https://github.com/CryptoPilot16/paste-trade">paste-trade</a></b></nobr></td>
+  <td><nobr>📈&nbsp;<b>paste-trade</b></nobr></td>
   <td>Paste a source. AI finds the trade, captures the price when the author said it, </td>
   <td><code>JavaScript</code> <code>Node.js</code> <code>TypeScript</code></td>
   <td align="right">~11K</td>
@@ -264,7 +264,7 @@
   <td align="right">~5K</td>
 </tr>
 <tr>
-  <td><nobr>⌚&nbsp;<b><a href="https://github.com/CryptoPilot16/watch-control">watch-control</a></b></nobr></td>
+  <td><nobr>⌚&nbsp;<b>watch-control</b></nobr></td>
   <td>Approve Codex and Claude Code commands from your Apple Watch — native watchOS app + Node.js bridge over Tailscale</td>
   <td><code>Swift</code> <code>SwiftUI</code> <code>watchOS</code> <code>Node.js</code> <code>Shell</code> <code>Python</code> <code>Next.js</code> <code>Tailscale</code></td>
   <td align="right">~5K</td>
@@ -288,13 +288,13 @@
   <td align="right">~2K</td>
 </tr>
 <tr>
-  <td><nobr>🔁&nbsp;<b><a href="https://cryptopilot.dev/smartcommits">smartcommit</a></b></nobr></td>
+  <td><nobr>🔁&nbsp;<b>smartcommit</b></nobr></td>
   <td>Autopilot commits across all your repos</td>
   <td><code>Shell</code> <code>Ollama</code> <code>GitHub API</code> <code>Telegram</code></td>
   <td align="right">~1K</td>
 </tr>
 <tr>
-  <td><nobr>📤&nbsp;<b><a href="https://cryptopilot.dev/uploader">uploader</a></b></nobr></td>
+  <td><nobr>📤&nbsp;<b>uploader</b></nobr></td>
   <td>Telegram bot that saves files to your VPS and replies with the path</td>
   <td><code>JavaScript</code> <code>Node.js</code> <code>Telegram</code></td>
   <td align="right">~385</td>
@@ -307,72 +307,6 @@
 </tr>
 </table>
 </div>
-
-</div>
-
-<!-- FEATURED PROJECTS -->
-<div style="background:#0b110e;border:1px solid #00804a;border-radius:10px;overflow:hidden;margin-bottom:12px">
-
-<div style="padding:12px 3% 10px;border-bottom:1px solid #1a3328">
-<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>featured</h3>
-</div>
-
-<table>
-<tr>
-<td width="50%" align="center">
-<a href="https://myechoes.live">
-<img src="https://cryptopilot.dev/projects/echoes/assets/preview.png?v=tm05qd4ji7" width="100%" alt="echoes preview" />
-</a>
-<br>
-👻 <a href="https://myechoes.live"><b>echoes</b></a><br>
-Eternal Conversational Hologram Of Embedded Souls.
-</td>
-<td width="50%" align="center">
-<a href="https://skybuddy.live">
-<img src="https://cryptopilot.dev/projects/skybuddy/assets/preview.png?v=tm05pz8adh" width="100%" alt="skybuddy preview" />
-</a>
-<br>
-🌍 <a href="https://skybuddy.live"><b>skybuddy</b></a><br>
-3D social flight tracker.
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-<a href="https://cryptopilot.dev/watcher">
-<img src="https://cryptopilot.dev/projects/watcher/assets/preview.png?v=tm05qscqjl" width="100%" alt="watcher preview" />
-</a>
-<br>
-👁️ <a href="https://cryptopilot.dev/watcher"><b>watcher</b></a><br>
-Mission control for multi-agent operations — 3D office floor visibility, sessions, runs, flows, logs, health.
-</td>
-<td width="50%" align="center">
-<a href="https://cryptopilot.dev/watchcontrol">
-<img src="https://cryptopilot.dev/projects/watchcontrol/assets/preview.png?v=tm05pe1x0j" width="100%" alt="watch-control preview" />
-</a>
-<br>
-⌚ <a href="https://cryptopilot.dev/watchcontrol"><b>watch-control</b></a><br>
-Approve Codex and Claude Code commands from your Apple Watch — native watchOS app + Node.js bridge over Tailscale.
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-<a href="https://cryptopilot.dev/smartcommits">
-<img src="https://cryptopilot.dev/projects/smartcommits/assets/preview.png?v=td6ria29rn" width="100%" alt="smartcommit preview" />
-</a>
-<br>
-🔁 <a href="https://cryptopilot.dev/smartcommits"><b>smartcommit</b></a><br>
-Autopilot commits across all your repos.
-</td>
-<td width="50%" align="center">
-<a href="https://cryptopilot.dev/uploader">
-<img src="https://cryptopilot.dev/projects/uploader/assets/preview.png?v=td6q141c2j" width="100%" alt="uploader preview" />
-</a>
-<br>
-📤 <a href="https://cryptopilot.dev/uploader"><b>uploader</b></a><br>
-Telegram bot that saves files to your VPS and replies with the path.
-</td>
-</tr>
-</table>
 
 </div>
 

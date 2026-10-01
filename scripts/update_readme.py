@@ -16,36 +16,35 @@ USERNAME = os.environ.get("GITHUB_USERNAME", "CryptoPilot16")
 # Project registry — emoji, description, and stack are manually curated; lines auto-counted.
 # New repos not listed here are auto-discovered and appended with defaults.
 PROJECTS = [
-    {"repo": "axiom",             "emoji": "✈️", "desc": "Airline ops substrate", "stack": ["Rust", "Node.js", "PostgreSQL", "Next.js"], "public": False, "preview": "/projects/axiom/assets/preview.png"},
+    {"repo": "axiom",             "emoji": "✈️", "desc": "Airline ops substrate", "stack": ["Rust", "Node.js", "PostgreSQL", "Next.js"], "preview": "/projects/axiom/assets/preview.png"},
     {"repo": "mythex",            "emoji": "⚔️",  "desc": "A browser-based 3D MMORPG engine", "stack": ["JavaScript", "TypeScript", "React", "Vite", "Solana"], "preview": "/projects/mythex/assets/preview.png"},
     {"repo": "pm-relay",          "emoji": "📊", "desc": "Multi-venue spread tracking and execution",         "stack": ["Python", "Node.js", "React", "Polygon", "Playwright"], "preview": "/projects/pm-relay/assets/preview.png"},
     {"repo": "Tailwinds",         "emoji": "✈️",  "desc": "Flight data aggregation and alerting",              "stack": ["TypeScript", "Next.js", "Node.js", "PostgreSQL", "Tailwind CSS"], "preview": "/projects/Tailwinds/assets/preview.png"},
     {"repo": "f1_analytics",      "emoji": "🏎️",  "desc": "F1 telemetry analysis and fantasy optimization",    "stack": ["JavaScript", "React", "Vite", "Node.js"], "preview": "/projects/f1_analytics/assets/preview.png"},
-    {"repo": "skybuddy",          "emoji": "🌍", "desc": "3D social flight tracker",                          "stack": ["JavaScript", "Cesium.js", "Node.js", "PostgreSQL", "Playwright"], "live_url": "https://skybuddy.live",
-     "public": False, "featured": True, "href": "https://skybuddy.live", "preview": "/projects/skybuddy/assets/preview.png"},
+    {"repo": "skybuddy",          "emoji": "🌍", "desc": "3D social flight tracker",                          "stack": ["JavaScript", "Cesium.js", "Node.js", "PostgreSQL", "Playwright"],
+     "preview": "/projects/skybuddy/assets/preview.png"},
     {"repo": "skybuddy-ios",      "emoji": "✈️",  "desc": "Capacitor iOS wrapper for SkyBuddy — loads app.skybuddy.live", "stack": ["Claude Code", "JavaScript", "Node.js"],
-     "public": False, "href": "https://skybuddy.live", "preview": "/projects/skybuddy/assets/preview.png"},
+     "preview": "/projects/skybuddy/assets/preview.png"},
     {"repo": "TradingOdds",       "emoji": "🎯", "desc": "Prediction market execution layer",                 "stack": ["TypeScript", "Next.js", "React", "Tailwind CSS", "ethers.js"], "preview": "/projects/TradingOdds/assets/preview.png"},
     {"repo": "smartmoney-radar",  "emoji": "🔍", "desc": "On-chain wallet profiling and flow monitoring",     "stack": ["TypeScript", "Next.js", "React", "PostgreSQL", "ethers.js", "Solana"], "preview": "/projects/smartmoney-radar/assets/preview.png"},
     {"repo": "clawnux-v3",        "emoji": "🤖", "desc": "AI-powered autonomous software factory",                          "stack": ["Shell", "Next.js", "PostgreSQL", "Claude Code"], "preview": "/projects/clawnux-v3/assets/preview.png"},
     {"repo": "govdeals-platform", "emoji": "🏛️",  "desc": "Gov surplus property scraper with Zillow valuations", "stack": ["TypeScript", "Python", "Next.js", "Node.js", "PostgreSQL", "Playwright"], "preview": "/projects/govdeals-platform/assets/preview.png"},
     {"repo": "watch-control",     "emoji": "⌚",  "desc": "Approve Codex and Claude Code commands from your Apple Watch — native watchOS app + Node.js bridge over Tailscale", "stack": ["Swift", "SwiftUI", "watchOS", "Node.js", "Shell", "Python", "Next.js", "Tailscale"],
-     "public": True, "featured": True, "href": "https://cryptopilot.dev/watchcontrol", "preview": "/projects/watchcontrol/assets/preview.png"},
-    {"repo": "echoes",            "emoji": "👻", "desc": "Eternal Conversational Hologram Of Embedded Souls", "stack": ["TypeScript", "Next.js", "Tailwind CSS", "Three.js", "Python", "FastAPI", "PostgreSQL", "RunPod"], "live_url": "https://myechoes.live",
-     "public": False, "featured": True, "href": "https://myechoes.live", "preview": "/projects/echoes/assets/preview.png"},
+     "preview": "/projects/watchcontrol/assets/preview.png"},
+    {"repo": "echoes",            "emoji": "👻", "desc": "Eternal Conversational Hologram Of Embedded Souls", "stack": ["TypeScript", "Next.js", "Tailwind CSS", "Three.js", "Python", "FastAPI", "PostgreSQL", "RunPod"],
+     "preview": "/projects/echoes/assets/preview.png"},
     {"repo": "tokens",            "emoji": "🪙", "desc": "Multi-model API usage dashboard and cost tracker",  "stack": ["JavaScript", "Node.js", "HTML"], "preview": "/projects/tokens/assets/preview.png"},
     {"repo": "snapmolt",          "emoji": "📞", "desc": "Outbound voice-call bridge with AI & TTS",           "stack": ["JavaScript", "Node.js", "Twilio", "Express"], "preview": "/projects/snapmolt/assets/preview.png"},
-    {"repo": "uploader",          "emoji": "📤", "desc": "Telegram bot that saves files to your VPS and replies with the path", "stack": ["JavaScript", "Node.js", "Telegram"], "live_url": "https://cryptopilot.dev/uploader",
-     "public": True, "featured": True, "href": "/uploader", "preview": "/projects/uploader/assets/preview.png"},
-    {"repo": "smartcommit",       "emoji": "🔁", "desc": "Autopilot commits across all your repos",                         "stack": ["Shell", "Ollama", "GitHub API", "Telegram"], "live_url": "https://cryptopilot.dev/smartcommits",
-     "public": True, "featured": True, "href": "/smartcommits", "preview": "/projects/smartcommits/assets/preview.png"},
+    {"repo": "uploader",          "emoji": "📤", "desc": "Telegram bot that saves files to your VPS and replies with the path", "stack": ["JavaScript", "Node.js", "Telegram"],
+     "preview": "/projects/uploader/assets/preview.png"},
+    {"repo": "smartcommit",       "emoji": "🔁", "desc": "Autopilot commits across all your repos",                         "stack": ["Shell", "Ollama", "GitHub API", "Telegram"],
+     "preview": "/projects/smartcommits/assets/preview.png"},
     {"repo": "nysm",              "emoji": "📡", "desc": "WiFi-based body detection and multi-camera home surveillance with 3D spatial mapping", "stack": ["JavaScript", "Node.js", "Express"], "preview": "/projects/nysm/assets/preview.png"},
     {"repo": "terminal",          "emoji": "📟", "desc": "Unified X + Telegram feed (aggregation only)", "stack": ["TypeScript", "Node.js", "Python", "Telethon", "Express"]},
     {"repo": "watcher",           "emoji": "👁️", "desc": "Mission control for multi-agent operations — 3D office floor visibility, sessions, runs, flows, logs, health", "stack": ["TypeScript", "Next.js", "Three.js", "PostgreSQL", "React"],
-     "public": True, "featured": True, "href": "https://cryptopilot.dev/watcher", "preview": "/projects/watcher/assets/preview.png"},
+     "preview": "/projects/watcher/assets/preview.png"},
     {"repo": "agenda",            "emoji": "📅", "desc": "Personal schedule viewer",
-     "stack": ["TypeScript", "React", "Vite", "Node.js", "Caddy"],
-     "public": False, "featured": False},
+     "stack": ["TypeScript", "React", "Vite", "Node.js", "Caddy"]},
 ]
 
 # Keep project names compact in the README table for cleaner spacing.
@@ -439,13 +438,9 @@ def compact_project_name(repo_name, max_len=MAX_PROJECT_NAME_LEN):
 
 
 def discover_repos():
-    """Fetch all repos (including private) and merge with curated PROJECTS list.
-
-    Returns (merged_list, github_meta) where github_meta maps repo name -> {"private": bool}.
-    """
+    """Fetch all repos (including private) and merge with curated PROJECTS list."""
     known = {p["repo"].lower(): p for p in PROJECTS}
     merged = list(PROJECTS)  # start with curated order
-    github_meta = {}  # repo_name -> {"private": bool}
 
     # Fetch all repos owned by user (public + private with auth)
     page = 1
@@ -468,7 +463,6 @@ def discover_repos():
                 or HIDE_TOPIC in (r.get("topics") or [])
             ):
                 continue
-            github_meta[name] = {"private": bool(r.get("private", True))}
             if name.lower() not in known:
                 created = r.get("created_at", "")
                 if created < AUTO_DISCOVER_SINCE:
@@ -488,7 +482,7 @@ def discover_repos():
             break
         page += 1
 
-    return merged, github_meta
+    return merged
 
 
 def build_projects_table(projects_data):
@@ -512,13 +506,7 @@ def build_projects_table(projects_data):
         stack_str = " ".join(f"<code>{html.escape(s)}</code>" for s in p["stack"])
         emoji = p.get("emoji", "📦")
         display_repo = p.get("display_repo", p["repo"])
-        link_url = p.get("live_url")
-        if not link_url and p.get("public", False):
-            link_url = f'https://github.com/CryptoPilot16/{p["repo"]}'
-        if link_url:
-            name_cell = f'<a href="{link_url}">{html.escape(display_repo)}</a>'
-        else:
-            name_cell = html.escape(display_repo)
+        name_cell = html.escape(display_repo)
         lines.extend([
             "<tr>",
             f"  <td><nobr>{emoji}&nbsp;<b>{name_cell}</b></nobr></td>",
@@ -613,93 +601,14 @@ def build_tech_stack_table(projects_data):
     return "\n".join(html)
 
 
-def build_featured_section(projects_data):
-    """Render the FEATURED PROJECTS HTML block, sorted by lines of code (desc).
-
-    Featured projects are those with both `featured` and `public` true. Rendered
-    as a 2-col table (preview, name+desc) with rows of pairs.
-    """
-    featured = [p for p in projects_data if p.get("featured")]
-    featured.sort(key=lambda p: p.get("lines_raw", 0), reverse=True)
-    if not featured:
-        return ""
-    def short_desc(p):
-        d = p.get("desc", "").strip()
-        return d if d.endswith(".") else d + "."
-    def abs_href(p):
-        h = p.get("href") or ""
-        if h.startswith("http"):
-            return h
-        if h.startswith("/"):
-            return "https://cryptopilot.dev" + h
-        return h
-    def preview_url(p):
-        pv = p.get("preview") or ""
-        if pv.startswith("http"):
-            url = pv
-        elif pv.startswith("/"):
-            url = "https://cryptopilot.dev" + pv
-        else:
-            return pv
-        try:
-            import urllib.request
-            req = urllib.request.Request(url, method="HEAD")
-            with urllib.request.urlopen(req, timeout=5) as r:
-                etag = (r.headers.get("etag") or "").strip('"')
-                if etag:
-                    return f"{url}?v={etag}"
-        except Exception:
-            pass
-        return url
-    rows_html = []
-    for i in range(0, len(featured), 2):
-        pair = featured[i:i + 2]
-        cells = []
-        for p in pair:
-            name = p.get("name") or p["repo"]
-            href = abs_href(p)
-            preview = preview_url(p)
-            cells.append(
-                "<td width=\"50%\" align=\"center\">\n"
-                f"<a href=\"{href}\">\n"
-                f"<img src=\"{preview}\" width=\"100%\" alt=\"{html.escape(name)} preview\" />\n"
-                "</a>\n"
-                "<br>\n"
-                f"{p.get('emoji', '📦')} <a href=\"{href}\"><b>{html.escape(name)}</b></a><br>\n"
-                f"{html.escape(short_desc(p))}\n"
-                "</td>"
-            )
-        # If odd count, pad with an empty cell so the layout stays 2-col
-        if len(cells) == 1:
-            cells.append("<td width=\"50%\"></td>")
-        rows_html.append("<tr>\n" + "\n".join(cells) + "\n</tr>")
-    table = "<table>\n" + "\n".join(rows_html) + "\n</table>"
-    return (
-        "<!-- FEATURED PROJECTS -->\n"
-        "<div style=\"background:#0b110e;border:1px solid #00804a;border-radius:10px;overflow:hidden;margin-bottom:12px\">\n\n"
-        "<div style=\"padding:12px 3% 10px;border-bottom:1px solid #1a3328\">\n"
-        "<h3 style=\"margin:0;white-space:nowrap;font-size:1em\"><span style=\"color:#00e5a0\">// </span>featured</h3>\n"
-        "</div>\n\n"
-        f"{table}\n\n"
-        "</div>"
-    )
-
-
 def update_readme(projects_data):
     """Replace tech stack and projects table in README.md."""
     readme_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "README.md")
     with open(readme_path, "r") as f:
         content = f.read()
 
-    # Replace the FEATURED PROJECTS block (sorted by lines desc).
-    # Greedy match so any legacy orphan <table>s that accumulated AFTER the
-    # proper block get absorbed too — from the marker through the last
-    # `</table>\s*</div>` sequence that precedes the next section or EOF.
-    new_featured = build_featured_section(projects_data)
-    if new_featured:
-        featured_pattern = r"<!-- FEATURED PROJECTS -->[\s\S]*</table>\s*</div>"
-        if re.search(featured_pattern, content):
-            content = re.sub(featured_pattern, new_featured, content, count=1)
+    # No featured section any more: drop the old FEATURED PROJECTS block if it is still there.
+    content = re.sub(r"\n*<!-- FEATURED PROJECTS -->[\s\S]*</table>\s*</div>", "", content, count=1)
 
     new_tech_table = build_tech_stack_table(projects_data)
     # The README has migrated from "### Tech Stack" markdown to an HTML
@@ -824,16 +733,10 @@ def write_projects_json(projects_data):
             "stack":     p["stack"],
             "lines":     p["lines_fmt"],
             "lines_raw": p["lines_raw"],
-            "public":    p.get("public", False),
-            "featured":  p.get("featured", False),
         }
-        if p.get("href"):
-            rec["href"] = p["href"]
         if p.get("preview"):
             rec["preview"] = p["preview"]
         records.append(rec)
-    # Featured projects first, then rest sorted by lines descending (already sorted)
-    records.sort(key=lambda r: (not r["featured"], -r["lines_raw"]))
     try:
         with open(output_path, "w") as f:
             json.dump(records, f, indent=2, ensure_ascii=False)
@@ -844,7 +747,7 @@ def write_projects_json(projects_data):
 
 def main():
     print(f"Updating projects for {USERNAME}...")
-    all_projects, github_meta = discover_repos()
+    all_projects = discover_repos()
     projects_data = []
 
     for p in all_projects:
@@ -863,11 +766,6 @@ def main():
         if p.get("_auto") and (lines or 0) < 50:
             print(f"    (skipped — too small)")
             continue
-        # Determine public status: explicit field in PROJECTS takes priority, then GitHub API
-        if "public" in p:
-            is_public = p["public"]
-        else:
-            is_public = not github_meta.get(p["repo"], {}).get("private", True)
         projects_data.append({
             "repo": p["repo"],
             "display_repo": compact_project_name(p["repo"]),
@@ -876,10 +774,6 @@ def main():
             "stack": stack,
             "lines_fmt": fmt,
             "lines_raw": lines or 0,
-            "live_url": p.get("live_url"),
-            "public":   is_public,
-            "featured": p.get("featured", False),
-            "href":     p.get("href", ""),
             "preview":  p.get("preview", ""),
         })
 
