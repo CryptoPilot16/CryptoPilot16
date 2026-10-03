@@ -380,9 +380,11 @@ def analyze_repo(repo_name):
 
 
 def format_lines(n):
-    """Format line count: 1234 -> ~1K, 56789 -> ~57K."""
+    """Format line count: 1234 -> ~1K, 56789 -> ~57K, 1029686 -> ~1.03M."""
     if n is None:
         return "—"
+    if n >= 999_500:
+        return f"~{n / 1_000_000:.2f}M"
     if n < 500:
         return f"~{n}"
     elif n < 1000:
