@@ -45,6 +45,9 @@ PROJECTS = [
      "preview": "/projects/watcher/assets/preview.png"},
     {"repo": "agenda",            "emoji": "📅", "desc": "Personal schedule viewer",
      "stack": ["TypeScript", "React", "Vite", "Node.js", "Caddy"]},
+    # One entry for all of ZAZA: lines of the extra repos are added to the main one's.
+    {"repo": "zazadog-site",      "emoji": "⚡", "desc": "$ZAZA site, ZAZA World pixel MMORPG and on-chain reward vault",
+     "stack": ["JavaScript", "Node.js", "Rust", "Solana", "Python"], "extra_repos": ["zaza-vault"]},
 ]
 
 # Keep project names compact in the README table for cleaner spacing.
@@ -53,6 +56,7 @@ DISPLAY_NAME_OVERRIDES = {
     "smartmoney-radar": "smartmoney",
     "govdeals-platform": "govdeals",
     "pm-relay": "Oddsgap",
+    "zazadog-site": "ZAZA",
 }
 
 # Path to the website directory — write projects.json here after each sync
@@ -177,7 +181,7 @@ TECH_CANONICAL_BY_LOWER = {name.lower(): name for name in TECH_BADGES}
 
 # File extensions to count
 CODE_EXTENSIONS = {
-    ".py", ".js", ".ts", ".tsx", ".jsx", ".sh", ".bash",
+    ".py", ".js", ".mjs", ".cjs", ".ts", ".tsx", ".jsx", ".sh", ".bash",
     ".css", ".html", ".json", ".sql", ".yml", ".yaml",
     ".rs", ".go", ".java", ".c", ".cpp", ".h",
     ".md", ".toml", ".cfg", ".ini", ".env",
@@ -440,6 +444,7 @@ def compact_project_name(repo_name, max_len=MAX_PROJECT_NAME_LEN):
 def discover_repos():
     """Fetch all repos (including private) and merge with curated PROJECTS list."""
     known = {p["repo"].lower(): p for p in PROJECTS}
+    known.update({r.lower(): p for p in PROJECTS for r in p.get("extra_repos", [])})
     merged = list(PROJECTS)  # start with curated order
 
     # Fetch all repos owned by user (public + private with auth)
@@ -753,6 +758,11 @@ def main():
     for p in all_projects:
         print(f"  {p['repo']}...", end=" ", flush=True)
         lines, detected_stack, readme_desc = analyze_repo(p["repo"])
+        for extra in p.get("extra_repos", []):
+            more, more_stack, _ = analyze_repo(extra)
+            if more is not None:
+                lines = (lines or 0) + more
+            detected_stack |= more_stack
         fmt = format_lines(lines)
         stack = merge_stack(p.get("stack", []), detected_stack, is_auto=p.get("_auto", False))
         emoji = p.get("emoji")
