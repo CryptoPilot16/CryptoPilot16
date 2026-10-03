@@ -126,7 +126,7 @@
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden">
 
 <div style="padding:12px 3% 10px;border-bottom:1px solid #1e1e1e">
-<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 26 repos · ~889K lines</span></h3>
+<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 27 repos · ~1030K lines</span></h3>
 </div>
 
 <div style="padding:4px 0">
@@ -148,6 +148,12 @@
   <td>Airline ops substrate</td>
   <td><code>Rust</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Next.js</code></td>
   <td align="right">~239K</td>
+</tr>
+<tr>
+  <td><nobr>⚡&nbsp;<b>ZAZA</b></nobr></td>
+  <td>$ZAZA site, ZAZA World pixel MMORPG and on-chain reward vault</td>
+  <td><code>JavaScript</code> <code>Node.js</code> <code>Rust</code> <code>Solana</code> <code>Python</code></td>
+  <td align="right">~133K</td>
 </tr>
 <tr>
   <td><nobr>📊&nbsp;<b>Oddsgap</b></nobr></td>
@@ -210,22 +216,22 @@
   <td align="right">~28K</td>
 </tr>
 <tr>
+  <td><nobr>👁️&nbsp;<b>watcher</b></nobr></td>
+  <td>Mission control for multi-agent operations — 3D office floor visibility, sessions, runs, flows, logs, health</td>
+  <td><code>TypeScript</code> <code>Next.js</code> <code>Three.js</code> <code>PostgreSQL</code> <code>React</code></td>
+  <td align="right">~26K</td>
+</tr>
+<tr>
   <td><nobr>🔍&nbsp;<b>smartmoney</b></nobr></td>
   <td>On-chain wallet profiling and flow monitoring</td>
   <td><code>TypeScript</code> <code>Next.js</code> <code>React</code> <code>PostgreSQL</code> <code>ethers.js</code> <code>Solana</code></td>
   <td align="right">~25K</td>
 </tr>
 <tr>
-  <td><nobr>👁️&nbsp;<b>watcher</b></nobr></td>
-  <td>Mission control for multi-agent operations — 3D office floor visibility, sessions, runs, flows, logs, health</td>
-  <td><code>TypeScript</code> <code>Next.js</code> <code>Three.js</code> <code>PostgreSQL</code> <code>React</code></td>
-  <td align="right">~23K</td>
-</tr>
-<tr>
   <td><nobr>🤖&nbsp;<b>trenchworld</b></nobr></td>
   <td>trenchworld</td>
   <td><code>Claude Code</code> <code>JavaScript</code> <code>Node.js</code> <code>TypeScript</code> <code>Vitest</code></td>
-  <td align="right">~18K</td>
+  <td align="right">~19K</td>
 </tr>
 <tr>
   <td><nobr>✈️&nbsp;<b>smartpilot</b></nobr></td>
@@ -234,16 +240,16 @@
   <td align="right">~14K</td>
 </tr>
 <tr>
+  <td><nobr>📈&nbsp;<b>paste-trade</b></nobr></td>
+  <td>Paste a source. AI finds the trade, captures the price when the author said it, </td>
+  <td><code>JavaScript</code> <code>Node.js</code> <code>TypeScript</code></td>
+  <td align="right">~13K</td>
+</tr>
+<tr>
   <td><nobr>🏛️&nbsp;<b>govdeals</b></nobr></td>
   <td>Gov surplus property scraper with Zillow valuations</td>
   <td><code>TypeScript</code> <code>Python</code> <code>Next.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Playwright</code></td>
   <td align="right">~12K</td>
-</tr>
-<tr>
-  <td><nobr>📈&nbsp;<b>paste-trade</b></nobr></td>
-  <td>Paste a source. AI finds the trade, captures the price when the author said it, </td>
-  <td><code>JavaScript</code> <code>Node.js</code> <code>TypeScript</code></td>
-  <td align="right">~11K</td>
 </tr>
 <tr>
   <td><nobr>📦&nbsp;<b>omof</b></nobr></td>
@@ -261,7 +267,7 @@
   <td><nobr>📅&nbsp;<b>agenda</b></nobr></td>
   <td>Personal schedule viewer</td>
   <td><code>TypeScript</code> <code>React</code> <code>Vite</code> <code>Node.js</code> <code>Caddy</code></td>
-  <td align="right">~5K</td>
+  <td align="right">~6K</td>
 </tr>
 <tr>
   <td><nobr>⌚&nbsp;<b>watch-control</b></nobr></td>
@@ -302,8 +308,8 @@
 <tr>
   <td></td>
   <td></td>
-  <td><b>26 projects</b></td>
-  <td align="right"><b>~889K</b></td>
+  <td><b>27 projects</b></td>
+  <td align="right"><b>~1030K</b></td>
 </tr>
 </table>
 </div>
