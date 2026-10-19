@@ -126,7 +126,7 @@
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden">
 
 <div style="padding:12px 3% 10px;border-bottom:1px solid #1e1e1e">
-<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 28 repos · ~1.20M lines</span></h3>
+<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 28 repos · ~1.22M lines</span></h3>
 </div>
 
 <div style="padding:4px 0">
@@ -147,7 +147,7 @@
   <td><nobr>⚡&nbsp;<b>ZAZA</b></nobr></td>
   <td>$ZAZA site, ZAZA World pixel MMORPG and on-chain reward vault</td>
   <td><code>JavaScript</code> <code>Node.js</code> <code>Rust</code> <code>Solana</code> <code>Python</code></td>
-  <td align="right">~291K</td>
+  <td align="right">~311K</td>
 </tr>
 <tr>
   <td><nobr>✈️&nbsp;<b>axiom</b></nobr></td>
@@ -234,6 +234,12 @@
   <td align="right">~19K</td>
 </tr>
 <tr>
+  <td><nobr>📈&nbsp;<b>fomofade</b></nobr></td>
+  <td>Buys tokens the moment they start trending in the FOMO app, sells as the buying </td>
+  <td><code>JavaScript</code> <code>Node.js</code> <code>Python</code></td>
+  <td align="right">~14K</td>
+</tr>
+<tr>
   <td><nobr>✈️&nbsp;<b>smartpilot</b></nobr></td>
   <td>Pre-flight briefing assistant for pilots</td>
   <td><code>Claude Code</code> <code>GitHub Actions</code> <code>JavaScript</code> <code>Node.js</code> <code>Python</code></td>
@@ -250,12 +256,6 @@
   <td>Gov surplus property scraper with Zillow valuations</td>
   <td><code>TypeScript</code> <code>Python</code> <code>Next.js</code> <code>Node.js</code> <code>PostgreSQL</code> <code>Playwright</code></td>
   <td align="right">~12K</td>
-</tr>
-<tr>
-  <td><nobr>📈&nbsp;<b>fomofade</b></nobr></td>
-  <td>Buys tokens the moment they start trending in the FOMO app, sells as the buying </td>
-  <td><code>JavaScript</code> <code>Node.js</code> <code>Python</code></td>
-  <td align="right">~10K</td>
 </tr>
 <tr>
   <td><nobr>📦&nbsp;<b>omof</b></nobr></td>
@@ -315,7 +315,7 @@
   <td></td>
   <td></td>
   <td><b>28 projects</b></td>
-  <td align="right"><b>~1.20M</b></td>
+  <td align="right"><b>~1.22M</b></td>
 </tr>
 </table>
 </div>
