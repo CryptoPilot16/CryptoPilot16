@@ -147,7 +147,7 @@
   <td><nobr>⚡&nbsp;<b>ZAZA</b></nobr></td>
   <td>$ZAZA site, ZAZA World pixel MMORPG and on-chain reward vault</td>
   <td><code>JavaScript</code> <code>Node.js</code> <code>Rust</code> <code>Solana</code> <code>Python</code></td>
-  <td align="right">~374K</td>
+  <td align="right">~375K</td>
 </tr>
 <tr>
   <td><nobr>✈️&nbsp;<b>axiom</b></nobr></td>
