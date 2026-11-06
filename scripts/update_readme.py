@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Auto-update the projects table and tech stack in README.md using GitHub API."""
 
+import hashlib
 import json
 import os
 import re
@@ -61,6 +62,11 @@ DISPLAY_NAME_OVERRIDES = {
 
 # Path to the website directory — write projects.json here after each sync
 WEBSITE_DIR = os.environ.get("WEBSITE_DIR", "/opt/cryptopilotdev")
+
+# What analyze_repo found, kept between runs so a repo is only cloned again after a push: cloning every repo every hour
+# downloaded ~30 GB a day. The file names private repos, so it lives outside this repo.
+CACHE_FILE = os.environ.get("REPO_CACHE_FILE") or os.path.expanduser("~/.cache/profile-readme/repo-analysis.json")
+REPO_STATE = {}  # lowercase repo name -> what must still match for its cached analysis to hold, from discover_repos()
 
 # Repos to never include (profile repo, forks, etc.)
 IGNORE_REPOS = {USERNAME, USERNAME.lower(), ".github", "dotfiles", "cryptopilotdev", "cryptopilot16.github.io"}
@@ -346,10 +352,14 @@ def analyze_repo(repo_name):
             clone_url = f"https://x-access-token:{TOKEN}@github.com/{USERNAME}/{repo_name}.git"
         else:
             clone_url = f"https://github.com/{USERNAME}/{repo_name}.git"
-        result = subprocess.run(
-            ["git", "clone", "--depth", "1", "--quiet", clone_url, tmpdir + "/repo"],
-            capture_output=True, text=True, timeout=60,
-        )
+        try:
+            result = subprocess.run(
+                ["git", "clone", "--depth", "1", "--quiet", clone_url, tmpdir + "/repo"],
+                capture_output=True, text=True, timeout=60,
+            )
+        except subprocess.TimeoutExpired:  # one slow repo mustn't stop the run (and its message holds the token)
+            print(f"  Clone timed out for {repo_name}")
+            return None, set(), ""
         if result.returncode != 0:
             print(f"  Clone failed for {repo_name}: {result.stderr.strip()}")
             return None, set(), ""
@@ -377,6 +387,45 @@ def analyze_repo(repo_name):
         readme_desc = extract_readme_desc(repo_path)
 
         return total, detected_stack, readme_desc
+
+
+def script_version():
+    """Changes with this file, so new counting rules don't reuse old results."""
+    with open(os.path.abspath(__file__), "rb") as f:
+        return hashlib.sha256(f.read()).hexdigest()
+
+
+def load_repo_cache():
+    """The saved analyses, or none if the file is missing, unreadable or from another version of this script."""
+    try:
+        with open(CACHE_FILE) as f:
+            cache = json.load(f)
+        return cache["repos"] if cache.get("version") == script_version() else {}
+    except (OSError, ValueError, KeyError, TypeError, AttributeError):
+        return {}
+
+
+def save_repo_cache(repos):
+    try:
+        os.makedirs(os.path.dirname(CACHE_FILE), exist_ok=True)
+        with open(CACHE_FILE + ".tmp", "w") as f:
+            json.dump({"version": script_version(), "repos": repos}, f)
+        os.replace(CACHE_FILE + ".tmp", CACHE_FILE)
+    except OSError as e:
+        print(f"  Could not write {CACHE_FILE}: {e}")
+
+
+def analyze_repo_cached(repo_name, old, new):
+    """analyze_repo, skipping the clone when the repo hasn't changed since `old` was saved. Results go in `new`."""
+    state = REPO_STATE.get(repo_name.lower())
+    hit = old.get(repo_name)
+    if state and hit and hit["state"] == state:
+        new[repo_name] = hit
+        return hit["lines"], set(hit["stack"]), hit["readme_desc"]
+    lines, stack, readme_desc = analyze_repo(repo_name)
+    if state and lines is not None:
+        new[repo_name] = {"state": state, "lines": lines, "stack": sorted(stack), "readme_desc": readme_desc}
+    return lines, stack, readme_desc
 
 
 def format_lines(n):
@@ -461,6 +510,7 @@ def discover_repos():
         for r in data:
             name = r["name"]
             lowered = name.lower()
+            REPO_STATE[lowered] = f"{r.get('pushed_at')}|{r.get('default_branch')}"
             if (
                 r.get("fork")
                 or name in IGNORE_REPOS
@@ -756,12 +806,13 @@ def main():
     print(f"Updating projects for {USERNAME}...")
     all_projects = discover_repos()
     projects_data = []
+    old_cache, new_cache = load_repo_cache(), {}
 
     for p in all_projects:
         print(f"  {p['repo']}...", end=" ", flush=True)
-        lines, detected_stack, readme_desc = analyze_repo(p["repo"])
+        lines, detected_stack, readme_desc = analyze_repo_cached(p["repo"], old_cache, new_cache)
         for extra in p.get("extra_repos", []):
-            more, more_stack, _ = analyze_repo(extra)
+            more, more_stack, _ = analyze_repo_cached(extra, old_cache, new_cache)
             if more is not None:
                 lines = (lines or 0) + more
             detected_stack |= more_stack
@@ -788,6 +839,8 @@ def main():
             "lines_raw": lines or 0,
             "preview":  p.get("preview", ""),
         })
+
+    save_repo_cache(new_cache)
 
     # Sort projects by total lines of code, descending
     projects_data.sort(key=lambda p: p["lines_raw"], reverse=True)
