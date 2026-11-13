@@ -237,7 +237,7 @@
   <td><nobr>📈&nbsp;<b>fomofade</b></nobr></td>
   <td>Buys tokens the moment they start trending in the FOMO app, sells as the buying </td>
   <td><code>JavaScript</code> <code>Node.js</code> <code>Python</code></td>
-  <td align="right">~15K</td>
+  <td align="right">~16K</td>
 </tr>
 <tr>
   <td><nobr>✈️&nbsp;<b>smartpilot</b></nobr></td>
