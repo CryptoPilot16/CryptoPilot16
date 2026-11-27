@@ -126,7 +126,7 @@
 <div style="background:#0d0d0d;border:1px solid #252525;border-radius:10px;overflow:hidden">
 
 <div style="padding:12px 3% 10px;border-bottom:1px solid #1e1e1e">
-<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 28 repos · ~1.51M lines</span></h3>
+<h3 style="margin:0;white-space:nowrap;font-size:1em"><span style="color:#00e5a0">// </span>projects &nbsp;<span style="font-size:13px;font-weight:400;color:#444">· 28 repos · ~927K lines</span></h3>
 </div>
 
 <div style="padding:4px 0">
@@ -142,12 +142,6 @@
   <th align="left">Description</th>
   <th align="left">Stack</th>
   <th align="right">Lines</th>
-</tr>
-<tr>
-  <td><nobr>⚡&nbsp;<b>ZAZA</b></nobr></td>
-  <td>$ZAZA site, ZAZA World pixel MMORPG and on-chain reward vault</td>
-  <td><code>JavaScript</code> <code>Node.js</code> <code>Rust</code> <code>Solana</code> <code>Python</code></td>
-  <td align="right">~600K</td>
 </tr>
 <tr>
   <td><nobr>✈️&nbsp;<b>axiom</b></nobr></td>
@@ -240,6 +234,12 @@
   <td align="right">~16K</td>
 </tr>
 <tr>
+  <td><nobr>⚡&nbsp;<b>ZAZA</b></nobr></td>
+  <td>$ZAZA site, ZAZA World pixel MMORPG and on-chain reward vault</td>
+  <td><code>JavaScript</code> <code>Node.js</code> <code>Rust</code> <code>Solana</code> <code>Python</code></td>
+  <td align="right">~14K</td>
+</tr>
+<tr>
   <td><nobr>✈️&nbsp;<b>smartpilot</b></nobr></td>
   <td>Pre-flight briefing assistant for pilots</td>
   <td><code>Claude Code</code> <code>GitHub Actions</code> <code>JavaScript</code> <code>Node.js</code> <code>Python</code></td>
@@ -315,7 +315,7 @@
   <td></td>
   <td></td>
   <td><b>28 projects</b></td>
-  <td align="right"><b>~1.51M</b></td>
+  <td align="right"><b>~927K</b></td>
 </tr>
 </table>
 </div>
